@@ -1,0 +1,5 @@
+.p2tg-instant-dialog-form h4{margin:0}
+.p2tg-instant-dialog-form ul{list-style-type:disc;list-style-position:inside}
+.wptg-pro-p2tg-post-edit-switch>input[name='_wptgpro_p2tg_send2tg']:checked ~ #_wptgpro_p2tg_force_send-label{display:initial !important}
+body.post-type-wptgpro_p2tg div#wpbody-content div.notice{display:none}
+body.post-type-wptgpro_p2tg div#wpbody-content pre{white-space:pre-wrap}

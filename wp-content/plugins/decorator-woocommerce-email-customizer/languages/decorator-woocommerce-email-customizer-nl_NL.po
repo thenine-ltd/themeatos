@@ -1,0 +1,2651 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Decorator - WooCommerce Email Customizer\n"
+"POT-Creation-Date: 2023-08-03 15:13+0530\n"
+"PO-Revision-Date: 2023-08-07 09:41+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: decorator.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;"
+"esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;"
+"__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: decorator.php:59 decorator.php:254
+#, php-format
+msgid ""
+"<strong>Decorator</strong> requires WooCommerce to be active. You can download WooCommerce %s."
+msgstr ""
+"<strong>Decorator</strong> vereist dat WooCommerce actief is. U kunt WooCommerce %sdownloaden."
+
+#: decorator.php:59 decorator.php:254
+msgid "here"
+msgstr "hier"
+
+#: decorator.php:232
+#, php-format
+msgid ""
+"<strong>Decorator</strong> requires PHP %s or later. Please update PHP on your server to use this "
+"plugin."
+msgstr ""
+"<strong>Decorator</strong> vereist PHP %s of hoger. Update PHP op uw server om deze plug-in te "
+"gebruiken."
+
+#: decorator.php:243
+#, php-format
+msgid ""
+"<strong>Decorator</strong> requires WordPress version %s or later. Please update WordPress to use "
+"this plugin."
+msgstr ""
+"<strong>Decorator</strong> vereist WordPress-versie %s of hoger. Update WordPress om deze plug-in "
+"te gebruiken."
+
+#: decorator.php:265
+#, php-format
+msgid ""
+"<strong>Decorator</strong> requires WooCommerce version %s or later. Please update WooCommerce to "
+"use this plugin."
+msgstr ""
+"<strong>Decorator</strong> vereist WooCommerce-versie %s of hoger. Werk WooCommerce bij om deze "
+"plug-in te gebruiken."
+
+#: decorator.php:278
+msgid "Customise Email"
+msgstr "E-mail aanpassen"
+
+#: decorator.php:279
+msgid "Docs"
+msgstr "Documentatie"
+
+#: decorator.php:280
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: includes/classes/components/wt-custom-social-icon-repeater.php:38
+msgid "Add new social link"
+msgstr "Nieuwe sociale link toevoegen"
+
+#: includes/classes/components/wt-custom-social-icon-repeater.php:43
+msgid "Customizer Repeater"
+msgstr "Customizer Repeater"
+
+#: includes/classes/components/wt-custom-social-icon-repeater.php:221
+#: includes/classes/components/wt-custom-social-icon-repeater.php:398
+msgid "Social icon settings"
+msgstr "Instellingen voor sociale pictogrammen"
+
+#: includes/classes/components/wt-custom-social-icon-repeater.php:291
+#: includes/classes/components/wt-custom-social-icon-repeater.php:302
+#: includes/classes/components/wt-custom-social-icon-repeater.php:411
+#: includes/classes/components/wt-custom-social-icon-repeater.php:421
+msgid "Color"
+msgstr "Kleur"
+
+#: includes/classes/components/wt-custom-social-icon-repeater.php:312
+#: includes/classes/components/wt-custom-social-icon-repeater.php:431
+msgid "Title"
+msgstr "Titel"
+
+#: includes/classes/components/wt-custom-social-icon-repeater.php:321
+#: includes/classes/components/wt-custom-social-icon-repeater.php:440
+msgid "Subtitle"
+msgstr "Ondertitel"
+
+#: includes/classes/components/wt-custom-social-icon-repeater.php:330
+#: includes/classes/components/wt-custom-social-icon-repeater.php:349
+#: includes/classes/components/wt-custom-social-icon-repeater.php:449
+#: includes/classes/components/wt-custom-social-icon-repeater.php:467
+msgid "Text"
+msgstr "Tekst"
+
+#: includes/classes/components/wt-custom-social-icon-repeater.php:339
+#: includes/classes/components/wt-custom-social-icon-repeater.php:358
+#: includes/classes/components/wt-custom-social-icon-repeater.php:458
+#: includes/classes/components/wt-custom-social-icon-repeater.php:476
+#: includes/classes/components/wt-custom-social-icon-repeater.php:646
+#: includes/classes/components/wt-custom-social-icon-repeater.php:675
+msgid "Link"
+msgstr "Link"
+
+#: includes/classes/components/wt-custom-social-icon-repeater.php:368
+#: includes/classes/components/wt-custom-social-icon-repeater.php:485
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: includes/classes/components/wt-custom-social-icon-repeater.php:569
+msgid "Image"
+msgstr "Afbeelding"
+
+#: includes/classes/components/wt-custom-social-icon-repeater.php:572
+msgid "Upload Image"
+msgstr "Afbeelding uploaden"
+
+#: includes/classes/components/wt-custom-social-icon-repeater.php:595
+msgid "Social icon type"
+msgstr "Type sociaal pictogram"
+
+#: includes/classes/components/wt-custom-social-icon-repeater.php:620
+msgid "Social icons"
+msgstr "Social media iconen"
+
+#. translators: %1$s is Fontawesome link.
+#: includes/classes/components/wt-custom-social-icon-repeater.php:625
+#, php-format
+msgid "Note: Some icons may not be displayed here. You can see the full list of icons at %1$s."
+msgstr ""
+"Opmerking: sommige pictogrammen worden hier mogelijk niet weergegeven. U de volledige lijst met "
+"pictogrammen bekijken op %1$s."
+
+#: includes/classes/components/wt-custom-social-icon-repeater.php:626
+msgid "http://fontawesome.io/icons/"
+msgstr "http://fontawesome.io/icons/"
+
+#: includes/classes/components/wt-custom-social-icon-repeater.php:649
+#: includes/classes/components/wt-custom-social-icon-repeater.php:695
+msgid "Remove Icon"
+msgstr "Icoon verwijderen"
+
+#: includes/classes/components/wt-custom-social-icon-repeater.php:654
+#: includes/classes/components/wt-custom-social-icon-repeater.php:702
+msgid "Add Icon"
+msgstr "Icoon toevoegen"
+
+#: includes/classes/components/wt-custom-template-design.php:24
+#: includes/classes/components/wt-custom-template-design.php:30
+msgid "Load Template"
+msgstr "Sjabloon laden"
+
+#: includes/classes/lazy/rp-decorator-mockup-order.class.php:53
+#, php-format
+msgctxt "full name"
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: includes/classes/lazy/rp-decorator-mockup-order.class.php:181
+msgid "Subtotal:"
+msgstr "Subtotaal:"
+
+#: includes/classes/lazy/rp-decorator-mockup-order.class.php:186
+msgid "Shipping:"
+msgstr "Verzending:"
+
+#: includes/classes/lazy/rp-decorator-mockup-order.class.php:187
+#, php-format
+msgid "&nbsp;<small>%svia %s</small>"
+msgstr " <small>%svia %s</small>"
+
+#: includes/classes/lazy/rp-decorator-mockup-order.class.php:191
+msgid "Payment Method:"
+msgstr "Betaalmethode:"
+
+#: includes/classes/lazy/rp-decorator-mockup-order.class.php:196
+msgid "Total:"
+msgstr "Totaal:"
+
+#: includes/classes/rp-decorator-customizer.class.php:179
+msgid "WooCommerce Emails"
+msgstr "WooCommerce Emails"
+
+#: includes/classes/rp-decorator-customizer.class.php:287
+#, php-format
+msgid "%sReset"
+msgstr "%sResetten"
+
+#: includes/classes/rp-decorator-customizer.class.php:288
+msgid "Send test"
+msgstr "Test verzenden"
+
+#: includes/classes/rp-decorator-customizer.class.php:289
+msgid "Are you sure you want to reset all changes made to your WooCommerce emails?"
+msgstr "Weet je zeker dat je alle wijzigingen in je WooCommerce-e-mails wilt resetten?"
+
+#: includes/classes/rp-decorator-customizer.class.php:290
+msgid "<p>Use native WordPress Customizer to make WooCommerce emails match your brand.</p>"
+msgstr ""
+"<p>Gebruik native WordPress Customizer om WooCommerce-e-mails overeen te laten komen met uw merk."
+"</p>"
+
+#: includes/classes/rp-decorator-customizer.class.php:290
+#, php-format
+msgid "<a href=\"%s\">Decorator</a> plugin by <a href=\"%s\">WebToffee</a>."
+msgstr "<a href=\"%s\">Decorator</a> plugin door <a href=\"%s\">WebToffee</a>."
+
+#: includes/classes/rp-decorator-customizer.class.php:293
+msgid "Email Sent!"
+msgstr "E-mail verzonden!"
+
+#: includes/classes/rp-decorator-customizer.class.php:294
+msgid "Email failed, make sure you have a working email server for your site."
+msgstr "E-mail mislukt, zorg ervoor dat je een werkende e-mailserver voor je site hebt."
+
+#: includes/classes/rp-decorator-customizer.class.php:298
+msgid "Email type"
+msgstr "E-mail type"
+
+#: includes/classes/rp-decorator-customizer.class.php:299
+msgid "Choose order"
+msgstr "Kies volgorde"
+
+#: includes/classes/rp-decorator-customizer.class.php:300
+msgid "Changes that you made may not be saved."
+msgstr "Wijzigingen die u hebt aangebracht, worden mogelijk niet opgeslagen."
+
+#: includes/classes/rp-decorator-preview.class.php:75 includes/classes/rp-decorator-wc.class.php:172
+#: includes/views/preview.php:30
+msgid "Decorator"
+msgstr "Decorateur"
+
+#: includes/classes/rp-decorator-preview.class.php:119
+msgid ""
+"An error occurred trying to load this email type. Make sure this email type is enabled or please "
+"try another type."
+msgstr ""
+"Er is een fout opgetreden bij het laden van dit e-mailtype. Zorg ervoor dat dit e-mailtype is "
+"ingeschakeld of probeer een ander type."
+
+#: includes/classes/rp-decorator-preview.class.php:466
+#: includes/classes/rp-decorator-settings.class.php:2539
+msgid "New order"
+msgstr "Nieuwe bestelling"
+
+#: includes/classes/rp-decorator-preview.class.php:467
+#: includes/classes/rp-decorator-settings.class.php:2540
+msgid "Cancelled order"
+msgstr "Geannuleerde Bestelling"
+
+#: includes/classes/rp-decorator-preview.class.php:468
+msgid "Customer processing order"
+msgstr "Bestelling verwerken door klant"
+
+#: includes/classes/rp-decorator-preview.class.php:469
+msgid "Customer completed order"
+msgstr "Klant voltooide bestelling"
+
+#: includes/classes/rp-decorator-preview.class.php:470
+msgid "Customer refunded order"
+msgstr "Klant terugbetaalde bestelling"
+
+#: includes/classes/rp-decorator-preview.class.php:471
+msgid "Customer on hold order"
+msgstr "Klant in de wachtstand"
+
+#: includes/classes/rp-decorator-preview.class.php:472
+msgid "Customer invoice"
+msgstr "Klant Factuur"
+
+#: includes/classes/rp-decorator-preview.class.php:473
+#: includes/classes/rp-decorator-settings.class.php:2555
+msgid "Failed order"
+msgstr "Mislukte bestelling"
+
+#: includes/classes/rp-decorator-preview.class.php:474
+msgid "Customer new account"
+msgstr "Nieuw account van de klant"
+
+#: includes/classes/rp-decorator-preview.class.php:475
+msgid "Customer note"
+msgstr "Opmerking klant"
+
+#: includes/classes/rp-decorator-preview.class.php:476
+msgid "Customer reset password"
+msgstr "Wachtwoord opnieuw instellen van klant"
+
+#: includes/classes/rp-decorator-preview.class.php:480
+msgid "Smart coupon gift"
+msgstr "Slimme coupon cadeau"
+
+#: includes/classes/rp-decorator-preview.class.php:481
+msgid "Smart coupon abandonment coupon email"
+msgstr "Slimme coupon verlaten coupon e-mail"
+
+#: includes/classes/rp-decorator-preview.class.php:482
+msgid "Smart coupon store credit"
+msgstr "Slim couponwinkeltegoed"
+
+#: includes/classes/rp-decorator-preview.class.php:483
+msgid "Smart coupon signup coupon email"
+msgstr "Smart coupon signup coupon e-mail"
+
+#: includes/classes/rp-decorator-preview.class.php:484
+msgid "Smart coupon"
+msgstr "Slimme coupon"
+
+#: includes/classes/rp-decorator-preview.class.php:489
+msgid "New renewal order"
+msgstr "Nieuwe verlengingsvolgorde"
+
+#: includes/classes/rp-decorator-preview.class.php:490
+msgid "Customer processing renewal order"
+msgstr "Klantverwerkingsverlengingsorder"
+
+#: includes/classes/rp-decorator-preview.class.php:491
+msgid "Customer completed renewal order"
+msgstr "Door de klant voltooide verlengingsorder"
+
+#: includes/classes/rp-decorator-preview.class.php:492
+msgid "Customer completed switch order"
+msgstr "Klant voltooide overstaporder"
+
+#: includes/classes/rp-decorator-preview.class.php:493
+msgid "Customer renewal invoice"
+msgstr "Factuur voor klantverlenging"
+
+#: includes/classes/rp-decorator-preview.class.php:494
+msgid "Cancelled subscription"
+msgstr "Abonnement opgezegd"
+
+#: includes/classes/rp-decorator-preview.class.php:500
+msgid "User membership note"
+msgstr "Opmerking over gebruikerslidmaatschap"
+
+#: includes/classes/rp-decorator-preview.class.php:501
+msgid "User membership ending soon"
+msgstr "Gebruikerslidmaatschap loopt binnenkort af"
+
+#: includes/classes/rp-decorator-preview.class.php:502
+msgid "User membership ended"
+msgstr "Gebruikerslidmaatschap beëindigd"
+
+#: includes/classes/rp-decorator-preview.class.php:503
+msgid "User membership renewal reminder"
+msgstr "Herinnering voor verlenging van gebruikerslidmaatschap"
+
+#: includes/classes/rp-decorator-preview.class.php:504
+msgid "User membership activated"
+msgstr "Gebruikerslidmaatschap geactiveerd"
+
+#: includes/classes/rp-decorator-preview.class.php:509
+msgid "New vendor account"
+msgstr "Nieuwe leveranciersrekening"
+
+#: includes/classes/rp-decorator-preview.class.php:510
+msgid "Admin new vendor account"
+msgstr "Nieuwe leveranciersrekening beheren"
+
+#: includes/classes/rp-decorator-preview.class.php:511
+msgid "Approved vendor account"
+msgstr "Goedgekeurde leveranciersrekening"
+
+#: includes/classes/rp-decorator-preview.class.php:512
+msgid "Rejected vendor account"
+msgstr "Geweigerde leveranciersrekening"
+
+#: includes/classes/rp-decorator-preview.class.php:513
+msgid "Vendor new order"
+msgstr "Nieuwe bestelling van leverancier"
+
+#: includes/classes/rp-decorator-preview.class.php:514
+msgid "Notify as shipped."
+msgstr "Meld als verzonden."
+
+#: includes/classes/rp-decorator-preview.class.php:515
+msgid "New vendor product"
+msgstr "Product van nieuwe leverancier"
+
+#: includes/classes/rp-decorator-preview.class.php:516
+msgid "New vendor product by admin"
+msgstr "Nieuw leveranciersproduct door admin"
+
+#: includes/classes/rp-decorator-preview.class.php:517
+msgid "Transactions (for vendor)"
+msgstr "Transacties (voor leverancier)"
+
+#: includes/classes/rp-decorator-preview.class.php:518
+msgid "Commission paid (for vendor) by BAC"
+msgstr "Commissie betaald (voor leverancier) door BAC"
+
+#: includes/classes/rp-decorator-preview.class.php:519
+msgid "Withdrawal request to admin from vendor by BAC"
+msgstr "Opnameverzoek aan de beheerder van de leverancier door BAC"
+
+#: includes/classes/rp-decorator-preview.class.php:520
+msgid "Vendor orders stats report"
+msgstr "Rapport statistieken over verkopersorders"
+
+#: includes/classes/rp-decorator-preview.class.php:521
+msgid "Vendor contact email"
+msgstr "E-mailadres voor contact met leverancier"
+
+#: includes/classes/rp-decorator-preview.class.php:526
+msgid "eKomi review reminder"
+msgstr "eKomi-beoordelingsherinnering"
+
+#: includes/classes/rp-decorator-preview.class.php:527
+msgid "New account activation"
+msgstr "Activering van een nieuw account"
+
+#: includes/classes/rp-decorator-preview.class.php:528
+msgid "Paid for order"
+msgstr "Betaald voor bestelling"
+
+#: includes/classes/rp-decorator-preview.class.php:529
+msgid "Revocation"
+msgstr "Intrekking"
+
+#: includes/classes/rp-decorator-preview.class.php:530
+msgid "Trusted shops review reminder"
+msgstr "Beoordelingsherinnering voor vertrouwde winkels"
+
+#: includes/classes/rp-decorator-preview.class.php:535
+msgid "Waitlist mailout"
+msgstr "Wachtlijst mailing"
+
+#: includes/classes/rp-decorator-preview.class.php:540
+msgid "Failed subscription renewal SCA authentication"
+msgstr "SCA-verificatie voor abonnementsverlenging mislukt"
+
+#: includes/classes/rp-decorator-preview.class.php:541
+msgid "Pre-order payment action needed"
+msgstr "Pre-order betalingsactie nodig"
+
+#: includes/classes/rp-decorator-preview.class.php:546
+msgid "Payment authentication requested email"
+msgstr "E-mail voor verificatie van betaling aangevraagd"
+
+#: includes/classes/rp-decorator-preview.class.php:553
+#: includes/classes/rp-decorator-preview.class.php:627
+msgid "Active Subscription"
+msgstr "Actief abonnement"
+
+#: includes/classes/rp-decorator-preview.class.php:554
+#: includes/classes/rp-decorator-preview.class.php:628
+msgid "Reactivated Subscription"
+msgstr "Opnieuw geactiveerd abonnement"
+
+#: includes/classes/rp-decorator-preview.class.php:555
+#: includes/classes/rp-decorator-preview.class.php:629
+msgid "New Customer Renewal Order"
+msgstr "Verlengingsorder voor nieuwe klanten"
+
+#: includes/classes/rp-decorator-preview.class.php:556
+#: includes/classes/rp-decorator-preview.class.php:615
+#: includes/classes/rp-decorator-preview.class.php:630
+msgid "Customer Processing Renewal Order"
+msgstr "Verlengingsorder voor klantverwerking"
+
+#: includes/classes/rp-decorator-preview.class.php:557
+#: includes/classes/rp-decorator-preview.class.php:616
+#: includes/classes/rp-decorator-preview.class.php:631
+msgid "Customer Completed Renewal Order"
+msgstr "Door de klant voltooide verlengingsorder"
+
+#: includes/classes/rp-decorator-preview.class.php:558
+#: includes/classes/rp-decorator-preview.class.php:618
+#: includes/classes/rp-decorator-preview.class.php:632
+msgid "Customer Renewal Invoice"
+msgstr "Klant factuur voor verlenging"
+
+#: includes/classes/rp-decorator-preview.class.php:559
+#: includes/classes/rp-decorator-preview.class.php:633
+msgid "Subscription Intimation Payment"
+msgstr "Abonnementsaankondiging Betaling"
+
+#: includes/classes/rp-decorator-preview.class.php:560
+#: includes/classes/rp-decorator-preview.class.php:634
+msgid "Subscription Intimation Expiry"
+msgstr "Abonnementsaankondiging verloopt"
+
+#: includes/classes/rp-decorator-preview.class.php:561
+#: includes/classes/rp-decorator-preview.class.php:619
+#: includes/classes/rp-decorator-preview.class.php:635
+msgid "Cancelled Subscription"
+msgstr "Abonnement geannuleerd"
+
+#: includes/classes/rp-decorator-preview.class.php:562
+#: includes/classes/rp-decorator-preview.class.php:620
+#: includes/classes/rp-decorator-preview.class.php:636
+msgid "Expired Subscription"
+msgstr "Verlopen Lidmaatschap"
+
+#: includes/classes/rp-decorator-preview.class.php:563
+#: includes/classes/rp-decorator-preview.class.php:621
+#: includes/classes/rp-decorator-preview.class.php:637
+msgid "Suspended Subscription"
+msgstr "Opgeschort Abonnement"
+
+#: includes/classes/rp-decorator-preview.class.php:569
+#: includes/classes/rp-decorator-preview.class.php:652
+msgid "New Quote Request Email"
+msgstr "Nieuwe offerte aanvraag e-mail"
+
+#: includes/classes/rp-decorator-preview.class.php:570
+#: includes/classes/rp-decorator-preview.class.php:653
+msgid "Quote Accepted Email"
+msgstr "Offerte geaccepteerd E-mail"
+
+#: includes/classes/rp-decorator-preview.class.php:571
+#: includes/classes/rp-decorator-preview.class.php:654
+msgid "Quote Declined Email"
+msgstr "E-mail met geweigerde offerte"
+
+#: includes/classes/rp-decorator-preview.class.php:572
+#: includes/classes/rp-decorator-preview.class.php:655
+msgid "Quote Request Submitted Email"
+msgstr "Offerte aanvraag verzonden e-mail"
+
+#: includes/classes/rp-decorator-preview.class.php:573
+#: includes/classes/rp-decorator-preview.class.php:656
+msgid "Quote Received Email"
+msgstr "Offerte ontvangen e-mail"
+
+#: includes/classes/rp-decorator-preview.class.php:574
+#: includes/classes/rp-decorator-preview.class.php:657
+msgid "Quote Expired Email"
+msgstr "Offerte verlopen e-mail"
+
+#: includes/classes/rp-decorator-preview.class.php:575
+#: includes/classes/rp-decorator-preview.class.php:658
+msgid "Quote Expiry Reminder Email"
+msgstr "E-mail met herinnering aan offerteverval"
+
+#: includes/classes/rp-decorator-preview.class.php:576
+#: includes/classes/rp-decorator-preview.class.php:659
+msgid "Quote Reminder Email"
+msgstr "E-mail met offerteherinnering"
+
+#: includes/classes/rp-decorator-preview.class.php:599
+msgid "New Order"
+msgstr "Nieuwe Bestelling"
+
+#: includes/classes/rp-decorator-preview.class.php:600
+msgid "Cancelled Order"
+msgstr "Geannuleerde bestelling"
+
+#: includes/classes/rp-decorator-preview.class.php:601
+msgid "Customer Processing Order"
+msgstr "Bestelling voor klantverwerking"
+
+#: includes/classes/rp-decorator-preview.class.php:602
+msgid "Customer Completed Order"
+msgstr "Door de klant voltooide bestelling"
+
+#: includes/classes/rp-decorator-preview.class.php:603
+msgid "Customer Refunded Order"
+msgstr "Bestelling door de klant terugbetaald"
+
+#: includes/classes/rp-decorator-preview.class.php:604
+msgid "Customer On Hold Order"
+msgstr "Klant in de wacht order"
+
+#: includes/classes/rp-decorator-preview.class.php:605
+msgid "Customer Invoice"
+msgstr "Klantfactuur"
+
+#: includes/classes/rp-decorator-preview.class.php:606
+msgid "Failed Order"
+msgstr "Mislukte bestelling"
+
+#: includes/classes/rp-decorator-preview.class.php:607
+msgid "Customer New Account"
+msgstr "Nieuwe klantaccount"
+
+#: includes/classes/rp-decorator-preview.class.php:608
+msgid "Customer Note"
+msgstr "Klanten-notitie"
+
+#: includes/classes/rp-decorator-preview.class.php:609
+msgid "Customer Reset Password"
+msgstr "Wachtwoord opnieuw instellen door klant"
+
+#: includes/classes/rp-decorator-preview.class.php:614
+msgid "New Renewal Order"
+msgstr "Nieuwe verlenging bestelling"
+
+#: includes/classes/rp-decorator-preview.class.php:617
+msgid "Customer Completed Switch Order"
+msgstr "Door de klant voltooide overstaporder"
+
+#: includes/classes/rp-decorator-preview.class.php:643
+msgid "Smart Coupon Gift"
+msgstr "Smart Coupon Cadeau"
+
+#: includes/classes/rp-decorator-preview.class.php:644
+msgid "Smart Coupon Abandonment Coupon Email"
+msgstr "Smart Coupon Verlating Coupon E-mail"
+
+#: includes/classes/rp-decorator-preview.class.php:645
+msgid "Smart Coupon Signup Coupon Email"
+msgstr "Smart Coupon Signup Coupon E-mail"
+
+#: includes/classes/rp-decorator-preview.class.php:646
+msgid "Smart Coupon"
+msgstr "Smart Voucher"
+
+#: includes/classes/rp-decorator-preview.class.php:805
+msgid "Hello! This is an example note"
+msgstr "Hallo! Dit is een voorbeeldnotitie"
+
+#: includes/classes/rp-decorator-preview.class.php:1071
+msgid "Please create atleast one coupon to preview this email type."
+msgstr "Maak ten minste één coupon om een voorbeeld van dit e-mailtype te bekijken."
+
+#: includes/classes/rp-decorator-preview.class.php:1073
+msgid "This email type can not be previewed please try a different order or email type."
+msgstr "Dit e-mailtype kan niet worden bekeken, probeer een andere bestelling of e-mailtype."
+
+#: includes/classes/rp-decorator-preview.class.php:1075
+msgid ""
+"This email type requires that an order containing a subscription be selected as the preview order."
+msgstr ""
+"Voor dit e-mailtype moet een bestelling met een abonnement worden geselecteerd als "
+"voorbeeldbestelling."
+
+#: includes/classes/rp-decorator-preview.class.php:1077
+msgid ""
+"To generate a preview of this email type you must choose an order containing a subscription which "
+"has also failed to auto renew as the preview order in the settings."
+msgstr ""
+"Om een voorbeeld van dit e-mailtype te genereren, moet u een bestelling kiezen met een abonnement "
+"dat ook niet automatisch kan worden verlengd als de voorbeeldvolgorde in de instellingen."
+
+#: includes/classes/rp-decorator-preview.class.php:1079
+msgid ""
+"This email type requires that an order containing a vendor purchase be selected as the preview "
+"order."
+msgstr ""
+"Voor dit e-mailtype moet een order met een leveranciersinkoop worden geselecteerd als "
+"voorbeeldorder."
+
+#: includes/classes/rp-decorator-preview.class.php:1081
+msgid ""
+"This email type requires that an order containing a user who has an active membership be selected "
+"as the preview order."
+msgstr ""
+"Voor dit e-mailtype moet een bestelling met een gebruiker met een actief lidmaatschap worden "
+"geselecteerd als voorbeeldvolgorde."
+
+#: includes/classes/rp-decorator-settings.class.php:62
+msgid "Header"
+msgstr "Header"
+
+#: includes/classes/rp-decorator-settings.class.php:67
+msgid "Footer"
+msgstr "Footer"
+
+#: includes/classes/rp-decorator-settings.class.php:72
+msgid "Content"
+msgstr "Inhoud"
+
+#: includes/classes/rp-decorator-settings.class.php:77
+#: includes/rp-decorator-uninstall-feedback.php:62
+msgid "Other"
+msgstr "Andere"
+
+#: includes/classes/rp-decorator-settings.class.php:98
+msgid "Prebuilt Templates"
+msgstr "Vooraf gebouwde sjablonen"
+
+#: includes/classes/rp-decorator-settings.class.php:103
+msgid "Email text"
+msgstr "E-mail tekst"
+
+#: includes/classes/rp-decorator-settings.class.php:108
+msgid "Container"
+msgstr "Container"
+
+#: includes/classes/rp-decorator-settings.class.php:113
+msgid "Header style"
+msgstr "Header stijl"
+
+#: includes/classes/rp-decorator-settings.class.php:119
+#: includes/classes/rp-decorator-settings.class.php:533
+msgid "Header image"
+msgstr "Header afbeelding"
+
+#: includes/classes/rp-decorator-settings.class.php:125
+msgid "Heading and subtitle"
+msgstr "Kop en ondertitel"
+
+#: includes/classes/rp-decorator-settings.class.php:131
+msgid "Footer style"
+msgstr "Footer stijl"
+
+#: includes/classes/rp-decorator-settings.class.php:137
+msgid "Footer content"
+msgstr "Footer-inhoud"
+
+#: includes/classes/rp-decorator-settings.class.php:143
+msgid "Social links"
+msgstr "Social links"
+
+#: includes/classes/rp-decorator-settings.class.php:149
+msgid "Content container"
+msgstr "Inhoudscontainer"
+
+#: includes/classes/rp-decorator-settings.class.php:155
+msgid "Text style"
+msgstr "Tekst stijl"
+
+#: includes/classes/rp-decorator-settings.class.php:161
+msgid "Heading 1"
+msgstr "Kop 1"
+
+#: includes/classes/rp-decorator-settings.class.php:167
+msgid "Heading 2"
+msgstr "Kop 2"
+
+#: includes/classes/rp-decorator-settings.class.php:173
+msgid "Heading 3"
+msgstr "Kop 3"
+
+#: includes/classes/rp-decorator-settings.class.php:179
+msgid "Heading 4"
+msgstr "Kop 4"
+
+#: includes/classes/rp-decorator-settings.class.php:185
+msgid "Heading 5"
+msgstr "Kop 5"
+
+#: includes/classes/rp-decorator-settings.class.php:191
+msgid "Heading 6"
+msgstr "Kop 6"
+
+#: includes/classes/rp-decorator-settings.class.php:197
+msgid "Custom styles"
+msgstr "Aangepaste stijlen (CSS)"
+
+#: includes/classes/rp-decorator-settings.class.php:203
+msgid "Order items"
+msgstr "Order items"
+
+#: includes/classes/rp-decorator-settings.class.php:209
+msgid "Order addresses"
+msgstr "Besteladressen"
+
+#: includes/classes/rp-decorator-settings.class.php:214
+msgid "Button styles"
+msgstr "Knopstijlen"
+
+#: includes/classes/rp-decorator-settings.class.php:239
+msgid "Template_load"
+msgstr "Template_load"
+
+#: includes/classes/rp-decorator-settings.class.php:266
+#: includes/classes/rp-decorator-settings.class.php:318
+#: includes/classes/rp-decorator-settings.class.php:474
+#: includes/classes/rp-decorator-settings.class.php:744
+#: includes/classes/rp-decorator-settings.class.php:1522
+#: includes/classes/rp-decorator-settings.class.php:1683
+msgid "Background color"
+msgstr "Achtergrondkleur"
+
+#: includes/classes/rp-decorator-settings.class.php:278
+#: includes/classes/rp-decorator-settings.class.php:1534
+msgid "Padding"
+msgstr "Padding"
+
+#: includes/classes/rp-decorator-settings.class.php:295
+msgid "Container width"
+msgstr "Container breedte"
+
+#: includes/classes/rp-decorator-settings.class.php:330
+#: includes/classes/rp-decorator-settings.class.php:2271
+msgid "Left padding"
+msgstr "Padding links"
+
+#: includes/classes/rp-decorator-settings.class.php:348
+#: includes/classes/rp-decorator-settings.class.php:2288
+msgid "Right padding"
+msgstr "Padding rechts"
+
+#: includes/classes/rp-decorator-settings.class.php:366
+#: includes/classes/rp-decorator-settings.class.php:2237
+msgid "Top padding"
+msgstr "Top padding"
+
+#: includes/classes/rp-decorator-settings.class.php:384
+#: includes/classes/rp-decorator-settings.class.php:2254
+msgid "Bottom padding"
+msgstr "Onderopvulling"
+
+#: includes/classes/rp-decorator-settings.class.php:402
+#: includes/classes/rp-decorator-settings.class.php:616
+#: includes/classes/rp-decorator-settings.class.php:802
+#: includes/classes/rp-decorator-settings.class.php:883
+#: includes/classes/rp-decorator-settings.class.php:979
+#: includes/classes/rp-decorator-settings.class.php:1076
+#: includes/classes/rp-decorator-settings.class.php:1172
+#: includes/classes/rp-decorator-settings.class.php:1268
+#: includes/classes/rp-decorator-settings.class.php:1364
+#: includes/classes/rp-decorator-settings.class.php:1742
+msgid "Font size"
+msgstr "Lettertype grootte"
+
+#: includes/classes/rp-decorator-settings.class.php:420
+#: includes/classes/rp-decorator-settings.class.php:633
+#: includes/classes/rp-decorator-settings.class.php:819
+#: includes/classes/rp-decorator-settings.class.php:900
+#: includes/classes/rp-decorator-settings.class.php:996
+#: includes/classes/rp-decorator-settings.class.php:1093
+#: includes/classes/rp-decorator-settings.class.php:1189
+#: includes/classes/rp-decorator-settings.class.php:1285
+#: includes/classes/rp-decorator-settings.class.php:1381
+#: includes/classes/rp-decorator-settings.class.php:1776
+msgid "Font family"
+msgstr "Lettertype"
+
+#: includes/classes/rp-decorator-settings.class.php:436
+#: includes/classes/rp-decorator-settings.class.php:662
+#: includes/classes/rp-decorator-settings.class.php:847
+#: includes/classes/rp-decorator-settings.class.php:928
+#: includes/classes/rp-decorator-settings.class.php:1024
+#: includes/classes/rp-decorator-settings.class.php:1121
+#: includes/classes/rp-decorator-settings.class.php:1217
+#: includes/classes/rp-decorator-settings.class.php:1313
+#: includes/classes/rp-decorator-settings.class.php:1409
+#: includes/classes/rp-decorator-settings.class.php:1819
+msgid "Text color"
+msgstr "Tekstkleur"
+
+#: includes/classes/rp-decorator-settings.class.php:451
+msgid "Header visibility"
+msgstr "Headerzichtbaarheid"
+
+#: includes/classes/rp-decorator-settings.class.php:462
+#: includes/classes/rp-decorator-settings.class.php:858
+msgid "Link color"
+msgstr "Link kleur"
+
+#: includes/classes/rp-decorator-settings.class.php:486
+#: includes/classes/rp-decorator-settings.class.php:790
+#: includes/classes/rp-decorator-settings.class.php:1730
+msgid "Text align"
+msgstr "Tekst uitlijning"
+
+#: includes/classes/rp-decorator-settings.class.php:499
+#: includes/classes/rp-decorator-settings.class.php:1694
+msgid "Padding top/bottom"
+msgstr "Opvulling boven/onder"
+
+#: includes/classes/rp-decorator-settings.class.php:516
+msgid "Padding left/right"
+msgstr "Opvulling links/rechts"
+
+#: includes/classes/rp-decorator-settings.class.php:545
+#: includes/classes/rp-decorator-settings.class.php:2119
+msgid "Border radius"
+msgstr "Border radius"
+
+#: includes/classes/rp-decorator-settings.class.php:565
+msgid "Shadow"
+msgstr "Schaduw"
+
+#: includes/classes/rp-decorator-settings.class.php:582
+#: includes/classes/rp-decorator-settings.class.php:1577
+msgid "Border color"
+msgstr "Randkleur"
+
+#: includes/classes/rp-decorator-settings.class.php:594
+msgid "Container border width"
+msgstr "Breedte van de containerrand"
+
+#: includes/classes/rp-decorator-settings.class.php:610
+msgid "Heading settings"
+msgstr "Kopinstellingen"
+
+#: includes/classes/rp-decorator-settings.class.php:645
+#: includes/classes/rp-decorator-settings.class.php:831
+#: includes/classes/rp-decorator-settings.class.php:912
+#: includes/classes/rp-decorator-settings.class.php:1008
+#: includes/classes/rp-decorator-settings.class.php:1105
+#: includes/classes/rp-decorator-settings.class.php:1201
+#: includes/classes/rp-decorator-settings.class.php:1297
+#: includes/classes/rp-decorator-settings.class.php:1393
+#: includes/classes/rp-decorator-settings.class.php:1803
+msgid "Font weight"
+msgstr "Font dikte"
+
+#: includes/classes/rp-decorator-settings.class.php:673
+#: includes/classes/rp-decorator-settings.class.php:1788
+msgid "Font style"
+msgstr "Font stijl"
+
+#: includes/classes/rp-decorator-settings.class.php:679
+#: includes/classes/rp-decorator-settings.class.php:704
+#: includes/classes/rp-decorator-settings.class.php:1794
+msgid "Normal"
+msgstr "Normaal"
+
+#: includes/classes/rp-decorator-settings.class.php:680
+#: includes/classes/rp-decorator-settings.class.php:1795
+msgid "Italic"
+msgstr "Cursief"
+
+#: includes/classes/rp-decorator-settings.class.php:687
+msgid "Text shadow"
+msgstr "Tekstschaduw"
+
+#: includes/classes/rp-decorator-settings.class.php:698
+msgid "Text decoration"
+msgstr "Tekst decoratie"
+
+#: includes/classes/rp-decorator-settings.class.php:705
+msgid "Underline"
+msgstr "Onderstreept"
+
+#: includes/classes/rp-decorator-settings.class.php:706
+msgid "Overline"
+msgstr "Lijn boven tekst"
+
+#: includes/classes/rp-decorator-settings.class.php:707
+msgid "Line-through"
+msgstr "Doorstreept"
+
+#: includes/classes/rp-decorator-settings.class.php:708
+msgid "Underline overline"
+msgstr "Overlijn onderstrepen"
+
+#: includes/classes/rp-decorator-settings.class.php:715
+#: includes/classes/rp-decorator-settings.class.php:1759
+msgid "Line height"
+msgstr "Regelhoogte"
+
+#: includes/classes/rp-decorator-settings.class.php:732
+msgid "Footer visibility"
+msgstr "Footer zichtbaarheid"
+
+#: includes/classes/rp-decorator-settings.class.php:756
+msgid "Top/Bottom padding"
+msgstr "Boven-/ondervulling"
+
+#: includes/classes/rp-decorator-settings.class.php:773
+msgid "Left/Right padding"
+msgstr "Links/rechts opvulling"
+
+#: includes/classes/rp-decorator-settings.class.php:871
+msgid "Footer text"
+msgstr "Footer tekst"
+
+#: includes/classes/rp-decorator-settings.class.php:939
+#: includes/classes/rp-decorator-settings.class.php:1036
+#: includes/classes/rp-decorator-settings.class.php:1132
+#: includes/classes/rp-decorator-settings.class.php:1228
+#: includes/classes/rp-decorator-settings.class.php:1324
+#: includes/classes/rp-decorator-settings.class.php:1420
+msgid "Separator style"
+msgstr "Scheidingslijn stijl"
+
+#: includes/classes/rp-decorator-settings.class.php:951
+#: includes/classes/rp-decorator-settings.class.php:1048
+#: includes/classes/rp-decorator-settings.class.php:1144
+#: includes/classes/rp-decorator-settings.class.php:1240
+#: includes/classes/rp-decorator-settings.class.php:1336
+#: includes/classes/rp-decorator-settings.class.php:1432
+msgid "Separator width"
+msgstr "Breedte scheidingsscheider"
+
+#: includes/classes/rp-decorator-settings.class.php:968
+#: includes/classes/rp-decorator-settings.class.php:1065
+#: includes/classes/rp-decorator-settings.class.php:1161
+#: includes/classes/rp-decorator-settings.class.php:1257
+#: includes/classes/rp-decorator-settings.class.php:1353
+#: includes/classes/rp-decorator-settings.class.php:1449
+msgid "Separator color"
+msgstr "Scheidingslijn kleur"
+
+#: includes/classes/rp-decorator-settings.class.php:1460
+msgid "Custom CSS"
+msgstr "Aangepaste CSS"
+
+#: includes/classes/rp-decorator-settings.class.php:1471
+msgid "Item table visibility"
+msgstr "Zichtbaarheid van artikeltabellen"
+
+#: includes/classes/rp-decorator-settings.class.php:1483
+msgid "Product image option"
+msgstr "Optie voor productafbeeldingen"
+
+#: includes/classes/rp-decorator-settings.class.php:1489
+#: includes/classes/rp-decorator-settings.class.php:1501
+#: includes/classes/rp-decorator-settings.class.php:2862
+msgid "Do not show"
+msgstr "Niet tonen"
+
+#: includes/classes/rp-decorator-settings.class.php:1490
+#: includes/classes/rp-decorator-settings.class.php:1502
+msgid "Show"
+msgstr "Toon"
+
+#: includes/classes/rp-decorator-settings.class.php:1495
+msgid "Product SKU"
+msgstr "Product SKU"
+
+#: includes/classes/rp-decorator-settings.class.php:1507
+msgid "Product image size"
+msgstr "Grootte van de productafbeelding"
+
+#: includes/classes/rp-decorator-settings.class.php:1513
+msgid "40x40"
+msgstr "40x40"
+
+#: includes/classes/rp-decorator-settings.class.php:1514
+msgid "50x50"
+msgstr "50x50"
+
+#: includes/classes/rp-decorator-settings.class.php:1515
+msgid "100x100"
+msgstr "100x100"
+
+#: includes/classes/rp-decorator-settings.class.php:1516
+msgid "150x150"
+msgstr "150x150"
+
+#: includes/classes/rp-decorator-settings.class.php:1517
+msgid "Woocommerce Thumbnail"
+msgstr "Woocommerce Miniatuur"
+
+#: includes/classes/rp-decorator-settings.class.php:1555
+msgid "Border width"
+msgstr "Randbreedte"
+
+#: includes/classes/rp-decorator-settings.class.php:1623
+msgid "Align"
+msgstr "Uitlijnen"
+
+#: includes/classes/rp-decorator-settings.class.php:1634
+msgid "Header image placement"
+msgstr "Plaatsing van koptekstafbeeldingen"
+
+#: includes/classes/rp-decorator-settings.class.php:1640
+msgid "Inside"
+msgstr "Binnen"
+
+#: includes/classes/rp-decorator-settings.class.php:1641
+msgid "Outside"
+msgstr "Buiten"
+
+#: includes/classes/rp-decorator-settings.class.php:1646
+msgid "Max width"
+msgstr "Maximumbreedte"
+
+#: includes/classes/rp-decorator-settings.class.php:1666
+msgid "Max height"
+msgstr "Maximumhoogte"
+
+#: includes/classes/rp-decorator-settings.class.php:1711
+msgid "Subtitle Settings"
+msgstr "Ondertitel instellingen"
+
+#: includes/classes/rp-decorator-settings.class.php:1717
+msgid "Subtitle position"
+msgstr "Positie van de ondertitel"
+
+#: includes/classes/rp-decorator-settings.class.php:1723
+msgid "Below heading"
+msgstr "Onder kopje"
+
+#: includes/classes/rp-decorator-settings.class.php:1724
+msgid "Above heading"
+msgstr "Bovenstaande kop"
+
+#: includes/classes/rp-decorator-settings.class.php:1831
+msgid "Billing address visibility"
+msgstr "Zichtbaarheid van factuuradressen"
+
+#: includes/classes/rp-decorator-settings.class.php:1843
+msgid "Shipping address visibility"
+msgstr "Zichtbaarheid van verzendadressen"
+
+#: includes/classes/rp-decorator-settings.class.php:1855
+msgid "Address box background color"
+msgstr "Achtergrondkleur adresvak"
+
+#: includes/classes/rp-decorator-settings.class.php:1866
+msgid "Address box text color"
+msgstr "Tekstkleur adresvak"
+
+#: includes/classes/rp-decorator-settings.class.php:1877
+msgid "Address box left/right padding"
+msgstr "Adresvak links/rechts opvulling"
+
+#: includes/classes/rp-decorator-settings.class.php:1894
+msgid "Address box top/bottom padding"
+msgstr "Adresvak boven-/ondervulling"
+
+#: includes/classes/rp-decorator-settings.class.php:1911
+msgid "Address box text align"
+msgstr "Tekst adresvak uitlijnen"
+
+#: includes/classes/rp-decorator-settings.class.php:1923
+msgid "Address box border width"
+msgstr "Breedte van de rand van het adresvak"
+
+#: includes/classes/rp-decorator-settings.class.php:1940
+msgid "Address box border color"
+msgstr "Randkleur adresvak"
+
+#: includes/classes/rp-decorator-settings.class.php:1951
+msgid "Address box border style"
+msgstr "Randstijl adresvak"
+
+#: includes/classes/rp-decorator-settings.class.php:1957
+msgid "Solid"
+msgstr "Solid"
+
+#: includes/classes/rp-decorator-settings.class.php:1958
+msgid "Double"
+msgstr "Dubbel"
+
+#: includes/classes/rp-decorator-settings.class.php:1959
+msgid "Groove"
+msgstr "Groef"
+
+#: includes/classes/rp-decorator-settings.class.php:1960
+msgid "Dotted"
+msgstr "Gestippeld"
+
+#: includes/classes/rp-decorator-settings.class.php:1961
+msgid "Dashed"
+msgstr "Gestreept"
+
+#: includes/classes/rp-decorator-settings.class.php:1962
+msgid "Ridge"
+msgstr "Ribbel"
+
+#: includes/classes/rp-decorator-settings.class.php:1970
+msgid "Button text color"
+msgstr "Button Tekstkleur"
+
+#: includes/classes/rp-decorator-settings.class.php:1983
+msgid "Button font size"
+msgstr "﻿Knop lettertype grote"
+
+#: includes/classes/rp-decorator-settings.class.php:2002
+msgid "Button align"
+msgstr "Knop uitlijning"
+
+#: includes/classes/rp-decorator-settings.class.php:2017
+msgid "Button font family"
+msgstr "Lettertypefamilie voor knoppen"
+
+#: includes/classes/rp-decorator-settings.class.php:2031
+msgid "Button font weight"
+msgstr "Lettergewicht van de knop"
+
+#: includes/classes/rp-decorator-settings.class.php:2049
+msgid "Button background color"
+msgstr "Button Achtergrondkleur"
+
+#: includes/classes/rp-decorator-settings.class.php:2062
+msgid "Top and bottom padding"
+msgstr ""
+"<b> Premium extra functies: </b> < br/>-Verander site attributie tekst < br/>-aanpassen sociale "
+"voettekst icoon grootte < br/>-aanpassen sociale voettekst pictogram afstand < br/>-nieuwe "
+"aangepaste voettekst indeling < br/>-aangepaste kolommen bewerken bedrag en aangepaste breedtes < "
+"br/>-Verwijder sociale pictogrammen < br/> -Verwijder voettekst onderste balk < br/>-aanpassen "
+"footer Top & Bottom Padding"
+
+#: includes/classes/rp-decorator-settings.class.php:2081
+msgid "Left and right padding"
+msgstr "Linker- en rechteropvulling"
+
+#: includes/classes/rp-decorator-settings.class.php:2100
+msgid "Button border width"
+msgstr "Knop Border Breedte"
+
+#: includes/classes/rp-decorator-settings.class.php:2138
+msgid "Button border color"
+msgstr "Knop randkleur:"
+
+#: includes/classes/rp-decorator-settings.class.php:2168
+msgid "Title color"
+msgstr "Titel kleur"
+
+#: includes/classes/rp-decorator-settings.class.php:2180
+msgid "Title font size"
+msgstr "Lettergrootte Titel"
+
+#: includes/classes/rp-decorator-settings.class.php:2197
+msgid "Title font family"
+msgstr "Lettertypefamilie van titels"
+
+#: includes/classes/rp-decorator-settings.class.php:2209
+msgid "Title font weight"
+msgstr "Gewicht van het lettertype van de titel"
+
+#: includes/classes/rp-decorator-settings.class.php:2225
+msgid "Icon align"
+msgstr "Pictogram uitlijnen"
+
+#: includes/classes/rp-decorator-settings.class.php:2466
+msgid "Hi There,"
+msgstr "Hallo,"
+
+#: includes/classes/rp-decorator-settings.class.php:2467
+#, php-format
+msgid "%s is now back in stock at %s"
+msgstr "%s is nu weer op voorraad bij %s"
+
+#: includes/classes/rp-decorator-settings.class.php:2468
+msgid "A product you are waiting for is back in stock"
+msgstr "Een product waar u op wacht, is weer op voorraad"
+
+#: includes/classes/rp-decorator-settings.class.php:2469
+msgid "New customer order"
+msgstr "Nieuwe bestelling ontvangen"
+
+#: includes/classes/rp-decorator-settings.class.php:2470
+#, php-format
+msgid "[%s] New customer order (%s) - %s"
+msgstr "[%s] Nieuwe klantorder (%s) - %s"
+
+#: includes/classes/rp-decorator-settings.class.php:2471
+#, php-format
+msgid "You have received a subscription renewal order from %s. Their order is as follows:"
+msgstr "Je hebt een toegangspasverlenging van %s ontvangen. De bestelling is als volgt:"
+
+#: includes/classes/rp-decorator-settings.class.php:2472
+msgid "Subscription Activated"
+msgstr "Abonnement geactiveerd"
+
+#: includes/classes/rp-decorator-settings.class.php:2473
+#, php-format
+msgid "[%s] Subscription Activated (%s)"
+msgstr "[%s] Abonnement geactiveerd (%s)"
+
+#: includes/classes/rp-decorator-settings.class.php:2474
+#, php-format
+msgid ""
+"Hi there. Your subscription with (%s) has been activated. Your order details are shown below for "
+"your reference:"
+msgstr ""
+"Hoi. Uw abonnement met (%s) is geactiveerd. Uw bestelgegevens worden hieronder ter referentie "
+"weergegeven:"
+
+#: includes/classes/rp-decorator-settings.class.php:2475
+msgid "Subscription Reactivated order"
+msgstr "Abonnement Opnieuw geactiveerde bestelling"
+
+#: includes/classes/rp-decorator-settings.class.php:2476
+#, php-format
+msgid "[%s] Subscription Reactivated order (%s) - %s"
+msgstr "[%s] Abonnement gereactiveerde bestelling (%s) - %s"
+
+#: includes/classes/rp-decorator-settings.class.php:2477
+#, php-format
+msgid ""
+"A subscription belonging to %s has been reactivated from their account page. Subscription details "
+"are follows:"
+msgstr ""
+"Een abonnement van %s is opnieuw geactiveerd vanaf hun accountpagina. De abonnementsgegevens zijn "
+"als volgt:"
+
+#: includes/classes/rp-decorator-settings.class.php:2478
+msgid "Subscription renewal intimation"
+msgstr "Aankondiging abonnementsverlenging"
+
+#: includes/classes/rp-decorator-settings.class.php:2479
+#, php-format
+msgid "%s Subscription renewal intimation"
+msgstr "%s Aankondiging abonnementsverlenging"
+
+#: includes/classes/rp-decorator-settings.class.php:2480
+#, php-format
+msgid ""
+"Hi there,%s Your subscription with %s will be renewed on <b>%s</b>. Subscription details are as "
+"follows:"
+msgstr ""
+"Hallo daar,%s Uw abonnement met %s wordt verlengd op <b>%s</b>. De abonnementsgegevens zijn als "
+"volgt:"
+
+#: includes/classes/rp-decorator-settings.class.php:2481
+#: includes/classes/rp-decorator-settings.class.php:2482
+msgid "Subscription expiry reminder"
+msgstr "Herinnering voor het verlopen van het abonnement"
+
+#: includes/classes/rp-decorator-settings.class.php:2483
+#, php-format
+msgid ""
+"Hi there,%s Your subscription with %s will expire on <b>%s</b>. Subscription details are as "
+"follows:"
+msgstr ""
+"Hallo daar,%s uw abonnement met %s verloopt op <b>%s</b>. De abonnementsgegevens zijn als volgt:"
+
+#: includes/classes/rp-decorator-settings.class.php:2484
+#: includes/classes/rp-decorator-settings.class.php:2541
+#: includes/classes/rp-decorator-settings.class.php:2552
+msgid "Thank you for your order"
+msgstr "Bedankt voor uw bestelling"
+
+#: includes/classes/rp-decorator-settings.class.php:2485
+#: includes/classes/rp-decorator-settings.class.php:2563
+#: includes/classes/rp-decorator-settings.class.php:2567
+#, php-format
+msgid "Your %s order receipt from %s"
+msgstr "Uw %s orderontvangst van %s"
+
+#: includes/classes/rp-decorator-settings.class.php:2486
+msgid ""
+"Your subscription renewal order has been received and is now being processed. Your order details "
+"are shown below for your reference:"
+msgstr ""
+"De hernieuwingsopdracht voor je abonnement is ontvangen en is nu in behandeling. Ter referentie "
+"worden hieronder uw gegevens getoond"
+
+#: includes/classes/rp-decorator-settings.class.php:2487
+#: includes/classes/rp-decorator-settings.class.php:2490
+#: includes/classes/rp-decorator-settings.class.php:2549
+msgid "Your order is complete"
+msgstr "Je bestelling is afgerond"
+
+#: includes/classes/rp-decorator-settings.class.php:2488
+#: includes/classes/rp-decorator-settings.class.php:2491
+#: includes/classes/rp-decorator-settings.class.php:2564
+#, php-format
+msgid "Your %s order from %s is complete"
+msgstr "Uw %s bestelling bij %s is compleet"
+
+#: includes/classes/rp-decorator-settings.class.php:2489
+#, php-format
+msgid ""
+"Hi there. Your subscription renewal order with %s has been completed. Your order details are "
+"shown below for your reference:"
+msgstr ""
+"Uw maandelijkse betaling %s is ontvangen. Hieronder vindt u een overzicht van uw betaling en "
+"corresponderende factuur voor uw administratie:"
+
+#: includes/classes/rp-decorator-settings.class.php:2492
+#, php-format
+msgid ""
+"Hi there. You have successfully changed your subscription items on %s. Your new order and "
+"subscription details are shown below for your reference:"
+msgstr ""
+"U hebt uw abonnement succesvol aangepast op %s. Hieronder vindt u de nieuwe bestelling- en "
+"abonnement-details:"
+
+#: includes/classes/rp-decorator-settings.class.php:2493
+#: includes/classes/rp-decorator-settings.class.php:2494
+#: includes/classes/rp-decorator-settings.class.php:2553
+#: includes/classes/rp-decorator-settings.class.php:2568
+#, php-format
+msgid "Invoice for order %s"
+msgstr "Factuur voor bestelling %s"
+
+#: includes/classes/rp-decorator-settings.class.php:2496
+#, php-format
+msgid ""
+"The automatic payment to renew your subscription with %s has failed. To reactivate the "
+"subscription, please login and pay for the renewal from your account page: %s"
+msgstr ""
+"De automatische betaling om uw abonnement met %s te verlengen, is mislukt. Om het abonnement "
+"opnieuw te activeren, logt u in en betaalt u voor de verlenging vanaf uw accountpagina: %s"
+
+#: includes/classes/rp-decorator-settings.class.php:2497
+#, php-format
+msgid ""
+"An invoice has been created for you to renew your subscription with %s. To pay for this invoice "
+"please use the following link: %s"
+msgstr ""
+"Er is een factuur voor je gemaakt om je abonnement met %s te verlengen. Je kunt via de volgende "
+"link betalen. %s"
+
+#: includes/classes/rp-decorator-settings.class.php:2498
+msgid "Subscription Cancelled"
+msgstr "Abonnement Geannuleerd"
+
+#: includes/classes/rp-decorator-settings.class.php:2499
+#, php-format
+msgid "[%s] Subscription Cancelled"
+msgstr "[%s] Abonnement geannuleerd"
+
+#: includes/classes/rp-decorator-settings.class.php:2500
+#, php-format
+msgid ""
+"A subscription belonging to %s has been cancelled. Their subscription's details are as follows:"
+msgstr "Een abonnement van %s is opgezegd. De gegevens van hun abonnement zijn als volgt:"
+
+#: includes/classes/rp-decorator-settings.class.php:2501
+#, php-format
+msgid "New quote request: #%s"
+msgstr "Nieuwe offerteaanvraag: #%s"
+
+#: includes/classes/rp-decorator-settings.class.php:2502
+#, php-format
+msgid "[%s]: New quote request #%s"
+msgstr "[%s]: Nieuwe offerteaanvraag #%s"
+
+#: includes/classes/rp-decorator-settings.class.php:2503
+#, php-format
+msgid "You have received the following quote request from %s:"
+msgstr "U heeft de volgende offerteaanvraag van %s ontvangen:"
+
+#: includes/classes/rp-decorator-settings.class.php:2504
+#, php-format
+msgid "Quote accepted #%s"
+msgstr "Offerte geaccepteerd #%s"
+
+#: includes/classes/rp-decorator-settings.class.php:2505
+#, php-format
+msgid "[%s] Accepted quote request (%s) - %s"
+msgstr "[%s] Geaccepteerde offerteaanvraag (%s) - %s"
+
+#: includes/classes/rp-decorator-settings.class.php:2506
+msgid "The following quote has been accepted:"
+msgstr "Het volgende citaat is aanvaard:"
+
+#: includes/classes/rp-decorator-settings.class.php:2507
+#, php-format
+msgid "Quote rejected # %s"
+msgstr "Quote afgewezen # %s"
+
+#: includes/classes/rp-decorator-settings.class.php:2508
+#, php-format
+msgid "[%s] Rejected quote request (%s) - %s"
+msgstr "[%s] Afgewezen offerteaanvraag (%s) - %s"
+
+#: includes/classes/rp-decorator-settings.class.php:2509
+msgid "The following quote has been rejected:"
+msgstr "Het volgende citaat is verworpen:"
+
+#: includes/classes/rp-decorator-settings.class.php:2510
+msgid "Your request has been received"
+msgstr "Uw offerte-aanvraag is ontvangen"
+
+#: includes/classes/rp-decorator-settings.class.php:2511
+#, php-format
+msgid "You have received a quote from %s"
+msgstr "U heeft een offerte ontvangen van %s"
+
+#: includes/classes/rp-decorator-settings.class.php:2512
+#, php-format
+msgid ""
+"Hi %s ,%s %s Just to let you know - we have received your quote request #%s, and it is now being "
+"reviewed:"
+msgstr ""
+"Hallo %s,%s %s Ik wil je even laten weten: we hebben je offerteaanvraag nr. %s ontvangen en deze "
+"wordt nu beoordeeld:"
+
+#: includes/classes/rp-decorator-settings.class.php:2513
+msgid "Your quote is ready"
+msgstr "Uw offerte is klaar"
+
+#: includes/classes/rp-decorator-settings.class.php:2514
+#, php-format
+msgid "[%s] New quote request (%s) - %s"
+msgstr "[%s] Nieuwe offerteaanvraag (%s) - %s"
+
+#: includes/classes/rp-decorator-settings.class.php:2515
+#, php-format
+msgid "Hi %s , %s %s We have reviewed your request #%s, and here is our quote:"
+msgstr "Hallo %s, %s %s We hebben uw verzoek #%s beoordeeld en hier is ons citaat:"
+
+#: includes/classes/rp-decorator-settings.class.php:2516
+#: includes/classes/rp-decorator-settings.class.php:2517
+msgid "Your quote has been expired"
+msgstr "Uw offerte is verlopen"
+
+#: includes/classes/rp-decorator-settings.class.php:2518
+#, php-format
+msgid "Hi %s , %s %s Your quote #%s has been expired. Here are the quote details:"
+msgstr "Hallo %s, %s %s Uw offerte #%s is verlopen. Hier zijn de offertedetails:"
+
+#: includes/classes/rp-decorator-settings.class.php:2519
+msgid "Your quote is about to expire"
+msgstr "Uw offerte loopt bijna af"
+
+#: includes/classes/rp-decorator-settings.class.php:2520
+msgid "Hurry! Your quote is about to expire"
+msgstr "Zich haasten! Uw offerte loopt bijna af"
+
+#: includes/classes/rp-decorator-settings.class.php:2521
+#, php-format
+msgid ""
+"Hi %s , %s %s Your quote #%s will expire on %s, and our offer will no longer be available. Here "
+"are the quote details:"
+msgstr ""
+"Hallo %s, %s %s Uw offerte #%s verloopt op %s en onze aanbieding is niet langer beschikbaar. Hier "
+"zijn de offertedetails:"
+
+#: includes/classes/rp-decorator-settings.class.php:2522
+msgid "Reminder!"
+msgstr "Herinnering!"
+
+#: includes/classes/rp-decorator-settings.class.php:2523
+msgid "You have a pending quote"
+msgstr "U heeft een offerte in behandeling"
+
+#: includes/classes/rp-decorator-settings.class.php:2524
+#, php-format
+msgid ""
+"Hi %s , %s %s You have a pending quote #%s on %s. Do not forgot it! Our proposal is as follows:"
+msgstr ""
+"Hallo %s, %s %s Je hebt een offerte #%s in behandeling op %s. Vergeet het niet! Ons voorstel is "
+"als volgt:"
+
+#: includes/classes/rp-decorator-settings.class.php:2525
+#: includes/classes/rp-decorator-settings.class.php:2660
+msgid "Subscription Expired"
+msgstr "Abonnement verlopen"
+
+#: includes/classes/rp-decorator-settings.class.php:2526
+#, php-format
+msgid "[%s] Subscription Expired"
+msgstr "[%s] Abonnement verlopen"
+
+#: includes/classes/rp-decorator-settings.class.php:2527
+#, php-format
+msgid "A subscription belonging to %s has been expired. Subscription details are follows:"
+msgstr "Een abonnement van %s is verlopen. De abonnementsgegevens zijn als volgt:"
+
+#: includes/classes/rp-decorator-settings.class.php:2528
+#, php-format
+msgid "Automatic payment failed for order %s"
+msgstr "Automatische betaling mislukt voor bestelling %s"
+
+#: includes/classes/rp-decorator-settings.class.php:2529
+#, php-format
+msgid "Automatic payment failed for %s, we will retry %s"
+msgstr "Automatische betaling mislukt voor %s, we zullen opnieuw proberen %s"
+
+#: includes/classes/rp-decorator-settings.class.php:2533
+msgid "Automatic renewal payment failed"
+msgstr "Automatische verlengen betaling is mislukt"
+
+#: includes/classes/rp-decorator-settings.class.php:2534
+#, php-format
+msgid "[%s] Automatic payment failed for %s, retry scheduled to run %s"
+msgstr ""
+"[%s] Automatische betaling is mislukt voor %s, probeer het opnieuw te proberen gepland om %s uit "
+"te voeren"
+
+#: includes/classes/rp-decorator-settings.class.php:2537
+#: includes/wt-woo-templates/emails/email-addresses.php:33
+msgid "Billing address"
+msgstr "Factuuradres"
+
+#: includes/classes/rp-decorator-settings.class.php:2538
+#: includes/wt-woo-templates/emails/email-addresses.php:39
+msgid "Shipping address"
+msgstr "Verzendadres"
+
+#: includes/classes/rp-decorator-settings.class.php:2542
+msgid "Congratulations on the sale!"
+msgstr "Gefeliciteerd met de verkoop!"
+
+#: includes/classes/rp-decorator-settings.class.php:2543
+#, php-format
+msgid "Thanks for using %s!"
+msgstr "Bedankt voor het gebruiken van %s!"
+
+#: includes/classes/rp-decorator-settings.class.php:2544
+msgid "Thanks for shopping with us."
+msgstr "Dank je voor het vertrouwen in ons."
+
+#: includes/classes/rp-decorator-settings.class.php:2545
+msgid "We hope to see you again soon."
+msgstr "We hopen je snel weer te mogen verwelkomen."
+
+#: includes/classes/rp-decorator-settings.class.php:2546
+msgid "We look forward to fulfilling your order soon."
+msgstr "We doen ons best om jouw order zo snel mogelijk te voltooien."
+
+#: includes/classes/rp-decorator-settings.class.php:2547
+msgid "We look forward to seeing you soon."
+msgstr "Met vriendelijke groeten {site_title}"
+
+#: includes/classes/rp-decorator-settings.class.php:2548
+msgid "Thanks for reading."
+msgstr "Bedankt voor je aandacht."
+
+#: includes/classes/rp-decorator-settings.class.php:2550
+#, php-format
+msgid "Order %s details"
+msgstr "Bestel %s details"
+
+#: includes/classes/rp-decorator-settings.class.php:2551
+msgid "Your order has been partially refunded"
+msgstr "Uw bestelling is gedeeltelijk terugbetaald"
+
+#: includes/classes/rp-decorator-settings.class.php:2554
+msgid "Your order details"
+msgstr "Uw bestelgegevens"
+
+#: includes/classes/rp-decorator-settings.class.php:2556
+#, php-format
+msgid "Welcome to %s"
+msgstr "Welkom bij %s"
+
+#: includes/classes/rp-decorator-settings.class.php:2557
+msgid "A note has been added to your order"
+msgstr "Een notitie is toegevoegd aan uw bestelling"
+
+#: includes/classes/rp-decorator-settings.class.php:2558
+msgid "Password reset instructions"
+msgstr "Instructies voor het resetten van de wachtwoord"
+
+#: includes/classes/rp-decorator-settings.class.php:2561
+#, php-format
+msgid "[%s] New order (%s) - %s"
+msgstr "[%s] Nieuwe orde (%s) - %s"
+
+#: includes/classes/rp-decorator-settings.class.php:2562
+#, php-format
+msgid "[%s] Cancelled order (%s)"
+msgstr "[%s] Geannuleerde bestelling (%s)"
+
+#: includes/classes/rp-decorator-settings.class.php:2565
+#, php-format
+msgid "Your %s order from %s has been refunded"
+msgstr "Uw %s bestelling van %s is terugbetaald"
+
+#: includes/classes/rp-decorator-settings.class.php:2566
+#, php-format
+msgid "Your %s order from %s has been partially refunded"
+msgstr "Uw %s bestelling van %s is gedeeltelijk terugbetaald"
+
+#: includes/classes/rp-decorator-settings.class.php:2569
+#, php-format
+msgid "Your %s order from %s"
+msgstr "Uw %s bestelling bij %s"
+
+#: includes/classes/rp-decorator-settings.class.php:2570
+#, php-format
+msgid "[%s] Failed order (%s)"
+msgstr "[%s] Mislukte bestelling (%s)"
+
+#: includes/classes/rp-decorator-settings.class.php:2571
+#, php-format
+msgid "Your account on %s"
+msgstr "Jouw account op %s"
+
+#: includes/classes/rp-decorator-settings.class.php:2572
+#, php-format
+msgid "Note added to your %s order from %s"
+msgstr "Opmerking toegevoegd aan uw %s bestelling van %s"
+
+#: includes/classes/rp-decorator-settings.class.php:2573
+#, php-format
+msgid "Password reset for %s"
+msgstr "Wachtwoord reset voor %s"
+
+#: includes/classes/rp-decorator-settings.class.php:2574
+#, php-format
+msgid "You’ve received the following order from %s:"
+msgstr "Je hebt een bestelling ontvangen van %s:"
+
+#: includes/classes/rp-decorator-settings.class.php:2575
+#, php-format
+msgid "Notification to let you know &mdash; order %s belonging to %s has been cancelled:"
+msgstr "Melding om u te laten weten - bestelling %s van %s is geannuleerd:"
+
+#: includes/classes/rp-decorator-settings.class.php:2576
+#, php-format
+msgid ""
+"Hi %s,\n"
+"                        \n"
+"Just to let you know &mdash; we've received your order %s, and it is now being processed:"
+msgstr ""
+"Hoi %s,\n"
+"                        \n"
+"Om u dit te laten weten - we hebben uw bestelling %s ontvangen en deze wordt nu verwerkt:"
+
+#: includes/classes/rp-decorator-settings.class.php:2579
+#, php-format
+msgid ""
+"Hi %s,\n"
+"                        \n"
+"We have finished processing your order."
+msgstr ""
+"Hoi %s,\n"
+"                        \n"
+"We zijn klaar met het verwerken van uw bestelling."
+
+#: includes/classes/rp-decorator-settings.class.php:2583
+#, php-format
+msgid ""
+"Hi %s,\n"
+"                        \n"
+"Your order on %s has been refunded. There are more details below for your reference:"
+msgstr ""
+"Hoi %s,\n"
+"                        \n"
+"Uw bestelling op %s is terugbetaald. Er zijn meer details hieronder voor uw referentie:"
+
+#: includes/classes/rp-decorator-settings.class.php:2586
+#, php-format
+msgid ""
+"Hi %s,\n"
+"                        \n"
+"Your order on %s has been partially refunded. There are more details below for your reference:"
+msgstr ""
+"Hoi %s,\n"
+"                        \n"
+"Uw bestelling op %s is gedeeltelijk terugbetaald. Er zijn meer details hieronder voor uw "
+"referentie:"
+
+#: includes/classes/rp-decorator-settings.class.php:2589
+#, php-format
+msgid ""
+"Hi %s,\n"
+"                        \n"
+"Thanks for your order. It’s on-hold until we confirm that payment has been received. In the "
+"meantime, here’s a reminder of what you ordered:"
+msgstr ""
+"Hoi %s,\n"
+"                        \n"
+"Bedankt voor uw bestelling. Het is in de wacht gezet totdat we bevestigen dat de betaling is "
+"ontvangen. In de tussentijd is hier een herinnering aan wat je hebt besteld:"
+
+#: includes/classes/rp-decorator-settings.class.php:2594
+#, php-format
+msgid ""
+"Hi %s,\n"
+"                        \n"
+"An order has been created for you on %s. Your invoice is below, with a link to make payment when "
+"you’re ready: %s "
+msgstr ""
+"Hoi %s,\n"
+"                        \n"
+"Er is een bestelling voor u gemaakt op %s. Uw factuur staat hieronder, met een link om te betalen "
+"wanneer u klaar bent: %s "
+
+#: includes/classes/rp-decorator-settings.class.php:2597
+#, php-format
+msgid ""
+"Hi %s,\n"
+"                        \n"
+"An order has been created for you on %s. Your invoice is below:"
+msgstr ""
+"Hoi %s,\n"
+"                        \n"
+"Er is een bestelling voor u gemaakt op %s. Uw factuur staat hieronder:"
+
+#: includes/classes/rp-decorator-settings.class.php:2600
+#, php-format
+msgid "A subscription belonging to %s has expired. Their subscription's details are as follows:"
+msgstr "Een abonnement van %s is verlopen. De gegevens van hun abonnement zijn als volgt:"
+
+#: includes/classes/rp-decorator-settings.class.php:2604
+#, php-format
+msgid "Payment for order %s from %s has failed. The order was as follows:"
+msgstr "Betaling voor bestelling %s van %s is mislukt. De volgorde was als volgt:"
+
+#: includes/classes/rp-decorator-settings.class.php:2607
+#, php-format
+msgid ""
+"Hi %s,\n"
+"                        \n"
+"Thanks for creating an account on %s. Your username is %s"
+msgstr ""
+"Hoi %s,\n"
+"                        \n"
+"Bedankt voor het aanmaken van een account op %s. Uw gebruikersnaam is %s"
+
+#: includes/classes/rp-decorator-settings.class.php:2610
+#, php-format
+msgid ""
+"Hi %s,\n"
+"                        \n"
+"The following note has been added to your order:"
+msgstr ""
+"Hoi %s,\n"
+"                        \n"
+"De volgende opmerking is toegevoegd aan uw bestelling:"
+
+#: includes/classes/rp-decorator-settings.class.php:2613
+#, php-format
+msgid ""
+"Hi %s,\n"
+"                            \n"
+"                            Someone has requested a new password for the following account on "
+"%s:\n"
+"\n"
+"                                                                                        Username: "
+"%s\n"
+"\n"
+"                                                                                        If you "
+"didn't make this request, just ignore this email. If you'd like to proceed:"
+msgstr ""
+"Hoi %s,\n"
+"                            \n"
+"Iemand heeft een nieuw wachtwoord aangevraagd voor het volgende account op %s:\n"
+"\n"
+"Gebruikersnaam: %s\n"
+"\n"
+"Als je dit verzoek niet hebt gedaan, negeer je deze e-mail. Als u verder wilt gaan:"
+
+#: includes/classes/rp-decorator-settings.class.php:2622
+msgid ""
+"Hi there,\n"
+"                                \n"
+"                                                                                        Did you "
+"forget something? You've left behind some products in your cart. Grab them before they go out of "
+"stock at an additional discount of ${coupon_amount}. Hurry up!!\n"
+"\n"
+"                                                                                        If this "
+"was a mistake, just ignore this email and nothing will happen.\n"
+"\n"
+"                                                                                        To reset "
+"your password, visit the following address:"
+msgstr ""
+"Hoi\n"
+"                                \n"
+"Ben je iets vergeten? Je hebt een aantal producten in je winkelwagen achtergelaten. Pak ze "
+"voordat ze niet meer op voorraad zijn met een extra korting van $ {coupon_amount}. Schiet op!!\n"
+"\n"
+"Als dit een fout was, negeer dan deze e-mail en er zal niets gebeuren.\n"
+"\n"
+"Als u uw wachtwoord opnieuw wilt instellen, gaat u naar het volgende adres:"
+
+#: includes/classes/rp-decorator-settings.class.php:2631
+msgid ""
+"Hi there,\n"
+"\n"
+"Congratulations! You've got a coupon! To redeem your discount, use following coupon code during "
+"checkout."
+msgstr ""
+"Hoi\n"
+"\n"
+"Gefeliciteerd! Je hebt een coupon! Om uw korting in te wisselen, gebruikt u de volgende "
+"couponcode tijdens het afrekenen."
+
+#: includes/classes/rp-decorator-settings.class.php:2636
+#, php-format
+msgid ""
+"Hi there,\n"
+"\n"
+"Thanks for signing up with us.! We would like to welcome you to our %s with a gift.\n"
+"\n"
+"Use the following coupon code during your next purchase to avail the discount."
+msgstr ""
+"Hoi\n"
+"\n"
+"Bedankt voor het aanmelden bij ons.! Wij heten u van harte welkom op onze %s met een cadeau.\n"
+"\n"
+"Gebruik de volgende couponcode tijdens uw volgende aankoop om gebruik te maken van de korting."
+
+#: includes/classes/rp-decorator-settings.class.php:2643
+#, php-format
+msgid ""
+"Hi there,\n"
+"\n"
+"Congratulations! You've got a coupon! To redeem your discount use coupon code %s during "
+"checkout.\n"
+"\n"
+"You've got a coupon!"
+msgstr ""
+"Hoi\n"
+"\n"
+"Gefeliciteerd! Je hebt een coupon! Om uw korting in te wisselen, gebruikt u couponcode %s tijdens "
+"het afrekenen.\n"
+"\n"
+"Je hebt een coupon!"
+
+#: includes/classes/rp-decorator-settings.class.php:2649
+msgid "You've got a coupon!"
+msgstr "Je hebt een coupon!"
+
+#: includes/classes/rp-decorator-settings.class.php:2650
+msgid "Welcome aboard! You've got a gift!"
+msgstr "Welkom aan boord! Je hebt een cadeau!"
+
+#: includes/classes/rp-decorator-settings.class.php:2651
+#, php-format
+msgid "Account activation %s"
+msgstr "Account activeren %s"
+
+#: includes/classes/rp-decorator-settings.class.php:2652
+msgid "Payment received"
+msgstr "Betaling ontvangen"
+
+#: includes/classes/rp-decorator-settings.class.php:2653
+msgid "Your revocation"
+msgstr "Uw herroeping"
+
+#: includes/classes/rp-decorator-settings.class.php:2654
+msgid "By sending you this email we confirm receiving your withdrawal. Please review your data. "
+msgstr ""
+"Door u deze e-mail te sturen, bevestigen wij dat u uw opname hebt ontvangen. Controleer uw "
+"gegevens. "
+
+#: includes/classes/rp-decorator-settings.class.php:2655
+#, php-format
+msgid "[%s] Subscription Suspended"
+msgstr "[%s] Abonnement opgeschort"
+
+#: includes/classes/rp-decorator-settings.class.php:2656
+#, php-format
+msgid ""
+"A subscription belonging to %s has been suspended by the user. Their subscription's details are "
+"as follows: "
+msgstr ""
+"Een abonnement van %s is door de gebruiker opgeschort. De gegevens van hun abonnement zijn als "
+"volgt: "
+
+#: includes/classes/rp-decorator-settings.class.php:2657
+msgid "Subscription Suspended"
+msgstr "Abonnement Opgeschort"
+
+#: includes/classes/rp-decorator-settings.class.php:2658
+msgid "Your favourites are runnung out of stock!"
+msgstr "Je favorieten zijn niet meer op voorraad!"
+
+#: includes/classes/rp-decorator-settings.class.php:2659
+#: includes/wt-woo-templates/emails/send-gift-coupon.php:19
+msgid "You've got a gift!"
+msgstr "Je hebt een cadeau!"
+
+#: includes/classes/rp-decorator-settings.class.php:2661
+#, php-format
+msgid "Renew your %s"
+msgstr "Uw %s verlengen"
+
+#: includes/classes/rp-decorator-settings.class.php:2662
+#, php-format
+msgid "Your %s membership has expired"
+msgstr "Je %s lidmaatschap is verlopen."
+
+#: includes/classes/rp-decorator-settings.class.php:2663
+#, php-format
+msgid "You can now access %s"
+msgstr "U hebt nu toegang tot %s"
+
+#: includes/classes/rp-decorator-settings.class.php:2664
+#, php-format
+msgid "Your %s membership is now active!"
+msgstr "Je %s lidmaatschap is nu actief!"
+
+#: includes/classes/rp-decorator-settings.class.php:2665
+#, php-format
+msgid "An update about your %s"
+msgstr "Een update over je %s"
+
+#: includes/classes/rp-decorator-settings.class.php:2666
+#, php-format
+msgid "Your %s membership ends soon!"
+msgstr "Je %s lidmaatschap loopt binnenkort af!"
+
+#: includes/classes/rp-decorator-settings.class.php:2667
+msgid "A note has been added about your membership"
+msgstr "Je hebt een nieuw bericht"
+
+#: includes/classes/rp-decorator-settings.class.php:2668
+#, php-format
+msgid "Note added to your %s membership"
+msgstr "Opmerking toegevoegd aan uw %s-lidmaatschap"
+
+#: includes/classes/rp-decorator-settings.class.php:2669
+#, php-format
+msgid "You can renew your %s"
+msgstr "U kunt uw %s verlengen"
+
+#: includes/classes/rp-decorator-settings.class.php:2670
+#, php-format
+msgid "Renew your %s membership!"
+msgstr "Verleng je %s lidmaatschap!"
+
+#: includes/classes/rp-decorator-settings.class.php:2671
+msgid "Thanks for shopping with us"
+msgstr "Bedankt dat u bij ons winkelt"
+
+#: includes/classes/rp-decorator-settings.class.php:2761
+msgid "none"
+msgstr "geen"
+
+#: includes/classes/rp-decorator-settings.class.php:2762
+msgid "hidden"
+msgstr "verborgen"
+
+#: includes/classes/rp-decorator-settings.class.php:2763
+msgid "dotted"
+msgstr "gestippeld"
+
+#: includes/classes/rp-decorator-settings.class.php:2764
+msgid "dashed"
+msgstr "gestreept"
+
+#: includes/classes/rp-decorator-settings.class.php:2765
+msgid "solid"
+msgstr "Solid"
+
+#: includes/classes/rp-decorator-settings.class.php:2766
+msgid "double"
+msgstr "dubbel"
+
+#: includes/classes/rp-decorator-settings.class.php:2767
+msgid "groove"
+msgstr "groove"
+
+#: includes/classes/rp-decorator-settings.class.php:2768
+msgid "ridge"
+msgstr "ridge"
+
+#: includes/classes/rp-decorator-settings.class.php:2769
+msgid "inset"
+msgstr "inset"
+
+#: includes/classes/rp-decorator-settings.class.php:2770
+msgid "outset"
+msgstr "outset"
+
+#: includes/classes/rp-decorator-settings.class.php:2782
+msgid "left"
+msgstr "links"
+
+#: includes/classes/rp-decorator-settings.class.php:2783
+msgid "center"
+msgstr "midden"
+
+#: includes/classes/rp-decorator-settings.class.php:2784
+msgid "right"
+msgstr "rechts"
+
+#: includes/classes/rp-decorator-settings.class.php:2785
+msgid "justify"
+msgstr "uitvullen"
+
+#: includes/classes/rp-decorator-settings.class.php:2797
+msgid "Arial"
+msgstr "Arial"
+
+#: includes/classes/rp-decorator-settings.class.php:2798
+msgid "Arial black"
+msgstr "Arial zwart"
+
+#: includes/classes/rp-decorator-settings.class.php:2799
+msgid "Courier new"
+msgstr "Koerier nieuw"
+
+#: includes/classes/rp-decorator-settings.class.php:2800
+msgid "Georgia"
+msgstr "Georgië"
+
+#: includes/classes/rp-decorator-settings.class.php:2801
+msgid "Helvetica"
+msgstr "Helvetica"
+
+#: includes/classes/rp-decorator-settings.class.php:2802
+msgid "Impact"
+msgstr "Impact"
+
+#: includes/classes/rp-decorator-settings.class.php:2803
+msgid "Lucida"
+msgstr "Lucida"
+
+#: includes/classes/rp-decorator-settings.class.php:2804
+msgid "Palatino"
+msgstr "Palatino"
+
+#: includes/classes/rp-decorator-settings.class.php:2805
+msgid "Tahoma"
+msgstr "Tahoma"
+
+#: includes/classes/rp-decorator-settings.class.php:2806
+msgid "Times new roman"
+msgstr "Tijden nieuwe roman"
+
+#: includes/classes/rp-decorator-settings.class.php:2807
+msgid "Verdana"
+msgstr "Verdana"
+
+#: includes/classes/rp-decorator-settings.class.php:2821
+msgid "Mockup order"
+msgstr "Mockup volgorde"
+
+#: includes/classes/rp-decorator-settings.class.php:2854
+msgid "Set social links"
+msgstr "Sociale links instellen"
+
+#: includes/classes/rp-decorator-settings.class.php:2863
+msgid "Show above footer text"
+msgstr "Bovenstaande voettekst weergeven"
+
+#: includes/classes/rp-decorator-settings.class.php:2864
+msgid "Show below footer text"
+msgstr "Onderstaande voettekst weergeven"
+
+#: includes/classes/rp-decorator-settings.class.php:2870
+msgid "Add link to the website on header image"
+msgstr "Voeg link toe naar de website op header afbeelding"
+
+#: includes/classes/rp-decorator-settings.class.php:2881
+msgid "Add social links to footer"
+msgstr "Sociale links toevoegen aan voettekst"
+
+#: includes/classes/rp-decorator-settings.class.php:2895
+msgid "Icon color"
+msgstr "Icoon kleur"
+
+#: includes/classes/rp-decorator-settings.class.php:2903
+msgid "Default"
+msgstr "Standaard"
+
+#: includes/classes/rp-decorator-settings.class.php:2904
+msgid "Black"
+msgstr "Zwart"
+
+#: includes/classes/rp-decorator-settings.class.php:2905
+msgid "White"
+msgstr "Wit"
+
+#: includes/classes/rp-decorator-settings.class.php:2906
+msgid "Gray"
+msgstr "Grijs"
+
+#: includes/classes/rp-decorator-settings.class.php:2914
+msgid "Recipient(s)"
+msgstr "Ontvanger(s)"
+
+#: includes/classes/rp-decorator-settings.class.php:2920
+msgid "Enter recipients (comma separated) for this email."
+msgstr "Voer ontvangers (tussen komma's) in voor deze e-mail."
+
+#: includes/classes/rp-decorator-settings.class.php:2925
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: includes/classes/rp-decorator-settings.class.php:2935
+msgid "Full refund subject"
+msgstr "Volledige restitutie onderwerp"
+
+#: includes/classes/rp-decorator-settings.class.php:2947
+msgid "Partial refund subject"
+msgstr "Partial refund subject"
+
+#: includes/classes/rp-decorator-settings.class.php:2959
+msgid "Full refund heading text"
+msgstr "Volledige tekst van de terugbetalingskop"
+
+#: includes/classes/rp-decorator-settings.class.php:2975
+msgid "Partial refund heading text"
+msgstr "Tekst van de rubriek gedeeltelijke terugbetaling"
+
+#: includes/classes/rp-decorator-settings.class.php:2987
+#: includes/classes/rp-decorator-settings.class.php:3057
+msgid "Additional content"
+msgstr "Aanvullende inhoud"
+
+#: includes/classes/rp-decorator-settings.class.php:3003
+msgid "Subject text"
+msgstr "Onderwerp tekst"
+
+#: includes/classes/rp-decorator-settings.class.php:3015
+msgid "Subject (paid) text"
+msgstr "Onderwerp (betaalde) tekst"
+
+#: includes/classes/rp-decorator-settings.class.php:3028
+msgid "Heading text"
+msgstr "Kop tekst"
+
+#: includes/classes/rp-decorator-settings.class.php:3043
+msgid "Heading (paid) text"
+msgstr "Rubriek (betaalde) tekst"
+
+#: includes/classes/rp-decorator-settings.class.php:3071
+msgid "Subtitle text"
+msgstr "Ondertiteltekst"
+
+#: includes/classes/rp-decorator-settings.class.php:3083
+msgid "Billing address title"
+msgstr "Titel van het factuuradres"
+
+#: includes/classes/rp-decorator-settings.class.php:3097
+msgid "Shipping address title"
+msgstr "Titel van het verzendadres"
+
+#: includes/classes/rp-decorator-settings.class.php:3112
+msgid "Switch user account link to button"
+msgstr "Koppeling naar gebruikersaccount wijzigen"
+
+#: includes/classes/rp-decorator-settings.class.php:3123
+#: includes/classes/rp-decorator-settings.class.php:3159
+#: includes/classes/rp-decorator-settings.class.php:3186
+#: includes/classes/rp-decorator-settings.class.php:3242
+msgid "Body text visibility"
+msgstr "Zichtbaarheid van hoofdtekst"
+
+#: includes/classes/rp-decorator-settings.class.php:3132
+msgid "Body full refund text"
+msgstr "Hoofdtekst volledige terugbetalingstekst"
+
+#: includes/classes/rp-decorator-settings.class.php:3141
+msgid "Body partial refund text"
+msgstr "Hoofdtekst gedeeltelijke terugbetaling"
+
+#: includes/classes/rp-decorator-settings.class.php:3151
+msgid "Make \"pay for this order\" a button"
+msgstr "Maak van \"betaal voor deze bestelling\" een knop"
+
+#: includes/classes/rp-decorator-settings.class.php:3168
+msgid "Body invoice paid text"
+msgstr "Body factuur betaalde tekst"
+
+#: includes/classes/rp-decorator-settings.class.php:3177
+#: includes/classes/rp-decorator-settings.class.php:3204
+msgid "Body invoice pending payment text"
+msgstr "Hoofdfactuur in afwachting van betalingstekst"
+
+#: includes/classes/rp-decorator-settings.class.php:3195
+msgid "Body invoice failed text"
+msgstr "Tekst met mislukte hoofdfactuur"
+
+#: includes/classes/rp-decorator-settings.class.php:3214
+msgid "Make \"reset your password\" a button"
+msgstr "Maak van \"reset uw wachtwoord\" een knop"
+
+#: includes/classes/rp-decorator-settings.class.php:3223
+#, fuzzy
+msgid "Body text Visibility"
+msgstr "Zichtbaarheid van hoofdtekst"
+
+#: includes/classes/rp-decorator-settings.class.php:3232
+#: includes/classes/rp-decorator-settings.class.php:3251
+msgid "Body text"
+msgstr "Inhoud"
+
+#: includes/classes/rp-decorator-wc.class.php:201
+msgid "Customize WooCommerce Emails"
+msgstr "WooCommerce E-mails aanpassen"
+
+#: includes/classes/rp-decorator-wc.class.php:205 includes/classes/rp-decorator-wc.class.php:206
+msgid "Open Decorator"
+msgstr "Open Decorateur"
+
+#: includes/classes/rp-decorator-wc.class.php:209
+#, php-format
+msgid ""
+"Make WooCommerce emails match your brand. <a href=\"%s\">Decorator</a> plugin by <a href=\"%s"
+"\">WebToffee</a>."
+msgstr ""
+"Zorg ervoor dat WooCommerce-e-mails overeenkomen met uw merk. <a href=\"%s\">Decorator</a> plugin "
+"door <a href=\"%s\">WebToffee</a>."
+
+#: includes/classes/rp-decorator-wc.class.php:259 includes/classes/rp-decorator-wc.class.php:261
+msgid "Pay for this order"
+msgstr "Betaal voor deze bestelling"
+
+#: includes/classes/rp-decorator-wc.class.php:272 includes/classes/rp-decorator-wc.class.php:274
+#: includes/classes/rp-decorator-wc.class.php:281 includes/classes/rp-decorator-wc.class.php:283
+#: includes/wt-woo-templates/emails/customer-payment-retry.php:35
+msgid "Pay Now &raquo;"
+msgstr "Betaal nu &raquo;"
+
+#: includes/classes/rp-decorator-wc.class.php:401 includes/classes/rp-decorator-wc.class.php:407
+msgid "Guest"
+msgstr "Gast"
+
+#: includes/classes/wt-decorator-review_request.class.php:53
+#, php-format
+msgid ""
+"Hi there! We at %sWebToffee%s would like to thank you for using our plugin. We would really "
+"appreciate if you could take a moment to drop a quick review that will inspire us to keep going."
+msgstr ""
+"Hoi! Wij van %sWebToffee%s willen u bedanken voor het gebruik van onze plug-in. We zouden het erg "
+"op prijs stellen als u even de tijd zou nemen om een snelle beoordeling te plaatsen die ons zal "
+"inspireren om door te gaan."
+
+#: includes/classes/wt-decorator-review_request.class.php:56
+msgid "Remind me later"
+msgstr "Herinner me er later aan"
+
+#: includes/classes/wt-decorator-review_request.class.php:57
+msgid "Not interested"
+msgstr "Niet geïnteresseerd"
+
+#: includes/classes/wt-decorator-review_request.class.php:58
+msgid "Review now"
+msgstr "Nu beoordelen"
+
+#: includes/rp-decorator-uninstall-feedback.php:20
+msgid "Used it successfully. Don't need anymore."
+msgstr "Heb het met succes gebruikt; ik heb niet meer nodig."
+
+#: includes/rp-decorator-uninstall-feedback.php:22
+msgid "Have used it successfully and aint in need of it anymore"
+msgstr "Heb het met succes gebruikt en heb het niet meer nodig"
+
+#: includes/rp-decorator-uninstall-feedback.php:26
+msgid "I couldn't understand how to make it work"
+msgstr "Ik begreep niet hoe ik het werkend kon krijgen"
+
+#: includes/rp-decorator-uninstall-feedback.php:28
+msgid "Would you like us to assist you?"
+msgstr "Wil je dat wij je helpen?"
+
+#: includes/rp-decorator-uninstall-feedback.php:32
+msgid "I found a better plugin"
+msgstr "Ik heb een betere plugin gevonden"
+
+#: includes/rp-decorator-uninstall-feedback.php:34
+msgid "Which plugin?"
+msgstr "Welke plugin?"
+
+#: includes/rp-decorator-uninstall-feedback.php:38
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr "Deze plugin is goed, maar ik heb een specifieke functie nodig die jullie niet ondersteunen"
+
+#: includes/rp-decorator-uninstall-feedback.php:40
+msgid "Could you tell us more about that feature?"
+msgstr "Kan je ons meer vertellen over die functie?"
+
+#: includes/rp-decorator-uninstall-feedback.php:44
+msgid "The plugin is not working"
+msgstr "De plugin werkt niet"
+
+#: includes/rp-decorator-uninstall-feedback.php:46
+msgid "Could you tell us a bit more whats not working?"
+msgstr "Kun je ons iets meer vertellen over wat er niet werkt?"
+
+#: includes/rp-decorator-uninstall-feedback.php:50
+msgid "It's not what I was looking for"
+msgstr "Het is niet waar ik naar op zoek was"
+
+#: includes/rp-decorator-uninstall-feedback.php:52 includes/rp-decorator-uninstall-feedback.php:64
+msgid "Could you tell us a bit more?"
+msgstr "Kun je ons wat meer vertellen?"
+
+#: includes/rp-decorator-uninstall-feedback.php:56
+msgid "The plugin didn't work as expected"
+msgstr "De plugin werkte niet zoals verwacht"
+
+#: includes/rp-decorator-uninstall-feedback.php:58
+msgid "What did you expect?"
+msgstr "Wat was verwachting?"
+
+#: includes/rp-decorator-uninstall-feedback.php:83
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr "Wij horen graag waarom u ervoor kiest om te deactiveren:"
+
+#: includes/rp-decorator-uninstall-feedback.php:95
+msgid "I rather wouldn't say"
+msgstr "Zeg ik liever niet"
+
+#: includes/rp-decorator-uninstall-feedback.php:98
+msgid "Contact Support"
+msgstr "Neem contact op met support"
+
+#: includes/rp-decorator-uninstall-feedback.php:99
+msgid "Submit & Deactivate"
+msgstr "Inzenden & Deactiveren"
+
+#: includes/rp-decorator-uninstall-feedback.php:100
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: includes/rp-decorator-uninstall-feedback.php:179
+msgid "Deactivate and leave a review"
+msgstr "Deactiveer en geef een beoordeling"
+
+#: includes/rp-decorator-uninstall-feedback.php:181
+msgid "Let our support team help you"
+msgstr "Laat ons ondersteuningsteam u helpen"
+
+#: includes/views/wt_custom_header.php:567 includes/views/wt_custom_header.php:602
+msgid "Apply changes to all email type"
+msgstr "Wijzigingen toepassen op alle e-mailtypen"
+
+#: includes/views/wt_custom_header.php:580
+msgid "Save the settings prior to sending the test email."
+msgstr "Sla de instellingen op voordat u de test-e-mail verzendt."
+
+#: includes/views/wt_custom_header.php:584
+msgid "Enter recipient email ID:"
+msgstr "Voer de e-mail-ID van de ontvanger in:"
+
+#: includes/views/wt_custom_header.php:586
+msgid "samplemail@gmail.com"
+msgstr "samplemail@gmail.com"
+
+#: includes/views/wt_custom_header.php:590
+msgid ""
+"Enter valid email IDs separated by comma. Then, click on ‘Test email’ to get a preview of the "
+"customized email in your inbox "
+msgstr ""
+"Voer geldige e-mail-ID's in, gescheiden door komma's. Klik vervolgens op 'E-mail testen' om een "
+"voorbeeld van de aangepaste e-mail in uw inbox te krijgen "
+
+#: includes/views/wt_custom_header.php:599
+msgid "Publish"
+msgstr "Publiceren"
+
+#: includes/views/wt_custom_header.php:600
+msgid "Save draft"
+msgstr "Concept opslaan"
+
+#: includes/views/wt_custom_header.php:601
+msgid "Schedule"
+msgstr "Planning"
+
+#: includes/views/wt_custom_header.php:607
+msgid "Select a date to publish your customized email."
+msgstr "Selecteer een datum om uw aangepaste e-mail te publiceren."
+
+#: includes/views/wt_custom_header.php:613
+msgid "Scheduled to go live at "
+msgstr "Gepland om live te gaan op "
+
+#. translators: %1$s: an order number, %2$s: the customer's full name, %3$s: lowercase human time diff in the form returned by wcs_get_human_time_diff(), e.g. 'in 12 hours'
+#: includes/wt-woo-templates/emails/admin-payment-retry.php:31
+#, php-format
+msgctxt "In customer renewal invoice email"
+msgid ""
+"The automatic recurring payment for order #%d from %s has failed. The payment will be retried "
+"%3$s."
+msgstr ""
+"De automatisch terugkerende betaling voor bestelling #%d van %s is mislukt. Er wordt een nieuwe "
+"poging gedaan op %3$s."
+
+#: includes/wt-woo-templates/emails/admin-payment-retry.php:32
+msgid "The renewal order is as follows:"
+msgstr "De order verlengingen is als volgt:"
+
+#. translators: $1: customer's billing first name and last name
+#: includes/wt-woo-templates/emails/cancelled-subscription.php:27
+#: includes/wt-woo-templates/emails/cancelled-subscription.php:64
+#: includes/wt-woo-templates/emails/expired-subscription.php:24
+#: includes/wt-woo-templates/emails/on-hold-subscription.php:26
+#: includes/wt-woo-templates/emails/subscription-cancelled.php:16
+#: includes/wt-woo-templates/emails/subscription-expired.php:17
+msgid "Subscription"
+msgstr "Abonnement"
+
+#: includes/wt-woo-templates/emails/cancelled-subscription.php:31
+msgctxt "table heading"
+msgid "Price"
+msgstr "Prijs"
+
+#: includes/wt-woo-templates/emails/cancelled-subscription.php:37
+#: includes/wt-woo-templates/emails/cancelled-subscription.php:66
+#: includes/wt-woo-templates/emails/expired-subscription.php:26
+#: includes/wt-woo-templates/emails/on-hold-subscription.php:28
+msgctxt "table heading"
+msgid "Last Order Date"
+msgstr "Datum laatste bestelling"
+
+#: includes/wt-woo-templates/emails/cancelled-subscription.php:44
+#: includes/wt-woo-templates/emails/cancelled-subscription.php:84
+#: includes/wt-woo-templates/emails/expired-subscription.php:44
+#: includes/wt-woo-templates/emails/on-hold-subscription.php:46
+#: includes/wt-woo-templates/emails/subscription-cancelled.php:36
+#: includes/wt-woo-templates/emails/subscription-expired.php:37
+msgid "-"
+msgstr "-"
+
+#: includes/wt-woo-templates/emails/cancelled-subscription.php:50
+msgctxt "table heading"
+msgid "End of Prepaid Term"
+msgstr "Einde van de termijn"
+
+#: includes/wt-woo-templates/emails/cancelled-subscription.php:65
+#: includes/wt-woo-templates/emails/expired-subscription.php:25
+#: includes/wt-woo-templates/emails/on-hold-subscription.php:27
+msgctxt "table headings in notification email"
+msgid "Price"
+msgstr "Prijs"
+
+#: includes/wt-woo-templates/emails/cancelled-subscription.php:67
+msgctxt "table headings in notification email"
+msgid "End of Prepaid Term"
+msgstr "Einde van de termijn"
+
+#: includes/wt-woo-templates/emails/customer-completed-switch-order.php:25
+msgid "New Subscription Details"
+msgstr "Nieuwe abonnement details"
+
+#: includes/wt-woo-templates/emails/customer-new-account.php:66
+msgid "Click here to set your new password."
+msgstr "Klik hier om je nieuwe wachtwoord in te stellen."
+
+#: includes/wt-woo-templates/emails/customer-new-account.php:68
+#, php-format
+msgid "Your password has been automatically generated: %s"
+msgstr "Uw wachtwoord is automatisch gegenereerd: %s"
+
+#: includes/wt-woo-templates/emails/customer-new-account.php:75
+msgid "You can access your account area to view your orders and change your password."
+msgstr ""
+"U kunt toegang krijgen tot uw accountgedeelte om uw bestellingen te bekijken en uw wachtwoord te "
+"wijzigen."
+
+#: includes/wt-woo-templates/emails/customer-new-account.php:76
+msgid "View Account"
+msgstr "Zie Account"
+
+#: includes/wt-woo-templates/emails/customer-new-account.php:79
+#, php-format
+msgid "You can access your account area to view your orders and change your password here: %s."
+msgstr ""
+"U kunt uw account hier raadplegen om uw bestellingen te bekijken en uw wachtwoord te wijzigen: %s."
+
+#: includes/wt-woo-templates/emails/customer-note.php:32
+msgid "For your reference, your order details are shown below."
+msgstr "Ter referentie worden hieronder uw bestelgegevens getoond."
+
+#. translators: %1$s: name of the blog, %2$s: lowercase human time diff in the form returned by wcs_get_human_time_diff(), e.g. 'in 12 hours'
+#: includes/wt-woo-templates/emails/customer-payment-retry.php:29
+#, php-format
+msgctxt "In customer renewal invoice email"
+msgid ""
+"The automatic payment to renew your subscription with %1$s has failed. We will retry the payment "
+"%2$s."
+msgstr ""
+"De automatisch betaling voor het vernieuwen van je abonnement %1$s is mislukt. Er wordt een "
+"nieuwe poging gedaan op %2$s."
+
+#: includes/wt-woo-templates/emails/customer-payment-retry.php:34
+msgid ""
+"To reactivate the subscription now, you can also login and pay for the renewal from your account "
+"page:"
+msgstr ""
+"Om het abonnement nu opnieuw te activeren, kunt u ook inloggen en betalen voor de verlenging "
+"vanaf uw accountpagina:"
+
+#. translators: %1$s %2$s: link markup to checkout payment url, note: no full stop due to url at the end
+#: includes/wt-woo-templates/emails/customer-payment-retry.php:41
+#, php-format
+msgctxt "In customer renewal invoice email"
+msgid ""
+"To reactivate the subscription now, you can also login and pay for the renewal from your account "
+"page: %1$sPay Now &raquo;%2$s"
+msgstr ""
+"Om je abonnement opnieuw te activeren kun je inloggen en de nieuwe termijn betalen via je account "
+"pagina: %1$sBetaal nu &raquo;%2$s"
+
+#: includes/wt-woo-templates/emails/customer-reset-password.php:61
+msgid "Reset Password"
+msgstr "Wachtwoord opnieuw instellen"
+
+#: includes/wt-woo-templates/emails/customer-reset-password.php:66
+msgid "Click here to reset your password"
+msgstr "Klik hier om je wachtwoord opnieuw in te stellen"
+
+#: includes/wt-woo-templates/emails/email-addresses.php:52
+msgid "N/A"
+msgstr "N/A"
+
+#. translators: %s: Order ID.
+#: includes/wt-woo-templates/emails/email-order-details.php:36
+#, php-format
+msgid "[Order #%s]"
+msgstr "Bestelling #%s"
+
+#: includes/wt-woo-templates/emails/email-order-details.php:44
+msgid "Product"
+msgstr "Product"
+
+#: includes/wt-woo-templates/emails/email-order-details.php:45
+msgid "Quantity"
+msgstr "Aantal"
+
+#: includes/wt-woo-templates/emails/email-order-details.php:46
+#: includes/wt-woo-templates/emails/subscription-cancelled.php:17
+#: includes/wt-woo-templates/emails/subscription-expired.php:18
+msgid "Price"
+msgstr "Prijs"
+
+#: includes/wt-woo-templates/emails/email-order-details.php:82
+msgid "Note:"
+msgstr "Notitie:"
+
+#: includes/wt-woo-templates/emails/expired-subscription.php:27
+msgctxt "table headings in notification email"
+msgid "End Date"
+msgstr "Einddatum"
+
+#: includes/wt-woo-templates/emails/on-hold-subscription.php:29
+msgctxt "table headings in notification email"
+msgid "Date Suspended"
+msgstr "Datum opgeschort"
+
+#: includes/wt-woo-templates/emails/send-abandonment-coupon.php:25
+msgid "Go to your cart"
+msgstr "Ga naar uw winkelwagen"
+
+#: includes/wt-woo-templates/emails/send-store-credit-coupon-template.php:81
+msgid "FROM:"
+msgstr "VAN:"
+
+#: includes/wt-woo-templates/emails/subscription-cancelled.php:18
+#: includes/wt-woo-templates/emails/subscription-expired.php:19
+msgid "Last Order Date"
+msgstr "Datum laatste bestelling"
+
+#: includes/wt-woo-templates/emails/subscription-cancelled.php:19
+#: includes/wt-woo-templates/emails/subscription-expired.php:20
+msgid "End of Prepaid Term"
+msgstr "Einde van de termijn"
+
+#: includes/wt-woo-templates/emails/wtwraq_new_quote_request.php:10
+#: includes/wt-woo-templates/emails/wtwraq_quote_request_submitted.php:14
+#: includes/wt-woo-templates/emails/wtwraq_quote_request_submitted.php:16
+msgid "Quote request #"
+msgstr "Offerte aanvraag #"
+
+#: includes/wt-woo-templates/emails/wtwraq_quote_accepted.php:12
+#: includes/wt-woo-templates/emails/wtwraq_quote_declined.php:12
+#: includes/wt-woo-templates/emails/wtwraq_quote_expired.php:15
+#: includes/wt-woo-templates/emails/wtwraq_quote_expired.php:17
+#: includes/wt-woo-templates/emails/wtwraq_quote_expiry_reminder.php:15
+#: includes/wt-woo-templates/emails/wtwraq_quote_expiry_reminder.php:17
+#: includes/wt-woo-templates/emails/wtwraq_quote_received.php:15
+#: includes/wt-woo-templates/emails/wtwraq_quote_received.php:17
+#: includes/wt-woo-templates/emails/wtwraq_quote_reminder.php:15
+#: includes/wt-woo-templates/emails/wtwraq_quote_reminder.php:17
+msgid "Quote #"
+msgstr "Offerte #"
+
+#. Plugin Name of the plugin/theme
+msgid "Decorator - WooCommerce Email Customizer"
+msgstr "Decorateur - WooCommerce E-mail Customizer"
+
+#. Description of the plugin/theme
+msgid "Use native WordPress Customizer to make WooCommerce emails match your brand"
+msgstr "Gebruik native WordPress Customizer om WooCommerce-e-mails bij uw merk te laten passen"
+
+#. Author of the plugin/theme
+msgid "WebToffee"
+msgstr "WebToffee"
+
+#. Author URI of the plugin/theme
+msgid "https://www.webtoffee.com"
+msgstr "https://www.webtoffee.com"

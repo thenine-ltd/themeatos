@@ -1,0 +1,911 @@
+# Copyright (C) 2021 YITH
+# This file is distributed under the same license as the YITH WooCommerce Product Bundles Premium package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Product Bundles Premium 1.4.7\n"
+"Report-Msgid-Bugs-To: YITH <plugins@yithemes.com>\n"
+"POT-Creation-Date: 2021-03-02 11:19:49+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: YITH <info@yithemes.com>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n1.0.2\n"
+
+#: includes/class.yith-wcpb-admin-premium.php:220
+#: includes/class.yith-wcpb-admin.php:453
+msgid "You cannot add a bundle product"
+msgstr ""
+
+#: includes/class.yith-wcpb-admin-premium.php:240
+msgid "General Settings"
+msgstr ""
+
+#: includes/class.yith-wcpb-admin-premium.php:241
+#: plugin-options/customization-options.php:7
+msgid "Customization"
+msgstr ""
+
+#: includes/class.yith-wcpb-admin.php:173
+#. translators: 1: number of items; 2: number of elements included in the
+#. bundle
+msgid "%1$s item [%2$s bundled elements]"
+msgid_plural "%1$s items [%2$s bundled elements]"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class.yith-wcpb-admin.php:237
+#: includes/class.yith-wcpb-admin.php:452
+msgid ""
+"You can add only simple products with the FREE version of YITH WooCommerce "
+"Product Bundles"
+msgstr ""
+
+#: includes/class.yith-wcpb-admin.php:257
+#: views/admin/bundle-options-tab-premium.php:125
+#: views/admin/bundle-options-tab.php:112
+msgid "Bundle Options"
+msgstr ""
+
+#: includes/class.yith-wcpb-admin.php:373
+msgid "How to"
+msgstr ""
+
+#: includes/class.yith-wcpb-admin.php:374
+msgid "Premium Version"
+msgstr ""
+
+#: includes/class.yith-wcpb-admin.php:424
+#. translators: %s is a comma-separated list of bundle products.
+msgid ""
+"You are trying to add the following Bundle products to the order: %s. You "
+"cannot add Bundle products to orders through this box since this type of "
+"products needs to follow the normal WooCommerce \"Add-to-cart > Cart > "
+"Checkout > Order\" process."
+msgstr ""
+
+#: includes/class.yith-wcpb-admin.php:464
+#: includes/class.yith-wcpb-admin.php:465
+msgid "1 item added"
+msgid_plural "%s items added"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class.yith-wcpb-bundle-widget.php:28
+msgid "Display a list of your product bundles on your site."
+msgstr ""
+
+#: includes/class.yith-wcpb-bundle-widget.php:30
+msgid "YITH WooCommerce Product Bundle"
+msgstr ""
+
+#: includes/class.yith-wcpb-bundle-widget.php:35
+msgid "Product Bundles"
+msgstr ""
+
+#: includes/class.yith-wcpb-bundle-widget.php:36
+msgid "Title"
+msgstr ""
+
+#: includes/class.yith-wcpb-bundle-widget.php:44
+msgid "Number of products to show"
+msgstr ""
+
+#: includes/class.yith-wcpb-bundle-widget.php:49
+msgid "Show"
+msgstr ""
+
+#: includes/class.yith-wcpb-bundle-widget.php:51
+msgid "All Products"
+msgstr ""
+
+#: includes/class.yith-wcpb-bundle-widget.php:52
+msgid "Featured Products"
+msgstr ""
+
+#: includes/class.yith-wcpb-bundle-widget.php:53
+msgid "On Sale Products"
+msgstr ""
+
+#: includes/class.yith-wcpb-bundle-widget.php:59
+msgid "Order by"
+msgstr ""
+
+#: includes/class.yith-wcpb-bundle-widget.php:61
+msgid "Date"
+msgstr ""
+
+#: includes/class.yith-wcpb-bundle-widget.php:62
+#: views/admin/select-product-box-products.php:41
+msgid "Price"
+msgstr ""
+
+#: includes/class.yith-wcpb-bundle-widget.php:63
+msgid "Random"
+msgstr ""
+
+#: includes/class.yith-wcpb-bundle-widget.php:64
+msgid "Sales"
+msgstr ""
+
+#: includes/class.yith-wcpb-bundle-widget.php:72
+msgid "ASC"
+msgstr ""
+
+#: includes/class.yith-wcpb-bundle-widget.php:73
+msgid "DESC"
+msgstr ""
+
+#: includes/class.yith-wcpb-bundle-widget.php:79
+msgid "Hide free bundles"
+msgstr ""
+
+#: includes/class.yith-wcpb-bundle-widget.php:84
+msgid "Show hidden bundles"
+msgstr ""
+
+#: includes/class.yith-wcpb-bundle-widget.php:89
+msgid "Show products in bundle"
+msgstr ""
+
+#: includes/class.yith-wcpb-bundle-widget.php:94
+msgid "Show thumbnails for products in bundle"
+msgstr ""
+
+#: includes/class.yith-wcpb-bundle-widget.php:99
+msgid "Show only bundles including the currently viewed product"
+msgstr ""
+
+#: includes/class.yith-wcpb-frontend-premium.php:963
+#. translators: 1: the name of the product; 2. the minimum quantity required
+msgid "The minimum number of &quot;%1$s&quot; required is %2$s"
+msgstr ""
+
+#: includes/class.yith-wcpb-frontend-premium.php:971
+#. translators: 1: the name of the product; 2. the maximum quantity required
+msgid "The maximum number of &quot;%1$s&quot; allowed is %2$s"
+msgstr ""
+
+#: includes/class.yith-wcpb-frontend-premium.php:992
+#. translators: 1: the name of the bundle product; 2. the name of the bundled
+#. item
+msgid ""
+"&quot;%1$s&quot; cannot be added to the cart. The selected variation of "
+"&quot;%2$s&quot; cannot be purchased."
+msgstr ""
+
+#: includes/class.yith-wcpb-frontend-premium.php:1001
+#: includes/class.yith-wcpb-frontend-premium.php:1022
+#. translators: 1: the name of the bundle product; 2. the name of the bundled
+#. item
+msgid ""
+"&quot;%1$s&quot; cannot be added to the cart because &quot;%2$s&quot; "
+"cannot be purchased at the moment."
+msgstr ""
+
+#: includes/class.yith-wcpb-frontend-premium.php:1007
+#: includes/class.yith-wcpb-frontend.php:568
+msgid ""
+"You cannot add this quantity of items, because there are not enough in "
+"stock."
+msgstr ""
+
+#: includes/class.yith-wcpb-frontend-premium.php:1013
+#. translators: 1: the name of the bundle product; 2. the name of the bundled
+#. item
+msgid ""
+"&quot;%1$s&quot; cannot be added to the cart. Please choose an option for "
+"&quot;%2$s&quot;&hellip;"
+msgstr ""
+
+#: includes/class.yith-wcpb-frontend-premium.php:1029
+#. translators: %s: product name.
+msgid ""
+"You cannot add &quot;%s&quot; to the cart because the product is out of "
+"stock."
+msgstr ""
+
+#: includes/class.yith-wcpb-frontend-premium.php:1038
+#. translators: 1: product name 2: quantity in stock.
+msgid ""
+"You cannot add that amount of &quot;%1$s&quot; to the cart because there is "
+"not enough stock (%2$s remaining)."
+msgstr ""
+
+#: includes/class.yith-wcpb-frontend-premium.php:1083
+#. translators: 1: the name of the product; 2. the minimum quantity required
+msgid "The minimum number of items in the bundle &quot;%1$s&quot; required is %2$s"
+msgstr ""
+
+#: includes/class.yith-wcpb-frontend-premium.php:1092
+#. translators: 1: the name of the product; 2. the maximum quantity required
+msgid "The maximum number of items in the bundle &quot;%1$s&quot; allowed is %2$s"
+msgstr ""
+
+#: includes/class.yith-wcpb-frontend-premium.php:1101
+#. translators: 1: the name of the product; 2. the minimum quantity required
+msgid ""
+"The minimum number of different items in the bundle &quot;%1$s&quot; "
+"required is %2$s"
+msgstr ""
+
+#: includes/class.yith-wcpb-frontend-premium.php:1110
+#. translators: 1: the name of the product; 2. the maximum quantity required
+msgid ""
+"The maximum number of different items in the bundle &quot;%1$s&quot; "
+"allowed is %2$s"
+msgstr ""
+
+#: includes/class.yith-wcpb-frontend-premium.php:1326
+msgid "Please select some product options before adding this product to your cart."
+msgstr ""
+
+#: includes/class.yith-wcpb-frontend-premium.php:1327
+msgid ""
+"Sorry, you selected an out-of-stock item. Please choose a different "
+"combination."
+msgstr ""
+
+#: includes/class.yith-wcpb-settings.php:47
+#: includes/class.yith-wcpb-settings.php:60
+#: includes/objects/class.yith-wc-product-bundle.php:167
+msgid "Add to cart"
+msgstr ""
+
+#: includes/class.yith-wcpb-settings.php:48
+#: includes/class.yith-wcpb-settings.php:61
+msgid "Add item to bundle"
+msgstr ""
+
+#: includes/class.yith-wcpb-settings.php:49
+#: includes/class.yith-wcpb-settings.php:62
+msgid "Add item to bundle for %s"
+msgstr ""
+
+#: includes/functions.yith-wcpb.php:27
+msgid "Simple"
+msgstr ""
+
+#: includes/functions.yith-wcpb.php:28
+msgid "Variable"
+msgstr ""
+
+#: includes/functions.yith-wcpb.php:54 includes/functions.yith-wcpb.php:71
+msgid "Choose an option"
+msgstr ""
+
+#: includes/objects/class.yith-wc-product-bundle-premium.php:344
+#: includes/objects/class.yith-wc-product-bundle.php:167
+msgid "Read more"
+msgstr ""
+
+#: includes/objects/class.yith-wc-product-bundle-premium.php:554
+msgid "Save %s"
+msgstr ""
+
+#: init.php:53
+msgid ""
+"YITH WooCommerce Product Bundles Premium is enabled but not effective. It "
+"requires WooCommerce in order to work."
+msgstr ""
+
+#: plugin-options/customization-options.php:15
+msgid "Bundle price style in Shop"
+msgstr ""
+
+#: plugin-options/customization-options.php:20
+msgid "Min - Max"
+msgstr ""
+
+#: plugin-options/customization-options.php:24
+msgid "Min only"
+msgstr ""
+
+#: plugin-options/customization-options.php:28
+msgid "Min only higher than"
+msgstr ""
+
+#: plugin-options/customization-options.php:32
+msgid "Regular and discounted"
+msgstr ""
+
+#: plugin-options/customization-options.php:37
+msgid "Choose the price view for bundle products in shop pages."
+msgstr ""
+
+#: plugin-options/customization-options.php:38
+#: plugin-options/settings-options.php:47
+#: plugin-options/settings-options.php:63
+msgid ""
+"Please note: this option is available only for bundle products with the "
+"\"Use prices of bundled items\" option enabled."
+msgstr ""
+
+#: plugin-options/customization-options.php:45
+msgid "Bundles' title"
+msgstr ""
+
+#: plugin-options/customization-options.php:48
+msgid ""
+"Enter an optional title to be shown in your bundles, before the list of "
+"bundled items."
+msgstr ""
+
+#: plugin-options/customization-options.php:54
+msgid "Add to cart label"
+msgstr ""
+
+#: plugin-options/customization-options.php:57
+msgid "Enter the label for the add to cart button."
+msgstr ""
+
+#: plugin-options/customization-options.php:64
+msgid "\"Add item to bundle\" label"
+msgstr ""
+
+#: plugin-options/customization-options.php:67
+msgid "Enter the text for the checkbox to add optional items to bundle."
+msgstr ""
+
+#: plugin-options/customization-options.php:74
+msgid "\"Add item to bundle for ...\" label"
+msgstr ""
+
+#: plugin-options/customization-options.php:78
+msgid ""
+"Enter the text for the checkbox to add optional items to bundle, with the "
+"item price."
+msgstr ""
+
+#: plugin-options/customization-options.php:80
+#. translators: %s is the placeholder for the '%s' string
+msgid "Use the %s placeholder to show the bundled item price."
+msgstr ""
+
+#: plugin-options/settings-options.php:24
+msgid "Show bundled items in WooCommerce Reports"
+msgstr ""
+
+#: plugin-options/settings-options.php:27
+msgid "Enable to show also the bundled items in WooCommerce Reports."
+msgstr ""
+
+#: plugin-options/settings-options.php:33
+msgid "Hide bundled items in cart and checkout"
+msgstr ""
+
+#: plugin-options/settings-options.php:36
+msgid "Enable to hide the bundled items in cart and checkout."
+msgstr ""
+
+#: plugin-options/settings-options.php:42
+msgid "Show bundled item prices in cart and checkout"
+msgstr ""
+
+#: plugin-options/settings-options.php:46
+msgid "Enable to show bundled item prices in cart and checkout."
+msgstr ""
+
+#: plugin-options/settings-options.php:54
+msgid "In the order, show"
+msgstr ""
+
+#: plugin-options/settings-options.php:58
+msgid "Price of bundle"
+msgstr ""
+
+#: plugin-options/settings-options.php:59
+msgid "Price of bundled items"
+msgstr ""
+
+#: plugin-options/settings-options.php:62
+msgid "Choose which price to show in order details."
+msgstr ""
+
+#: plugin-options/settings-options.php:70
+msgid "If a bundled product is out of stock"
+msgstr ""
+
+#: plugin-options/settings-options.php:74
+msgid "Hide the bundle"
+msgstr ""
+
+#: plugin-options/settings-options.php:75
+msgid "Set the bundle as Out of Stock"
+msgstr ""
+
+#: plugin-options/settings-options.php:76
+msgid "Show the bundle, but users will not be able to buy it"
+msgstr ""
+
+#: plugin-options/settings-options.php:78
+msgid "Choose how to manage bundles when an item in the bundle is out of stock."
+msgstr ""
+
+#: plugin-options/settings-options.php:84
+msgid "Activate PhotoSwipe for bundled images"
+msgstr ""
+
+#: plugin-options/settings-options.php:87
+msgid ""
+"Enable to use PhotoSwipe to open bundled image gallery. It requires "
+"PhotoSwipe is enabled."
+msgstr ""
+
+#: plugin-options/settings-options.php:101
+#. translators: %s is the name of the plugin
+msgid "In order to use this integration you have to install and activate %s."
+msgstr ""
+
+#: plugin-options/settings-options.php:109
+msgid "Open bundled items in quick view"
+msgstr ""
+
+#: plugin-options/settings-options.php:128
+msgid "Sync prices for bundle products"
+msgstr ""
+
+#: plugin-options/settings-options.php:132
+msgid "Sync prices"
+msgstr ""
+
+#: plugin-options/settings-options.php:134
+msgid "Sync the bundle prices when the \"Use prices of bundled items\" is enabled"
+msgstr ""
+
+#: plugin-options/settings-options.php:135
+msgid "Use it ONLY if you are encountering issues with sorting prices in the shop."
+msgstr ""
+
+#: templates/premium/compatibility/request-a-quote/raq-table-row-email.php:32
+#: templates/premium/compatibility/request-a-quote/raq-table-row.php:33
+msgid " SKU:"
+msgstr ""
+
+#: templates/premium/single-product/add-to-cart/yith-bundle-items-list.php:125
+#: templates/single-product/add-to-cart/yith-bundle.php:57
+msgid "Awaiting product image"
+msgstr ""
+
+#: templates/premium/single-product/add-to-cart/yith-bundle-items-list.php:251
+#. translators: %s is the price of the product.
+msgid "Clear"
+msgstr ""
+
+#: templates/premium/single-product/add-to-cart/yith-bundle-items-list.php:279
+#. translators: 1. the minimum amount; 2. the maximum amount.
+msgid ""
+"You can choose a minimum quantity of %1$s and a maximum quantity of %2$s "
+"for this product!"
+msgstr ""
+
+#: templates/single-product/add-to-cart/yith-bundle.php:78
+#: views/admin/select-product-box-products.php:63
+msgid "Out of stock"
+msgstr ""
+
+#: views/admin/bundle-options-tab-premium.php:50
+#: views/admin/bundle-options-tab.php:37
+msgid "Bundled items"
+msgstr ""
+
+#: views/admin/bundle-options-tab-premium.php:52
+#: views/admin/bundle-options-tab.php:39
+msgid "Close all"
+msgstr ""
+
+#: views/admin/bundle-options-tab-premium.php:53
+#: views/admin/bundle-options-tab.php:40
+msgid "Expand all"
+msgstr ""
+
+#: views/admin/bundle-options-tab-premium.php:102
+#: views/admin/bundle-options-tab.php:89
+msgid "You are creating a bundle product!"
+msgstr ""
+
+#: views/admin/bundle-options-tab-premium.php:104
+#: views/admin/bundle-options-tab.php:91
+msgid ""
+"Now, the first step is adding some items to this bundle: after that, you "
+"should simply set the bundle options below."
+msgstr ""
+
+#: views/admin/bundle-options-tab-premium.php:106
+#: views/admin/bundle-options-tab.php:93
+msgid "Add product to the bundle"
+msgstr ""
+
+#: views/admin/bundle-options-tab-premium.php:133
+msgid "Bundle Price"
+msgstr ""
+
+#: views/admin/bundle-options-tab-premium.php:143
+msgid "Set a fixed price for this bundle"
+msgstr ""
+
+#: views/admin/bundle-options-tab-premium.php:144
+msgid "Use prices of bundled items"
+msgstr ""
+
+#: views/admin/bundle-options-tab-premium.php:152
+msgid ""
+"Choose to set a fixed price for this bundle or to use the prices of "
+"individual items."
+msgstr ""
+
+#: views/admin/bundle-options-tab-premium.php:160
+#: views/admin/bundle-options-tab.php:123
+#. translators: %s is the currency symbol
+msgid "Bundle Regular Price (%s)"
+msgstr ""
+
+#: views/admin/bundle-options-tab-premium.php:178
+#: views/admin/bundle-options-tab.php:141
+msgid "Enter the price of this bundle."
+msgstr ""
+
+#: views/admin/bundle-options-tab-premium.php:186
+#: views/admin/bundle-options-tab.php:149
+#. translators: %s is the currency symbol
+msgid "Bundle Sale Price (%s)"
+msgstr ""
+
+#: views/admin/bundle-options-tab-premium.php:204
+#: views/admin/bundle-options-tab.php:167
+msgid "Enter an optional sale price to show a discount for this bundle."
+msgstr ""
+
+#: views/admin/bundle-options-tab-premium.php:209
+msgid "Show saving amount"
+msgstr ""
+
+#: views/admin/bundle-options-tab-premium.php:224
+msgid "Enable if you want to show the saving amount after price in product page."
+msgstr ""
+
+#: views/admin/bundle-options-tab-premium.php:225
+msgid ""
+"Please note: to see the saving amount you need to set the regular and sale "
+"prices."
+msgstr ""
+
+#: views/admin/bundle-options-tab-premium.php:230
+msgid "Bundle Shipping"
+msgstr ""
+
+#: views/admin/bundle-options-tab-premium.php:240
+msgid "Items will be shipped individually"
+msgstr ""
+
+#: views/admin/bundle-options-tab-premium.php:241
+msgid "Items will be bundled in a unique shipment"
+msgstr ""
+
+#: views/admin/bundle-options-tab-premium.php:249
+msgid "Choose how to manage shipping for the bundled items."
+msgstr ""
+
+#: views/admin/bundle-options-tab-premium.php:255
+msgid "Limit product selection for this bundle"
+msgstr ""
+
+#: views/admin/bundle-options-tab-premium.php:269
+msgid ""
+"Enable if you want to set a min/max amount of bundled products that the "
+"user can select."
+msgstr ""
+
+#: views/admin/bundle-options-tab-premium.php:274
+msgid "Total items in bundle"
+msgstr ""
+
+#: views/admin/bundle-options-tab-premium.php:305
+#. translators: %1$s is the numeric input field of the minimum amount; %2$s is
+#. the numeric input field of the maximum amount
+msgid "Require a minimum amount of %1$s and a maximum amount of %2$s bundled items."
+msgstr ""
+
+#: views/admin/bundle-options-tab-premium.php:309
+msgid "Define the min and max number of bundled items that a user can select."
+msgstr ""
+
+#: views/admin/bundle-options-tab-premium.php:311
+msgid ""
+"Leave empty if the user does not need to select a min or max number of "
+"items, to add the bundle to the cart."
+msgstr ""
+
+#: views/admin/bundle-options-tab-premium.php:316
+msgid "Different types of items in bundle"
+msgstr ""
+
+#: views/admin/bundle-options-tab-premium.php:347
+#. translators: %1$s is the numeric input field of the minimum amount; %2$s is
+#. the numeric input field of the maximum amount
+msgid "Require at least %1$s and max %2$s different types of bundled items."
+msgstr ""
+
+#: views/admin/bundle-options-tab-premium.php:351
+msgid "Define the min and max number of different items that a user can select."
+msgstr ""
+
+#: views/admin/bundle-options-tab-premium.php:353
+msgid ""
+"Leave empty if the user does not need to select a min or max of different "
+"items, to add the bundle to the cart."
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:28
+msgid "Choose variations&hellip;"
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:48
+msgid "Any"
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:82
+msgid "Select the variations allowed for this item."
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:84
+msgid "Leave empty to allow all variations."
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:100
+#. translators: %s is the name of an attribute; example: "No default Size"
+msgid "No default %s..."
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:136
+msgid "Set the attributes to show as defaults in bundle section."
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:151
+msgid "Use the default product name"
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:152
+msgid "Enter a custom product name"
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:153
+msgid "Leave empty - hide product name"
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:163
+msgid "Choose the product name to be shown."
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:184
+msgid "Enter a name to identify this product."
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:198
+msgid "Use the default product description"
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:199
+msgid "Enter a custom product description"
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:200
+msgid "Leave empty - hide product description"
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:210
+msgid "Choose the product description to be shown."
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:230
+msgid "Enter a description for this product."
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:251
+msgid "Enable if you want to hide the product image."
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:273
+msgid "Enable if you want to apply a discount to this product."
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:300
+msgid "Set the discount percentage for this product."
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:337
+#. translators: %1$s is the numeric input field of the minimum amount; %2$s is
+#. the numeric input field of the maximum amount
+msgid "a minimum quantity of %1$s and a maximum quantity of %2$s"
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:342
+msgid "Set the minimum and the maximum quantity that the user can purchase."
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:344
+msgid "Put the same value in each field to hide the quantity field."
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:366
+msgid "If enabled, the user can choose to add this product to the bundle or not."
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:388
+msgid "Enable if you want to hide this product in the bundle."
+msgstr ""
+
+#: views/admin/bundled-item.php:38
+msgid "Click to toggle"
+msgstr ""
+
+#: views/admin/bundled-item.php:39
+msgid "Remove"
+msgstr ""
+
+#: views/admin/bundled-item.php:40
+msgid "Edit"
+msgstr ""
+
+#: views/admin/bundled-item.php:44
+msgid "Not Purchasable"
+msgstr ""
+
+#: views/admin/select-product-box-products.php:39
+msgid "Image"
+msgstr ""
+
+#: views/admin/select-product-box-products.php:40
+msgid "Name"
+msgstr ""
+
+#: views/admin/select-product-box-products.php:42
+msgid "Type"
+msgstr ""
+
+#: views/admin/select-product-box-products.php:70
+msgid "Add"
+msgstr ""
+
+#: views/admin/select-product-box-products.php:78
+msgid "Product added to the bundle"
+msgstr ""
+
+#: views/admin/select-product-box-products.php:95
+msgid "prev"
+msgstr ""
+
+#: views/admin/select-product-box-products.php:97
+msgid "next"
+msgstr ""
+
+#: views/admin/select-product-box.php:7
+msgid "Add products to the bundle"
+msgstr ""
+
+#: views/admin/select-product-box.php:10
+msgid "Search for a product (min %s characters)"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"<code><strong>YITH WooCommerce Product Bundles</strong></code> allows you "
+"to bundle WooCommerce products and sell them at a unique price. You can "
+"configure bundled items as optional, set a discount, the minimum and "
+"maximum quantity, and so on! <a href=\"https://yithemes.com/\" "
+"target=\"_blank\">Get more plugins for your e-commerce shop on "
+"<strong>YITH</strong></a>"
+msgstr ""
+
+#: includes/class.yith-wcpb-admin.php:187
+msgctxt "Admin: type of product"
+msgid "Product Bundle"
+msgstr ""
+
+#: includes/class.yith-wcpb-bundle-widget.php:70
+msgctxt "Sorting order"
+msgid "Order"
+msgstr ""
+
+#: includes/objects/class.yith-wc-product-bundle-premium.php:546
+msgctxt "From price"
+msgid "From %s"
+msgstr ""
+
+#: plugin-options/settings-options.php:16
+msgctxt "Panel Section Title"
+msgid "General Settings"
+msgstr ""
+
+#: plugin-options/settings-options.php:97
+#. translators: %s is the name of the plugin
+msgctxt "Panel Section Title"
+msgid "%s integration"
+msgstr ""
+
+#: plugin-options/settings-options.php:121
+msgctxt "Panel Section Title"
+msgid "Tools"
+msgstr ""
+
+#: plugin-options/settings-options.php:102
+msgctxt "Learn more link for plugin integrations"
+msgid "Learn more"
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:22
+msgctxt "Admin bundled item form field"
+msgid "Filter product variations"
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:88
+msgctxt "Admin bundled item form field"
+msgid "Default attributes"
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:141
+msgctxt "Admin bundled item form field"
+msgid "Product name"
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:167
+msgctxt "Admin bundled item form field"
+msgid "Enter name"
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:188
+msgctxt "Admin bundled item form field"
+msgid "Product description"
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:214
+msgctxt "Admin bundled item form field"
+msgid "Enter description"
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:234
+msgctxt "Admin bundled item form field"
+msgid "Hide product image"
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:256
+msgctxt "Admin bundled item form field"
+msgid "Apply a discount"
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:278
+msgctxt "Admin bundled item form field"
+msgid "Apply a discount of"
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:305
+msgctxt "Admin bundled item form field"
+msgid "User can buy"
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:349
+msgctxt "Admin bundled item form field"
+msgid "Set product as optional"
+msgstr ""
+
+#: views/admin/bundled-item-options-premium.php:371
+msgctxt "Admin bundled item form field"
+msgid "Hide product"
+msgstr ""
+
+#: views/admin/bundled-item-options.php:15
+msgctxt "Admin: quantity of the bundled product."
+msgid "Quantity"
+msgstr ""

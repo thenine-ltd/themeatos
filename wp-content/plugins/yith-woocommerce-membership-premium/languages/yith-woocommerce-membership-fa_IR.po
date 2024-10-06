@@ -1,0 +1,2736 @@
+# Translation of YITH WooCommerce Membership in Persian
+# This file is distributed under the same license as the YITH WooCommerce Membership package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Membership\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/yith-woocommerce-"
+"membership\n"
+"POT-Creation-Date: 2024-02-08T13:32:31+00:00\n"
+"PO-Revision-Date: 2020-04-28 07:39:37+0000\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+
+#. Plugin Name of the plugin
+msgid "YITH WooCommerce Membership Premium"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://yithemes.com/themes/plugins/yith-woocommerce-membership"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"<code><strong>YITH WooCommerce Membership</strong></code> allows creating "
+"dedicated areas on your website/store where you can manage reserved access "
+"to your contents depending on what you want to show. Excellent to create "
+"online courses, study plans, paid areas, etc. <a href=\"https://yithemes.com/"
+"\" target=\"_blank\">Get more plugins for your e-commerce shop on "
+"<strong>YITH</strong></a>"
+msgstr ""
+
+#. Author of the plugin
+msgid "YITH"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://yithemes.com/"
+msgstr ""
+
+#: includes/admin/class.yith-wcmbs-admin-profile.php:54
+#: includes/class.yith-wcmbs-endpoints.php:96
+#: includes/compatibility/multivendor-utils/class.yith-wcmbs-members-list-table.php:43
+msgid "Membership Plans"
+msgstr "طرح های عضویت"
+
+#: includes/admin/class.yith-wcmbs-admin-profile.php:108
+msgid "Filter by membership plan"
+msgstr "فیلتر به وسیله طرح عضویت ویژه"
+
+#: includes/admin/class.yith-wcmbs-admin-profile.php:137
+msgid "Membership bulk editing"
+msgstr "ویرایش گروهی عضویت ویژه"
+
+#: includes/admin/class.yith-wcmbs-admin-profile.php:138
+msgid "Cancel membership"
+msgstr "لغو عضویت ویژه"
+
+#: includes/admin/class.yith-wcmbs-admin-profile.php:139
+msgid "New membership"
+msgstr "عضویت ویژه جدید"
+
+#: includes/admin/class.yith-wcmbs-admin-profile.php:140
+msgid "Delete history"
+msgstr "حذف تاریخچه"
+
+#: includes/admin/class.yith-wcmbs-admin-profile.php:144
+msgid "Select membership plan"
+msgstr "انتخاب طرح عضویت ویژه"
+
+#: includes/admin/class.yith-wcmbs-admin-profile.php:249
+msgid "Membership plan history:"
+msgstr "تاریخچه طرح عضویت ویژه:"
+
+#: includes/admin/class.yith-wcmbs-admin-profile.php:253
+msgid "This user doesn't have any membership plan."
+msgstr "این کاربر هیچ طرح عضویت ویژه ای ندارد."
+
+#: includes/admin/class.yith-wcmbs-admin-profile.php:273
+#: includes/admin/post-types/class-yith-wcmbs-membership-post-type-admin.php:46
+msgid "ID"
+msgstr "شناسه"
+
+#: includes/admin/class.yith-wcmbs-admin-profile.php:274
+#: includes/admin/post-types/class-yith-wcmbs-membership-post-type-admin.php:50
+#: includes/class.yith-wcmbs-advanced-administration.php:189
+#: includes/class.yith-wcmbs-membership.php:585
+#: includes/objects/class.yith-wcmbs-membership.php:1233
+#: templates/premium/membership/membership-plans.php:44
+#: views/metaboxes/membership_info_content.php:26
+msgid "Starting Date"
+msgstr "تاریخ شروع"
+
+#: includes/admin/class.yith-wcmbs-admin-profile.php:275
+#: includes/admin/post-types/class-yith-wcmbs-membership-post-type-admin.php:51
+#: includes/class.yith-wcmbs-advanced-administration.php:199
+#: includes/class.yith-wcmbs-membership.php:586
+#: includes/objects/class.yith-wcmbs-membership.php:1234
+#: languages/yith-woocommerce-membership.php:6
+#: templates/premium/membership/membership-plans.php:48
+#: views/metaboxes/membership_info_content.php:30 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-history/edit.js:23
+msgid "Expiration Date"
+msgstr "تاریخ انقضا"
+
+#: includes/admin/class.yith-wcmbs-admin-profile.php:276
+#: includes/class.yith-wcmbs-advanced-administration.php:204
+#: views/metaboxes/membership_info_content.php:34
+msgid "Order ID"
+msgstr "شناسه‌ی سفارش"
+
+#: includes/admin/class.yith-wcmbs-admin-profile.php:277
+#: includes/admin/post-types/class-yith-wcmbs-membership-post-type-admin.php:47
+#: includes/class.yith-wcmbs-advanced-administration.php:216
+#: includes/class.yith-wcmbs-membership.php:600
+#: includes/objects/class.yith-wcmbs-membership.php:1248
+#: languages/yith-woocommerce-membership.php:9
+#: templates/premium/membership/membership-plans.php:52
+#: templates/premium/membership/membership-plans.php:121
+#: views/metaboxes/membership_info_content.php:108 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-history/edit.js:27
+msgid "Status"
+msgstr "وضعیت"
+
+#: includes/admin/class.yith-wcmbs-admin-profile.php:278
+msgid "Last Update"
+msgstr "آخرین بروز رسانی"
+
+#: includes/admin/post-types/class-yith-wcmbs-alternative-content-post-type-admin.php:56
+msgctxt "Alternative Content bulk action"
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcmbs-alternative-content-post-type-admin.php:80
+msgid "You have no alternative content block yet!"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcmbs-alternative-content-post-type-admin.php:82
+msgid "Create new alternative content block"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcmbs-membership-plan-post-type-admin.php:55
+msgid "Membership Item Shortcode"
+msgstr "کدکوتاه آیتم عضویت ویژه"
+
+#: includes/admin/post-types/class-yith-wcmbs-membership-plan-post-type-admin.php:77
+msgctxt "Membership Plan bulk action"
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcmbs-membership-plan-post-type-admin.php:116
+msgid "You have no membership plan yet!"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcmbs-membership-plan-post-type-admin.php:118
+msgid "Create a new membership plan"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcmbs-membership-post-type-admin.php:48
+#: includes/class.yith-wcmbs-messages-manager-admin.php:353
+#: includes/reports/class.yith-wcmbs-download-reports-by-user-table.php:39
+#: views/metaboxes/membership_info_content.php:50
+msgid "User"
+msgstr "کاربر"
+
+#: includes/admin/post-types/class-yith-wcmbs-membership-post-type-admin.php:49
+msgid "Order"
+msgstr "سفارش"
+
+#: includes/admin/post-types/class-yith-wcmbs-membership-post-type-admin.php:179
+msgid "%s [Order not found]"
+msgstr "%s [سفارش پیدا نشد]"
+
+#: includes/admin/post-types/class-yith-wcmbs-membership-post-type-admin.php:191
+msgid "created by Admin"
+msgstr "ایجاد شده توسط مدیر"
+
+#: includes/admin/post-types/class-yith-wcmbs-membership-post-type-admin.php:235
+msgid "You have no membership yet!"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcmbs-threads-post-type-admin.php:51
+#: includes/class.yith-wcmbs-messages-manager-admin.php:355
+msgid "Last answer by"
+msgstr "آخرین پاسخ توسط"
+
+#. translators: %s is the name of the user related to the Thread.
+#: includes/admin/post-types/class-yith-wcmbs-threads-post-type-admin.php:67
+msgid "Are you sure you want to delete the thread with %s?"
+msgstr ""
+
+#. translators: %s is the name of the user related to the Thread.
+#: includes/admin/post-types/class-yith-wcmbs-threads-post-type-admin.php:67
+msgid ""
+"This action cannot be undone and you will not be able to recover this data."
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcmbs-threads-post-type-admin.php:82
+msgid "You have no message yet!"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcmbs-threads-post-type-admin.php:82
+msgid "Here you will see messages sent by members"
+msgstr ""
+
+#: includes/builders/elementor/widgets/class.yith-wcmbs-elementor-members-only-content-start-widget.php:31
+msgctxt "Elementor Widget - title"
+msgid "Members-only content start"
+msgstr ""
+
+#: includes/builders/elementor/widgets/class.yith-wcmbs-elementor-members-only-content-start-widget.php:63
+msgctxt "Elementor Widget - section title"
+msgid "Options"
+msgstr ""
+
+#: includes/builders/elementor/widgets/class.yith-wcmbs-elementor-members-only-content-start-widget.php:72
+msgctxt "Elementor Widget"
+msgid ""
+"Note: This widget will work only if the alternative content is enabled in "
+"\"YITH > Membership > General Options\"."
+msgstr ""
+
+#: includes/builders/elementor/widgets/class.yith-wcmbs-elementor-members-only-content-start-widget.php:78
+#: languages/yith-woocommerce-membership.php:12 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/members-only-content-start/edit.js:13
+msgid "Default"
+msgstr ""
+
+#: includes/builders/elementor/widgets/class.yith-wcmbs-elementor-members-only-content-start-widget.php:79
+#: languages/yith-woocommerce-membership.php:15 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/members-only-content-start/edit.js:14
+msgid "Hide alternative content"
+msgstr ""
+
+#: includes/builders/elementor/widgets/class.yith-wcmbs-elementor-members-only-content-start-widget.php:86
+msgctxt "Elementor Widget - option label"
+msgid "Hide the alternative content"
+msgstr ""
+
+#: includes/builders/elementor/widgets/class.yith-wcmbs-elementor-members-only-content-start-widget.php:146
+msgctxt "Elementor Widget"
+msgid "Members-only content starts here"
+msgstr ""
+
+#: includes/class.yith-wcmbs-admin-assets.php:69
+msgid "Upload File"
+msgstr ""
+
+#: includes/class.yith-wcmbs-admin-assets.php:70
+msgid "Use this file"
+msgstr ""
+
+#: includes/class.yith-wcmbs-admin-meta-boxes.php:67
+#: includes/class.yith-wcmbs-legacy-elements.php:228
+msgid "Membership options"
+msgstr ""
+
+#: includes/class.yith-wcmbs-admin-meta-boxes.php:74
+msgid "Plan Options"
+msgstr "گزینه های پلن"
+
+#: includes/class.yith-wcmbs-admin-meta-boxes.php:81
+#: includes/reports/class.yith-wcmbs-download-reports-by-user-table.php:46
+msgid "Membership Info"
+msgstr "اطلاعات عضویت ویژه"
+
+#: includes/class.yith-wcmbs-admin-meta-boxes.php:88
+msgid "Membership Actions"
+msgstr ""
+
+#: includes/class.yith-wcmbs-admin.php:126
+msgid "Included in memberships"
+msgstr "شامل شده در عضویت های ویژه"
+
+#: includes/class.yith-wcmbs-admin.php:181
+msgctxt "Tab title in plugin settings panel"
+msgid "Membership"
+msgstr ""
+
+#: includes/class.yith-wcmbs-admin.php:185
+msgctxt "Tab title in plugin settings panel"
+msgid "General Options"
+msgstr ""
+
+#: includes/class.yith-wcmbs-admin.php:211
+msgctxt "Help tab - Video title"
+msgid "Check this video to learn how to <b>configure and use the plugin:</b>"
+msgstr ""
+
+#: includes/class.yith-wcmbs-admin.php:248
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Wishlist"
+msgid ""
+"Allow your customers to create lists of products they want and share them "
+"with family and friends."
+msgstr ""
+
+#: includes/class.yith-wcmbs-admin.php:260
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Gift Cards"
+msgid ""
+"Sell gift cards in your shop to increase your earnings and attract new "
+"customers."
+msgstr ""
+
+#: includes/class.yith-wcmbs-admin.php:272
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Request a "
+"Quote"
+msgid ""
+"Hide prices and/or the \"Add to cart\" button and let your customers request "
+"a custom quote for every product."
+msgstr ""
+
+#: includes/class.yith-wcmbs-admin.php:283
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Ajax Product "
+"Filter"
+msgid ""
+"Help your customers to easily find the products they are looking for and "
+"improve the user experience of your shop."
+msgstr ""
+
+#: includes/class.yith-wcmbs-admin.php:294
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Product Add-"
+"Ons"
+msgid ""
+"Add paid or free advanced options to your product pages using fields like "
+"radio buttons, checkboxes, drop-downs, custom text inputs, and more."
+msgstr ""
+
+#: includes/class.yith-wcmbs-admin.php:305
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Dynamic "
+"Pricing and Discounts"
+msgid ""
+"Increase conversions through dynamic discounts and price rules, and build "
+"powerful and targeted offers."
+msgstr ""
+
+#: includes/class.yith-wcmbs-admin.php:316
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Customize My "
+"Account"
+msgid ""
+"Customize the My Account page of your customers by creating custom sections "
+"with promotions and ad-hoc content based on your needs."
+msgstr ""
+
+#: includes/class.yith-wcmbs-admin.php:327
+msgctxt "[YOUR STORE TOOLS TAB] Description for plugin Recover Abandoned Cart"
+msgid ""
+"Contact users who have added products to the cart without completing the "
+"order and try to recover lost sales."
+msgstr ""
+
+#: includes/class.yith-wcmbs-admin.php:488
+#: includes/class.yith-wcmbs-products-manager.php:377
+msgid "Error"
+msgstr "خطا"
+
+#: includes/class.yith-wcmbs-admin.php:572
+msgid "Duplicate"
+msgstr "تکثیر"
+
+#: includes/class.yith-wcmbs-admin.php:596
+msgid "Copy"
+msgstr "رونوشت"
+
+#: includes/class.yith-wcmbs-advanced-administration.php:77
+msgid "Advanced Administration"
+msgstr ""
+
+#: includes/class.yith-wcmbs-advanced-administration.php:185
+msgid "Plan ID"
+msgstr "شناسه طرح"
+
+#: includes/class.yith-wcmbs-advanced-administration.php:194
+msgid "Set an expiration date"
+msgstr ""
+
+#: includes/class.yith-wcmbs-advanced-administration.php:208
+msgid "Order Item ID"
+msgstr "شناسه آیتم سفارش"
+
+#: includes/class.yith-wcmbs-advanced-administration.php:212
+msgid "User ID"
+msgstr "شناسه کاربری"
+
+#: includes/class.yith-wcmbs-advanced-administration.php:221
+msgid "Paused days"
+msgstr "روزهای متوقف شده"
+
+#: includes/class.yith-wcmbs-advanced-administration.php:225
+msgid "Enable credits"
+msgstr ""
+
+#: includes/class.yith-wcmbs-advanced-administration.php:230
+#: templates/premium/membership/membership-plans.php:60
+#: views/metaboxes/membership_info_content.php:70
+msgid "Remaining Credits"
+msgstr "اعتبار باقیمانده"
+
+#: includes/class.yith-wcmbs-advanced-administration.php:234
+msgid "Last Credit Update"
+msgstr "آخرین بروزرسانی قبل"
+
+#: includes/class.yith-wcmbs-advanced-administration.php:239
+msgid "Next Credit Update"
+msgstr "بروزرسانی اعتبار بعد"
+
+#: includes/class.yith-wcmbs-advanced-administration.php:247
+#: views/metaboxes/plan-options.php:207
+msgid "Give a discount"
+msgstr ""
+
+#: includes/class.yith-wcmbs-advanced-administration.php:252
+#: views/metaboxes/plan-options.php:214
+msgid "Discount on all products (%)"
+msgstr ""
+
+#: includes/class.yith-wcmbs-ajax.php:145
+msgid "Error: invalid plan"
+msgstr ""
+
+#: includes/class.yith-wcmbs-ajax.php:153
+msgid "Error: missing membership ID parameter"
+msgstr ""
+
+#: includes/class.yith-wcmbs-ajax.php:158
+msgid "Error: invalid membership"
+msgstr ""
+
+#: includes/class.yith-wcmbs-ajax.php:164
+#: includes/class.yith-wcmbs-ajax.php:168
+msgid "Error: invalid membership and plan"
+msgstr ""
+
+#: includes/class.yith-wcmbs-endpoints.php:119
+msgctxt "My Account Endpoint title"
+msgid "Memberships"
+msgstr ""
+
+#: includes/class.yith-wcmbs-endpoints.php:136
+msgid "Membership endpoints"
+msgstr ""
+
+#: includes/class.yith-wcmbs-endpoints.php:142 views/reports/reports.php:9
+msgid "Memberships"
+msgstr "اشتراک ویژه"
+
+#: includes/class.yith-wcmbs-endpoints.php:143
+msgid "Endpoint for the \"My Account &rarr; Memberships\" page"
+msgstr ""
+
+#. translators: %s is the name of the purchased product.
+#: includes/class.yith-wcmbs-frontend.php:443
+msgid "You cannot purchase \"%s\". To do it, you need a membership plan"
+msgstr ""
+"شما نمی توانید \"%s\" را خریداری کنید. برای این کار نیاز به یک طرح عضویت "
+"ویژه دارید"
+
+#: includes/class.yith-wcmbs-legacy-elements.php:76
+#: includes/class.yith-wcmbs-legacy-elements.php:77
+#: includes/class.yith-wcmbs-post-types.php:80
+#: includes/class.yith-wcmbs-post-types.php:82
+#: includes/class.yith-wcmbs-post-types.php:84
+#: languages/yith-woocommerce-membership.php:18
+#: views/metaboxes/user_info.php:25 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-history/edit.js:82
+#: includes/builders/gutenberg/src/blocks/membership-protected-links/edit.js:70
+#: includes/builders/gutenberg/src/components/yith-general-block.js:47
+msgid "Membership"
+msgstr "عضویت ویژه"
+
+#. translators: 1. plugin version; 2. plugin name; 3. menu name with link.
+#: includes/class.yith-wcmbs-legacy-elements.php:132
+msgid ""
+"Since version %1$s of %2$s we moved all membership settings to a new panel "
+"that you can find in %3$s, so you can access to all plugin settings from "
+"there."
+msgstr ""
+
+#: includes/class.yith-wcmbs-legacy-elements.php:139
+msgid "Go to the new panel"
+msgstr ""
+
+#: includes/class.yith-wcmbs-legacy-elements.php:162
+msgid "Set access"
+msgstr "تنظیم دسترسی"
+
+#. translators: 1. plugin version; 2. plugin name; 3. box name.
+#: includes/class.yith-wcmbs-legacy-elements.php:225
+msgid ""
+"Since version %1$s of %2$s we moved the options of the \"Set access\" box to "
+"the new \"%3$s\" box."
+msgstr ""
+
+#: includes/class.yith-wcmbs-legacy-elements.php:231
+msgid "Go to \"Membership options\""
+msgstr ""
+
+#: includes/class.yith-wcmbs-membership.php:169
+#: includes/objects/class.yith-wcmbs-membership.php:774
+msgid "Membership successfully created."
+msgstr "عضویت ویژه با موفقیت ایجاد شد."
+
+#: includes/class.yith-wcmbs-membership.php:227
+#: includes/objects/class.yith-wcmbs-membership.php:832
+msgid "Membership has now been activated."
+msgstr "عضویت ویژه اکنون فعال شده است."
+
+#: includes/class.yith-wcmbs-membership.php:237
+#: includes/objects/class.yith-wcmbs-membership.php:842
+msgid "Membership paused."
+msgstr "عضویت متوقف شد."
+
+#: includes/class.yith-wcmbs-membership.php:246
+#: includes/objects/class.yith-wcmbs-membership.php:856
+msgid "Membership resumed."
+msgstr "عضویت ادامه یافت."
+
+#. translators: %s is the new expiration date.
+#: includes/class.yith-wcmbs-membership.php:262
+#: includes/compatibility/class.yith-wcmbs-subscription-compatibility.php:143
+#: includes/compatibility/class.yith-wcmbs-subscription-compatibility.php:318
+#: includes/objects/class.yith-wcmbs-membership.php:872
+msgid "Expiration date set to %s."
+msgstr "تاریخ اتقضا در %s تنظیم شد."
+
+#. translators: %s is the new "next credits update" date.
+#: includes/class.yith-wcmbs-membership.php:271
+#: includes/objects/class.yith-wcmbs-membership.php:881
+msgid "\"Next credits update\" date set to %s."
+msgstr ""
+
+#: includes/class.yith-wcmbs-membership.php:286
+#: includes/class.yith-wcmbs-membership.php:292
+#: includes/objects/class.yith-wcmbs-membership.php:896
+#: includes/objects/class.yith-wcmbs-membership.php:902
+msgid "Membership status updated to %s."
+msgstr "وضعیت عضویت ویژه به %s بروزرسانی شد."
+
+#: includes/class.yith-wcmbs-membership.php:658
+#: includes/objects/class.yith-wcmbs-membership.php:1304
+#: templates/premium/membership/membership-plans.php:39
+msgid "Unlimited"
+msgstr "نامحدود"
+
+#: includes/class.yith-wcmbs-messages-manager-admin.php:79
+msgid "User Info"
+msgstr "اطلاعات کاربر"
+
+#: includes/class.yith-wcmbs-messages-manager-admin.php:80
+#: includes/class.yith-wcmbs-messages-widget.php:33
+#: includes/class.yith-wcmbs-post-types.php:115
+#: includes/class.yith-wcmbs-post-types.php:116
+msgid "Messages"
+msgstr "پیام ها"
+
+#: includes/class.yith-wcmbs-messages-manager-admin.php:81
+#: includes/class.yith-wcmbs-messages-manager-admin.php:333
+msgid "Send Message"
+msgstr "ارسال پیام"
+
+#: includes/class.yith-wcmbs-messages-manager-admin.php:103
+msgid "This user doesn't have any active membership plan!"
+msgstr "این کاربر هیچ طرح عضویت ویژه فعالی ندارد!"
+
+#: includes/class.yith-wcmbs-messages-manager-admin.php:129
+msgid "Get older messages"
+msgstr "دریافت پیام های قدیمی تر"
+
+#: includes/class.yith-wcmbs-messages-manager-admin.php:313
+msgid "An error occurred while sending the message"
+msgstr "هنگام ارسال پیام خطایی رخ داده است."
+
+#: includes/class.yith-wcmbs-messages-manager-admin.php:356
+msgid "Last date"
+msgstr "آخرین تاریخ"
+
+#: includes/class.yith-wcmbs-messages-manager-admin.php:413
+msgid "Delete this item permanently"
+msgstr ""
+
+#: includes/class.yith-wcmbs-messages-manager-admin.php:413
+msgid "Delete Thread"
+msgstr "حذف موضوع"
+
+#: includes/class.yith-wcmbs-messages-widget.php:26
+msgid "Display message widget for members."
+msgstr "نمایش ابزارک پیام برای اعضا."
+
+#: includes/class.yith-wcmbs-messages-widget.php:28
+msgid "YITH Membership - Messages"
+msgstr "عضویت ویژه - پیام ها"
+
+#: includes/class.yith-wcmbs-messages-widget.php:34
+#: includes/shipping/class.wc-shipping-membership-flat-rate.php:71
+#: includes/shipping/class.wc-shipping-membership-free-shipping.php:62
+msgid "Title"
+msgstr "عنوان"
+
+#: includes/class.yith-wcmbs-orders.php:49
+msgid "Reason: Order #%s status changed from %s to %s"
+msgstr "دلیل: وضعیت سفارش #%s از %s به %s تغییر کرد."
+
+#: includes/class.yith-wcmbs-post-types.php:77
+#: includes/class.yith-wcmbs-post-types.php:78
+#: includes/class.yith-wcmbs-post-types.php:79
+msgid "All Memberships"
+msgstr "همه عضویت های ویژه"
+
+#: includes/class.yith-wcmbs-post-types.php:81
+#: includes/class.yith-wcmbs-post-types.php:83
+msgid "New Membership"
+msgstr "عضویت جدید"
+
+#: includes/class.yith-wcmbs-post-types.php:85
+#: includes/class.yith-wcmbs-post-types.php:86
+msgid "View Membership"
+msgstr "نمایش پلن عضویت"
+
+#: includes/class.yith-wcmbs-post-types.php:87
+msgid "Search Memberships"
+msgstr ""
+
+#: includes/class.yith-wcmbs-post-types.php:88
+msgid "Membership not found"
+msgstr "عضویتی یافت نشد"
+
+#: includes/class.yith-wcmbs-post-types.php:89
+msgid "Membership not found in trash"
+msgstr "عضویت در سطل بازیافت یافت نشد"
+
+#: includes/class.yith-wcmbs-post-types.php:117
+#: includes/class.yith-wcmbs-post-types.php:120
+msgid "Message"
+msgstr "پیام"
+
+#: includes/class.yith-wcmbs-post-types.php:118
+msgid "Add Message"
+msgstr "افزودن پیام"
+
+#: includes/class.yith-wcmbs-post-types.php:119
+msgid "New Message"
+msgstr "پیام جدید"
+
+#: includes/class.yith-wcmbs-post-types.php:121
+msgid "View Message"
+msgstr "مشاهده پیام"
+
+#: includes/class.yith-wcmbs-post-types.php:122
+msgid "Search Messages"
+msgstr ""
+
+#: includes/class.yith-wcmbs-post-types.php:123
+msgid "Message not found"
+msgstr "پیامی یافت نشد"
+
+#: includes/class.yith-wcmbs-post-types.php:124
+msgid "Message not found in trash"
+msgstr "در سطل بازیافت یافت نشد"
+
+#: includes/class.yith-wcmbs-post-types.php:130
+#: includes/class.yith-wcmbs-post-types.php:131
+#: includes/class.yith-wcmbs-post-types.php:132
+msgid "Membership plans"
+msgstr ""
+
+#: includes/class.yith-wcmbs-post-types.php:133
+msgid "Membership plan"
+msgstr ""
+
+#: includes/class.yith-wcmbs-post-types.php:134
+msgid "Add new plan"
+msgstr ""
+
+#: includes/class.yith-wcmbs-post-types.php:135
+msgid "New Plan"
+msgstr "طرح جدید"
+
+#: includes/class.yith-wcmbs-post-types.php:136
+msgid "Edit Plan"
+msgstr "ویرایش طرح"
+
+#: includes/class.yith-wcmbs-post-types.php:137
+msgid "View Plan"
+msgstr "نمایش طرح"
+
+#: includes/class.yith-wcmbs-post-types.php:138
+msgid "Search Plans"
+msgstr "جست و جوی پلن ها"
+
+#: includes/class.yith-wcmbs-post-types.php:139
+msgid "Membership plan not found"
+msgstr ""
+
+#: includes/class.yith-wcmbs-post-types.php:140
+msgid "Membership plan not found in trash"
+msgstr ""
+
+#: includes/class.yith-wcmbs-post-types.php:164
+#: includes/class.yith-wcmbs-post-types.php:165
+#: includes/class.yith-wcmbs-post-types.php:166
+msgid "Alternative content blocks"
+msgstr ""
+
+#: includes/class.yith-wcmbs-post-types.php:167
+msgid "Alternative content block"
+msgstr ""
+
+#: includes/class.yith-wcmbs-post-types.php:168
+msgid "Add new block"
+msgstr ""
+
+#: includes/class.yith-wcmbs-post-types.php:169
+msgid "New alternative content block"
+msgstr ""
+
+#: includes/class.yith-wcmbs-post-types.php:170
+msgid "Edit block"
+msgstr ""
+
+#: includes/class.yith-wcmbs-post-types.php:171
+msgid "View block"
+msgstr ""
+
+#: includes/class.yith-wcmbs-post-types.php:172
+msgid "Search blocks"
+msgstr ""
+
+#: includes/class.yith-wcmbs-post-types.php:173
+msgid "Alternative content block not found"
+msgstr ""
+
+#: includes/class.yith-wcmbs-post-types.php:174
+msgid "Alternative content block not found in trash"
+msgstr ""
+
+#: includes/class.yith-wcmbs-privacy.php:23
+msgctxt "Privacy Policy Content"
+msgid "YITH WooCommerce Membership"
+msgstr ""
+
+#: includes/class.yith-wcmbs-products-manager.php:244
+msgid "You can't access to this content. You don't have enough credits."
+msgstr "شما نمی توانید به این محتوا دسترسی پیدا کنید. شما اعتبار کافی ندارید."
+
+#: includes/class.yith-wcmbs-products-manager.php:246
+msgid "This product needs one credit,"
+msgid_plural "This product needs %s credits,"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class.yith-wcmbs-products-manager.php:247
+msgid "but you have only one credit!"
+msgid_plural "but you have only %s credits!"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class.yith-wcmbs-products-manager.php:249
+#: includes/class.yith-wcmbs-products-manager.php:380
+#: includes/class.yith-wcmbs-protected-links.php:83
+#: includes/class.yith-wcmbs-protected-media.php:141
+msgid "Restricted Access."
+msgstr "دسترسی محدود."
+
+#: includes/class.yith-wcmbs-products-manager.php:377
+msgid "Error while downloading file"
+msgstr "خطا هنگام دریافت فایل"
+
+#: includes/class.yith-wcmbs-products-manager.php:380
+msgid "You can't access to this content"
+msgstr "شما نمی توانید به این محتوا دسترسی پیدا کنید"
+
+#: includes/class.yith-wcmbs-products-manager.php:432
+#: views/reports/download-reports-table.php:52
+#: views/reports/download-reports.php:9 views/reports/reports.php:10
+msgid "Downloads"
+msgstr "دانلود"
+
+#: includes/class.yith-wcmbs-protected-links.php:83
+#: includes/class.yith-wcmbs-protected-media.php:141
+msgid "You can't access to this content."
+msgstr "شما نمی توانید به این محتوا دسترسی پیدا کنید."
+
+#: includes/class.yith-wcmbs-protected-media.php:74
+msgid "Allow access"
+msgstr "اجازه دسترسی"
+
+#: includes/class.yith-wcmbs-reports.php:126
+#: views/reports/download-reports.php:17
+msgid "Membership download reports"
+msgstr "گزارشات دانلود عضویت ویژه"
+
+#. translators: %s the number of credits
+#: includes/class.yith-wcmbs-shortcodes.php:268
+msgid "1 credit"
+msgid_plural "%s credits"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class.yith-wcmbs-shortcodes.php:281
+#: templates/premium/frontend/membership-product-download-box.php:21
+msgid "You don't have enough credits to download this product!"
+msgstr ""
+
+#: includes/class.yith-wcmbs-shortcodes.php:413
+msgid "You don't have any membership without a subscription plan yet."
+msgstr "شما هنوز هیچ عضویت ویژه ای بدون طرح اشتراک ندارید. ندارید."
+
+#: includes/class.yith-wcmbs-shortcodes.php:423
+msgid "You don't have any membership with a subscription plan yet."
+msgstr "شما هنوز هیچ عضویت ویژه ای با طرح اشتراک ندارید."
+
+#: includes/class.yith-wcmbs-shortcodes.php:428
+msgid "You don't have any membership yet."
+msgstr "شما هنوز هیچ عضویت ویژه ای ندارید."
+
+#: includes/class.yith-wcmbs-shortcodes.php:500
+msgid "Shortcodes"
+msgstr "شورت کدها"
+
+#: includes/compatibility/class.yith-wcmbs-dynamic-pricing-compatibility.php:142
+msgid "Apply discount to users of this membership"
+msgstr ""
+
+#: includes/compatibility/class.yith-wcmbs-dynamic-pricing-compatibility.php:146
+#: includes/compatibility/class.yith-wcmbs-dynamic-pricing-compatibility.php:190
+#: includes/compatibility/class.yith-wcmbs-dynamic-pricing-compatibility.php:279
+#: includes/compatibility/class.yith-wcmbs-dynamic-pricing-compatibility.php:311
+msgid "Search for a membership"
+msgstr ""
+
+#: includes/compatibility/class.yith-wcmbs-dynamic-pricing-compatibility.php:163
+msgid "Choose which membership plan will provide users with this discount"
+msgstr ""
+
+#: includes/compatibility/class.yith-wcmbs-dynamic-pricing-compatibility.php:186
+msgid "Users memberships excluded"
+msgstr ""
+
+#: includes/compatibility/class.yith-wcmbs-dynamic-pricing-compatibility.php:211
+msgid "Choose which memberships to exclude from this discount"
+msgstr ""
+
+#: includes/compatibility/class.yith-wcmbs-dynamic-pricing-compatibility.php:231
+msgid "Include users with membership plans"
+msgstr ""
+
+#: includes/compatibility/class.yith-wcmbs-dynamic-pricing-compatibility.php:246
+msgid "Only to users with membership plans"
+msgstr ""
+
+#: includes/compatibility/class.yith-wcmbs-dynamic-pricing-compatibility.php:260
+msgid "Specific users with the following membership plans"
+msgstr ""
+
+#: includes/compatibility/class.yith-wcmbs-dynamic-pricing-compatibility.php:275
+msgid "Membership plans included"
+msgstr ""
+
+#: includes/compatibility/class.yith-wcmbs-dynamic-pricing-compatibility.php:292
+msgid "Choose which memberships to include with this discount"
+msgstr ""
+
+#: includes/compatibility/class.yith-wcmbs-dynamic-pricing-compatibility.php:307
+msgid "Choose membership plans to exclude"
+msgstr ""
+
+#: includes/compatibility/class.yith-wcmbs-dynamic-pricing-compatibility.php:333
+msgid "Choose memberships plans to exclude from this discount"
+msgstr ""
+
+#: includes/compatibility/class.yith-wcmbs-mailchimp-compatibility.php:137
+msgid "Mailchimp"
+msgstr "میل‌چیمپ"
+
+#: includes/compatibility/class.yith-wcmbs-mailchimp-compatibility.php:149
+msgid "Add user email to the following lists when they become members:"
+msgstr "ایمیل کاربر را وقتی که عضو می شوند به لیست های زیر اضافه کنید:"
+
+#: includes/compatibility/class.yith-wcmbs-mailchimp-compatibility.php:161
+msgid "Unsubscribe when expired or cancelled"
+msgstr ""
+
+#: includes/compatibility/class.yith-wcmbs-multivendor-compatibility.php:471
+msgctxt "Tab title in plugin settings panel"
+msgid "Membership plans"
+msgstr ""
+
+#: includes/compatibility/class.yith-wcmbs-multivendor-compatibility.php:472
+msgctxt "Tab title in vendor plugin settings panel"
+msgid "Members"
+msgstr ""
+
+#: includes/compatibility/class.yith-wcmbs-multivendor-compatibility.php:552
+msgid "Members"
+msgstr "اعضاء"
+
+#: includes/compatibility/class.yith-wcmbs-subscription-compatibility.php:89
+msgid "Related Subscription:"
+msgstr "اشتراک های مرتبط:"
+
+#: includes/compatibility/class.yith-wcmbs-subscription-compatibility.php:95
+msgid "Subscription Cancelled Date:"
+msgstr "تاریخ لغو اشتراک:"
+
+#: includes/compatibility/class.yith-wcmbs-subscription-compatibility.php:111
+#: includes/compatibility/class.yith-wcmbs-subscription-compatibility.php:205
+msgid "Subscription ID"
+msgstr "آی دی اشتراک"
+
+#: includes/compatibility/class.yith-wcmbs-subscription-compatibility.php:144
+#: includes/compatibility/class.yith-wcmbs-subscription-compatibility.php:319
+msgid "Reason: subscription cancelled."
+msgstr "دلیل: اشتراک لغو شده است."
+
+#: includes/compatibility/class.yith-wcmbs-subscription-compatibility.php:164
+msgid "Memberships with subscription"
+msgstr "عضویت ویژه با اشتراک"
+
+#: includes/compatibility/class.yith-wcmbs-subscription-compatibility.php:179
+msgid "Reason: subscription #%d deleted."
+msgstr "دلیل: اشتراک #%d حذف شده است."
+
+#: includes/compatibility/class.yith-wcmbs-subscription-compatibility.php:203
+msgid "Subscription details"
+msgstr "اطلاعات اشتراک"
+
+#: includes/compatibility/class.yith-wcmbs-subscription-compatibility.php:349
+msgid "Subscription"
+msgstr "اشتراک"
+
+#: includes/compatibility/class.yith-wcmbs-wpml-compatibility.php:83
+msgid "WPML Traslations"
+msgstr "ترجمه های  WPML"
+
+#: includes/compatibility/class.yith-wcmbs-wpml-compatibility.php:104
+msgid "Title (%s)"
+msgstr "عنوان (%s)"
+
+#: includes/compatibility/multivendor-utils/class.yith-wcmbs-members-list-table.php:42
+#: languages/yith-woocommerce-membership.php:21 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-protected-content/edit.js:19
+msgid "Member"
+msgstr "اعضاء"
+
+#: includes/compatibility/multivendor-utils/mv-plan-metabox-options.php:5
+msgctxt "Plan option section title"
+msgid "Multi Vendor"
+msgstr ""
+
+#: includes/compatibility/multivendor-utils/mv-plan-metabox-options.php:8
+msgid "Override Multi Vendor settings"
+msgstr ""
+
+#: includes/compatibility/multivendor-utils/mv-plan-metabox-options.php:14
+msgid "Enable product amount limit"
+msgstr ""
+
+#: includes/compatibility/multivendor-utils/mv-plan-metabox-options.php:15
+msgid "Limit product amount for each vendor"
+msgstr ""
+
+#: includes/compatibility/multivendor-utils/mv-plan-metabox-options.php:25
+msgid "Product amount limit"
+msgstr ""
+
+#: includes/compatibility/multivendor-utils/mv-plan-metabox-options.php:28
+msgid "Set a maximum number of products that each vendor can publish"
+msgstr ""
+
+#: includes/data-stores/class-yith-wcmbs-membership-data-store-cpt.php:56
+msgctxt ""
+"[Generic] Error that happens when trying to read a Membership that does not "
+"exist"
+msgid "Invalid Membership."
+msgstr ""
+
+#. translators: %s is a comma-separated list of available placeholders
+#: includes/emails/abstract.yith-wcmbs-email.php:191
+msgid "Available placeholders: %s"
+msgstr ""
+
+#: includes/emails/abstract.yith-wcmbs-email.php:203
+msgid "Custom Message"
+msgstr "پیام دلخواه"
+
+#: includes/emails/class.yith-wcmbs-cancelled-email.php:26
+msgid "Cancelled Membership"
+msgstr ""
+
+#: includes/emails/class.yith-wcmbs-cancelled-email.php:27
+msgid ""
+"Cancelled Membership email is sent when a customer membership is cancelled."
+msgstr ""
+
+#: includes/emails/class.yith-wcmbs-cancelled-email.php:33
+#: includes/emails/class.yith-wcmbs-cancelled-email.php:34
+msgid "Membership {membership_name} cancelled"
+msgstr "عضویت ویژه {membership_name} لغو شد."
+
+#: includes/emails/class.yith-wcmbs-cancelled-email.php:37
+msgid ""
+"Dear {firstname} {lastname},\n"
+"\n"
+"your membership to <b>{membership_name}</b> has been cancelled.\n"
+"\n"
+"Regards,\n"
+"\n"
+"Staff of {site_title}"
+msgstr ""
+
+#: includes/emails/class.yith-wcmbs-expired-email.php:26
+msgid "Expired Membership"
+msgstr ""
+
+#: includes/emails/class.yith-wcmbs-expired-email.php:27
+msgid "Expired Membership email is sent when a membership is expired."
+msgstr ""
+
+#: includes/emails/class.yith-wcmbs-expired-email.php:33
+#: includes/emails/class.yith-wcmbs-expired-email.php:34
+msgid "Membership {membership_name} is expired"
+msgstr ""
+
+#: includes/emails/class.yith-wcmbs-expired-email.php:37
+msgid ""
+"Dear {firstname} {lastname},\n"
+"\n"
+"your membership to <b>{membership_name}</b> has expired.\n"
+"\n"
+"Regards,\n"
+"\n"
+"Staff of {site_title}"
+msgstr ""
+
+#: includes/emails/class.yith-wcmbs-expiring-email.php:26
+msgid "Expiring Membership"
+msgstr ""
+
+#: includes/emails/class.yith-wcmbs-expiring-email.php:27
+msgid "Expiring Membership email is sent when a membership is expiring."
+msgstr ""
+
+#: includes/emails/class.yith-wcmbs-expiring-email.php:33
+#: includes/emails/class.yith-wcmbs-expiring-email.php:34
+msgid "Membership {membership_name} is expiring"
+msgstr "عضویت ویژه {membership_name} در حال انقضا می باشد."
+
+#: includes/emails/class.yith-wcmbs-expiring-email.php:37
+msgid ""
+"Dear {firstname} {lastname},\n"
+"\n"
+"your membership to <b>{membership_name}</b> will expire on "
+"{membership_expire_date}.\n"
+"\n"
+"Regards,\n"
+"\n"
+"Staff of {site_title}"
+msgstr ""
+
+#: includes/emails/class.yith-wcmbs-welcome-email.php:26
+msgid "Membership - Welcome"
+msgstr "عضویت ویژه - خوش آمدید"
+
+#: includes/emails/class.yith-wcmbs-welcome-email.php:27
+msgid "The welcome email is sent when a customer becomes member."
+msgstr "ایمیل خوش آمدگویی هنگامی که یک مشتری عضو می شود ارسال می شود.."
+
+#: includes/emails/class.yith-wcmbs-welcome-email.php:33
+#: includes/emails/class.yith-wcmbs-welcome-email.php:34
+msgid "Welcome to membership {membership_name}"
+msgstr "به عضویت ویژه {membership_name} خوش آمدید"
+
+#: includes/emails/class.yith-wcmbs-welcome-email.php:37
+msgid ""
+"Dear {firstname} {lastname},\n"
+"\n"
+"welcome to your membership to <b>{membership_name}.</b>\n"
+"\n"
+"We are glad to have you with us! :)\n"
+"\n"
+"Regards,\n"
+"\n"
+"Staff of {site_title}"
+msgstr ""
+
+#: includes/functions.yith-wcmbs.php:32
+msgid "Active"
+msgstr ""
+
+#: includes/functions.yith-wcmbs.php:33
+msgid "Paused"
+msgstr ""
+
+#: includes/functions.yith-wcmbs.php:34
+msgid "Suspended"
+msgstr ""
+
+#: includes/functions.yith-wcmbs.php:35
+msgid "Resumed"
+msgstr ""
+
+#: includes/functions.yith-wcmbs.php:36
+msgid "Expiring"
+msgstr ""
+
+#: includes/functions.yith-wcmbs.php:37
+msgid "Cancelled"
+msgstr ""
+
+#: includes/functions.yith-wcmbs.php:38
+msgid "Expired"
+msgstr ""
+
+#: includes/functions.yith-wcmbs.php:340
+msgid "You cannot access this content!"
+msgstr ""
+
+#: includes/functions.yith-wcmbs.php:699
+msgctxt "Default download text for protected files"
+msgid "Download"
+msgstr ""
+
+#: includes/reports/class.yith-wcmbs-download-reports-by-user-table.php:40
+#: views/reports/download-reports-downloads-details-by-user.php:47
+msgid "Total Downloads"
+msgstr ""
+
+#: includes/reports/class.yith-wcmbs-download-reports-by-user-table.php:41
+#: views/reports/download-reports-downloads-details-by-user.php:47
+msgid "Unique Downloads"
+msgstr ""
+
+#: includes/reports/class.yith-wcmbs-download-reports-by-user-table.php:126
+msgctxt "Download reports table: user id"
+msgid "#%s"
+msgstr "#%s"
+
+#: includes/reports/class.yith-wcmbs-download-reports-by-user-table.php:147
+msgctxt "Download reports table title: user id"
+msgid "User #%s"
+msgstr "کاربر #%s"
+
+#: includes/reports/class.yith-wcmbs-download-reports-by-user-table.php:155
+msgid "Show details"
+msgstr ""
+
+#: includes/reports/class.yith-wcmbs-download-reports-details-by-user-table.php:46
+msgid "Product ID"
+msgstr "شناسه‌ی محصول:"
+
+#: includes/reports/class.yith-wcmbs-download-reports-details-by-user-table.php:47
+#: languages/yith-woocommerce-membership.php:24
+#: templates/premium/frontend/downloaded-product-links.php:42
+#: views/reports/download-reports-table.php:48
+#: views/reports/download-reports-table.php:68 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-downloaded-product-links/edit.js:18
+#: includes/builders/gutenberg/src/blocks/membership-protected-links/edit.js:40
+msgid "Product"
+msgstr "محصولات"
+
+#: includes/reports/class.yith-wcmbs-download-reports-details-by-user-table.php:48
+msgid "IP Address"
+msgstr ""
+
+#: includes/reports/class.yith-wcmbs-download-reports-details-by-user-table.php:49
+msgid "Date"
+msgstr "تاریخ"
+
+#: includes/shipping/class.wc-shipping-membership-flat-rate.php:37
+msgid "Membership Flat Rate"
+msgstr ""
+
+#: includes/shipping/class.wc-shipping-membership-flat-rate.php:38
+msgid ""
+"Membership Flat Rate is a special method enabled only for members in the "
+"plan specified below."
+msgstr ""
+
+#: includes/shipping/class.wc-shipping-membership-flat-rate.php:64
+#: includes/shipping/class.wc-shipping-membership-free-shipping.php:55
+msgid "an active membership plan"
+msgstr "یک طرح عضویت ویژه فعال"
+
+#: includes/shipping/class.wc-shipping-membership-flat-rate.php:73
+#: includes/shipping/class.wc-shipping-membership-free-shipping.php:64
+msgid "This is the shipping method title shown to users in checkout page."
+msgstr ""
+"این عنوان روش ارسال که  در برگه صورتحساب کاربران نمایش داده شده است می باشد."
+
+#: includes/shipping/class.wc-shipping-membership-flat-rate.php:78
+msgid "Membership Flat Rate requires..."
+msgstr ""
+
+#: includes/shipping/class.wc-shipping-membership-free-shipping.php:26
+msgid "Membership Free Shipping"
+msgstr "عضویت ویژه حمل رایگان"
+
+#: includes/shipping/class.wc-shipping-membership-free-shipping.php:27
+msgid ""
+"Membership Free Shipping is a special method enabled only for members in the "
+"plan specified below."
+msgstr ""
+"عضویت ویژه ارسال رایگان یک روش خاص است که فقط برای اعضای طرح تعیین شده ی زیر "
+"فعال شده است."
+
+#: includes/shipping/class.wc-shipping-membership-free-shipping.php:69
+msgid "Membership Free Shipping requires..."
+msgstr "الزامات عضویت ویژه ارسال رایگان..."
+
+#: init.php:38
+msgid ""
+"YITH WooCommerce Membership Premium is enabled but not effective. It "
+"requires WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce Membership Premium فعال شده است اما قابل استفاده نیست. برای "
+"کار به ووکامرس نیاز است."
+
+#: languages/yith-woocommerce-membership.php:27
+#: templates/premium/frontend/downloaded-product-links.php:43
+#: templates/premium/frontend/downloaded-product-links.php:58
+#: dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-downloaded-product-links/edit.js:19
+#: includes/builders/gutenberg/src/blocks/membership-downloaded-product-links/edit.js:29
+#: includes/builders/gutenberg/src/blocks/membership-downloaded-product-links/edit.js:37
+msgid "Download"
+msgstr "دانلود"
+
+#: languages/yith-woocommerce-membership.php:30
+#: templates/premium/tabs/shortcodes.php:47 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-protected-media/edit.js:139
+msgid "Linked text"
+msgstr "متن لینک شده"
+
+#: languages/yith-woocommerce-membership.php:33
+#: views/metaboxes/membership_info_content.php:105 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-history/edit.js:71
+msgid "Membership History"
+msgstr "تاریخچه عضویت ویژه"
+
+#: languages/yith-woocommerce-membership.php:36
+#: views/metaboxes/plan-options.php:89 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-protected-content/edit.js:45
+msgid "Search Membership Plans"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:39 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/components/select-search.js:238
+msgid "Please enter %d or more characters"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:42 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/components/select-search.js:249
+msgid "Searching..."
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:45 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/components/select-search.js:251
+msgid "No results found"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:48 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-protected-links/edit.js:37
+msgid "Current post"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:51 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-protected-links/edit.js:38
+msgid "Post"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:54 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-protected-links/edit.js:39
+msgid "Page"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:57 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-protected-links/edit.js:50
+msgid "Membership Protected Links"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:60 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-protected-links/edit.js:65
+msgid "The selected post has no secure links"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:63 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-protected-links/edit.js:71
+msgid "Link class"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:66 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-protected-links/edit.js:75
+msgid "Print protected links set into:"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:69 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-protected-content/edit.js:18
+msgid "Guest"
+msgstr "مهمان"
+
+#: languages/yith-woocommerce-membership.php:72 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-protected-content/edit.js:20
+msgid "Non-member"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:75 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-protected-content/edit.js:36
+msgid "Users that can see this block content:"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:78 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-protected-media/edit.js:69
+#: includes/builders/gutenberg/src/blocks/membership-protected-media/edit.js:72
+msgid "Open Media Library"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:81 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-protected-media/edit.js:96
+msgid "Membership Protected Media"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:84 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-protected-media/edit.js:130
+msgid "Media URL"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:87 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-history/edit.js:19
+msgid "Starting date"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:90 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-history/edit.js:51
+#: includes/builders/gutenberg/src/blocks/membership-history/edit.js:56
+msgid "All memberships"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:93 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-history/edit.js:84
+msgid "Show"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:96 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-history/edit.js:95
+msgid "Membership plans to print:"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:99 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-items/edit.js:32
+msgid "Membership Plan Items"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:102 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-items/edit.js:46
+msgid "There are no items to show for the selected plan"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:105 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-downloaded-product-links/edit.js:10
+msgid "Membership Downloaded Product Links"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:108
+#: templates/premium/tabs/shortcodes.php:44 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-protected-media/edit.js:97
+msgid ""
+"Print protected media link. Please note: media should be set as protected "
+"before printing the link"
+msgstr ""
+"لینک فایل رسانه ای محافظت شده را چاپ می کند. توجه: فایل رسانه ای از قبل باید "
+"به عنوان یک فایل محافظت شده تنظیم شود"
+
+#: languages/yith-woocommerce-membership.php:111
+#: templates/premium/tabs/shortcodes.php:53 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-items/edit.js:33
+msgid "Print the list of items included in a membership plan"
+msgstr "لیست آیتم های شامل شده در یک طرح عضویت ویژه را چاپ می کند"
+
+#: languages/yith-woocommerce-membership.php:114 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-history/edit.js:52
+msgid "Only memberships not associated with a subscription plan"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:117 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-history/edit.js:53
+msgid "Only memberships associated with a subscription plan"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:120 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-history/edit.js:72
+msgid "Print the details of the membership plans joined by the current user"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:123 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-history/edit.js:106
+msgid "Text to show to customers without a membership:"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:126 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-items/edit.js:51
+msgid "Print items included in plan:"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:129 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-protected-content/edit.js:28
+msgid "Membership Protected Content"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:132 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-protected-content/edit.js:29
+msgid "Show specific content based on the membership plans"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:135 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-protected-links/edit.js:51
+msgid "Print the protected links set into a post, page, or product"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:138 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-downloaded-product-links/edit.js:11
+msgid "Print a table with links to downloaded products"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:141 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-history/edit.js:57
+msgid "Choose a specific plan"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:144 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/members-only-content-start/edit.js:22
+msgid "Alternative content to show:"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:147 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/members-only-content-start/edit.js:27
+msgid "Hide alternative content or choose which to show in this specific block"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:150 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/members-only-content-start/edit.js:32
+msgctxt "Block title"
+msgid "Members-only content starts here"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:153 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/members-only-content-start/index.js:10
+msgctxt "Block name"
+msgid "Members-only content start"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:156 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-protected-links/index.js:8
+msgctxt "Block name"
+msgid "Membership protected links"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:159 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-protected-content/index.js:9
+msgctxt "Block name"
+msgid "Membership protected content"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:162 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-protected-media/index.js:8
+msgctxt "Block name"
+msgid "Membership protected media"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:165 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-history/index.js:10
+msgctxt "Block name"
+msgid "Membership history"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:168 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-items/index.js:10
+msgctxt "Block name"
+msgid "Membership items"
+msgstr ""
+
+#: languages/yith-woocommerce-membership.php:171 dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/membership-downloaded-product-links/index.js:10
+msgctxt "Block name"
+msgid "Membership downloaded product links"
+msgstr ""
+
+#: plugin-options/membership-options.php:13
+msgctxt "Tab title in plugin settings panel"
+msgid "All Memberships"
+msgstr ""
+
+#: plugin-options/membership-options.php:16
+msgctxt "Tab title in plugin settings panel"
+msgid "Membership Plans"
+msgstr ""
+
+#. translators: %s is the text (with link) of the "YITH > Membership > Alternative Content Blocks" menu
+#: plugin-options/membership-options.php:19
+#: plugin-options/settings-options.php:111
+#: views/metaboxes/membership-options.php:72
+msgctxt "Tab title in plugin settings panel"
+msgid "Alternative Content Blocks"
+msgstr ""
+
+#: plugin-options/membership-options.php:22
+msgctxt "Tab title in plugin settings panel"
+msgid "Reports"
+msgstr ""
+
+#: plugin-options/settings-options.php:10
+msgid "General Options"
+msgstr ""
+
+#: plugin-options/settings-options.php:17
+msgid "Automatically assign new users to specific membership plan(s)"
+msgstr ""
+
+#: plugin-options/settings-options.php:20
+msgid ""
+"Enable to automatically assign all newly registered users one or more "
+"specific plans."
+msgstr ""
+
+#: plugin-options/settings-options.php:26
+msgid "Choose which plan(s) will be assigned to all new customers"
+msgstr ""
+
+#: plugin-options/settings-options.php:31
+msgid "Search plans..."
+msgstr ""
+
+#: plugin-options/settings-options.php:44
+msgid "How to manage access to restricted content"
+msgstr ""
+
+#: plugin-options/settings-options.php:48
+msgid ""
+"Hide content - Members will view the restricted contents, non-members will "
+"be redirected to a 404 page."
+msgstr ""
+
+#: plugin-options/settings-options.php:49
+msgid ""
+"Show items and redirect - Non-members will be able to see the items on "
+"archive pages, but will be redirected to a specific URL when trying to open "
+"them and see the full content."
+msgstr ""
+
+#: plugin-options/settings-options.php:50
+msgid ""
+"Show alternative content - The full content will be accessible to members "
+"only and you can set alternative content for non-members."
+msgstr ""
+
+#: plugin-options/settings-options.php:53
+msgid ""
+"Choose how to manage access to restricted content for members and non-"
+"members."
+msgstr ""
+
+#: plugin-options/settings-options.php:58
+msgid "Default alternative content for non-members"
+msgstr ""
+
+#: plugin-options/settings-options.php:62
+msgid "Set an alternative content here"
+msgstr ""
+
+#: plugin-options/settings-options.php:63
+#: views/metaboxes/membership-options.php:78
+msgid "Load an alternative content block"
+msgstr ""
+
+#: plugin-options/settings-options.php:72
+#: views/metaboxes/membership-options.php:67
+msgid "Choose which alternative content will be shown for non-members."
+msgstr ""
+
+#: plugin-options/settings-options.php:73
+msgid ""
+"You can enter a custom one in the editor below or choose a previously "
+"created alternative content block to load."
+msgstr ""
+
+#: plugin-options/settings-options.php:80
+msgid "Default Alternative Content"
+msgstr ""
+
+#: plugin-options/settings-options.php:84
+msgid "Set a default alternative content for all contents."
+msgstr ""
+
+#: plugin-options/settings-options.php:95
+msgid "Default Alternative Content Block"
+msgstr ""
+
+#: plugin-options/settings-options.php:99
+#: views/metaboxes/membership-options.php:101
+msgid "Search Alternative Content Block"
+msgstr ""
+
+#: plugin-options/settings-options.php:107
+#: views/metaboxes/membership-options.php:98
+msgid "Choose the alternative content block to be shown to non-members."
+msgstr ""
+
+#. translators: %s is the text (with link) of the "YITH > Membership > Alternative Content Blocks" menu
+#: plugin-options/settings-options.php:110
+#: views/metaboxes/membership-options.php:71
+msgid "You can create alternative content blocks in \"%s\"."
+msgstr ""
+
+#: plugin-options/settings-options.php:124
+msgid "By default, redirect non-members to"
+msgstr ""
+
+#: plugin-options/settings-options.php:133
+msgid ""
+"Enter the URL where to redirect non-member users. You can set a different "
+"URL in each post/page/product."
+msgstr ""
+
+#: plugin-options/settings-options.php:138
+msgid "Show Memberships menu in My Account page"
+msgstr ""
+
+#: plugin-options/settings-options.php:142
+msgid ""
+"Enable to show the Memberships menu in the \"My Account\" page, of your "
+"customers."
+msgstr ""
+
+#: plugin-options/settings-options.php:150
+msgid "Shop Options"
+msgstr ""
+
+#: plugin-options/settings-options.php:157
+msgid "Allow guests to buy products linked to a membership plan"
+msgstr ""
+
+#: plugin-options/settings-options.php:161
+msgid ""
+"Allow guest users to purchase a product linked to a membership without "
+"creating an account. Note: these guests won't have access to the membership "
+"plan linked to the product."
+msgstr ""
+"به کاربران مهمان اجازه بده بدون ایجاد حساب کاربری محصول متصل شده به یک عضویت "
+"ویژه را خریداری کنند. توجه : این مهمان ها به طرح عضویت ویژه متصل به محصول "
+"دسترسی نخواهند داشت و فقط محصول را خریداری می کنند."
+
+#: plugin-options/settings-options.php:166
+msgid "How to manage access to restricted products"
+msgstr ""
+
+#: plugin-options/settings-options.php:170
+msgid "Only members can view products"
+msgstr ""
+
+#: plugin-options/settings-options.php:171
+msgid ""
+"Everybody can view products, but only members can download them (for free or "
+"by using credits)"
+msgstr ""
+
+#: plugin-options/settings-options.php:174
+msgid ""
+"Choose how to manage access to restricted products for members and non-"
+"members."
+msgstr ""
+
+#: plugin-options/settings-options.php:180
+msgid "Download link position"
+msgstr "موقعیت لینک دانلود"
+
+#: plugin-options/settings-options.php:183
+msgid ""
+"Choose where you want to show the download link in single product page or "
+"use the shortcode %s."
+msgstr ""
+"انتخاب کنید که میخواهید لینک دانلود را در برگه تکی محصول در چه موقعیتی نمایش "
+"دهید. یا از کد کوتاه %s استفاده کنید."
+
+#: plugin-options/settings-options.php:185
+msgid "Download Tab"
+msgstr "تب دانلود"
+
+#: plugin-options/settings-options.php:186
+msgid "Before summary"
+msgstr "قبل از خلاصه محصول"
+
+#: plugin-options/settings-options.php:187
+msgid "Before description"
+msgstr "قبل از توضیحات"
+
+#: plugin-options/settings-options.php:188
+msgid "After description"
+msgstr "بعد از توضیحات"
+
+#: plugin-options/settings-options.php:189
+msgid "After \"Add to Cart\" Button"
+msgstr "بعد از دکمه افزودن به سبد خرید"
+
+#: plugin-options/settings-options.php:190
+msgid "After summary"
+msgstr "پس از خلاصه"
+
+#: plugin-options/settings-options.php:191
+msgid "Use Shortcode"
+msgstr "استفاده از کدکوتاه"
+
+#: plugin-options/settings-options.php:203
+msgid "If you use a credit plan, by default, each product download equals to"
+msgstr ""
+
+#: plugin-options/settings-options.php:206
+msgid ""
+"Set how many credits will be decreased for each product download. You can "
+"override this value in each product."
+msgstr ""
+
+#: plugin-options/settings-options.php:210
+msgctxt "Text after numeric field"
+msgid "credits"
+msgstr ""
+
+#: plugin-options/settings-options.php:220
+msgid "Hide price and add to cart buttons for members"
+msgstr ""
+
+#: plugin-options/settings-options.php:223
+msgid ""
+"Enable to hide prices and add to cart buttons for members that can download "
+"the products."
+msgstr ""
+
+#: plugin-options/settings-options.php:229
+msgid "For member discounts, apply"
+msgstr ""
+
+#: plugin-options/settings-options.php:233
+msgid "Choose how to handle discounts for members."
+msgstr ""
+
+#: plugin-options/settings-options.php:234
+msgid ""
+"This is useful, for instance, when you edit a membership plan discount "
+"percentage after a while: you can let members benefit from the original "
+"discount they signed up for or from the latest discount you set even after "
+"they signed up."
+msgstr ""
+
+#: plugin-options/settings-options.php:237
+msgid ""
+"The original discount percentage set when the customer purchased the "
+"membership plan"
+msgstr ""
+
+#: plugin-options/settings-options.php:238
+msgid "The latest discount percentage set for the membership plan"
+msgstr ""
+
+#: plugin-options/settings-options.php:248
+msgid "Reports"
+msgstr "گزارشات"
+
+#: plugin-options/settings-options.php:254
+msgid "Show Membership info in Reports"
+msgstr "نمایش اطلاعات عضویت ویژه در گزارشات"
+
+#: plugin-options/settings-options.php:257
+msgid "Enable to show Membership info column in \"downloads by user\" reports."
+msgstr ""
+
+#: plugin-options/settings-options.php:263
+msgid "Use external services to get user IP Address"
+msgstr ""
+
+#: plugin-options/settings-options.php:266
+msgid "Enable to get user IP Address using external services."
+msgstr ""
+
+#: plugin-options/settings-options.php:279
+msgid "Custom Post Types"
+msgstr "پست تایپ های سفارشی"
+
+#: plugin-options/settings-options.php:285
+msgid "Membership Restricted Custom Post types"
+msgstr "عضویت ویژه انواع نوشته سفارشی را محدود می کند."
+
+#: plugin-options/settings-options.php:287
+msgid "Select the custom post types you want enable for Membership"
+msgstr ""
+"انواع سفارشی نوشته که می خواهید برای  عضویت ویژه  فعال شود را انتخاب کنید"
+
+#: templates/premium/bulk/bulk-edit-memberhsip-access.php:3
+msgid "Set Access"
+msgstr "تنظیم دسترسی"
+
+#: templates/premium/compatibility/multivendor/edit-product-vendors-taxonomy.php:9
+msgid "Manage membership plans"
+msgstr "مدیریت طرح های عضویت ویژه"
+
+#: templates/premium/compatibility/multivendor/edit-product-vendors-taxonomy.php:15
+msgid "Allow vendors to manage membership plans"
+msgstr "اجازه دادن به فروشندگان برای مدیریت طرح های عضویت ویژه"
+
+#: templates/premium/frontend/membership-product-download-box.php:16
+msgid "Download this product FOR FREE!"
+msgstr ""
+
+#. translators: %s i the number of credits.
+#: templates/premium/frontend/membership-product-download-box.php:18
+msgid "Download this product for 1 credit"
+msgid_plural "Download this product for %s credits"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s i the number of credits.
+#: templates/premium/frontend/membership-product-download-box.php:19
+msgid "Your credits"
+msgstr ""
+
+#: templates/premium/frontend/membership-product-download-box.php:20
+msgid "Credits after this download"
+msgstr ""
+
+#: templates/premium/membership/membership-plan-post-type-items.php:31
+msgid "Included Posts"
+msgstr ""
+
+#: templates/premium/membership/membership-plan-post-type-items.php:32
+msgid "Included Pages"
+msgstr ""
+
+#: templates/premium/membership/membership-plan-post-type-items.php:33
+msgid "Included Products"
+msgstr ""
+
+#: templates/premium/membership/membership-plan-post-type-items.php:84
+msgid "Availability date: %s "
+msgstr "تاریخ قابلیت دسترسی : %s"
+
+#: templates/premium/membership/membership-plan-post-type-items.php:86
+msgid "available after %s day since the beginning of the membership"
+msgid_plural "available after %s days since the beginning of the membership"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1. the current page number; 2. number of total pages; (eg. 2 of 12).
+#: templates/premium/membership/membership-plan-post-type-items.php:140
+msgctxt "Pagination"
+msgid "%1$s of %2$s"
+msgstr ""
+
+#: templates/premium/membership/membership-plans.php:66
+msgid "Next credits update"
+msgstr "بروزرسانی اعتبار بعدی"
+
+#: templates/premium/membership/membership-plans.php:74
+#: views/metaboxes/membership_info_content.php:90
+msgid "Shop Discount"
+msgstr ""
+
+#: templates/premium/membership/membership-plans.php:103
+msgid "History"
+msgstr "تاریخچه"
+
+#: templates/premium/membership/membership-plans.php:107
+msgid "Contents"
+msgstr "فهرست"
+
+#: templates/premium/membership/membership-plans.php:122
+#: views/metaboxes/membership_info_content.php:109
+msgid "Update"
+msgstr "به روز رسانی"
+
+#: templates/premium/membership/membership-plans.php:123
+#: views/metaboxes/membership_info_content.php:110
+msgid "Note"
+msgstr "یادداشت"
+
+#: templates/premium/privacy/html-policy-content-collect_and_store.php:1
+msgctxt "Privacy Policy Content"
+msgid "While you visit our site, we’ll track:"
+msgstr ""
+
+#: templates/premium/privacy/html-policy-content-collect_and_store.php:2
+#: templates/premium/privacy/html-policy-content-has_access.php:1
+msgctxt "Privacy Policy Content"
+msgid "Information about memberships users belong to."
+msgstr ""
+
+#: templates/premium/privacy/html-policy-content-collect_and_store.php:3
+#: templates/premium/privacy/html-policy-content-has_access.php:2
+msgctxt "Privacy Policy Content"
+msgid ""
+"The report of the memberships and the products in them downloaded by the "
+"user."
+msgstr ""
+
+#: templates/premium/tabs/shortcodes.php:9
+msgid "Membership protected links"
+msgstr "لینک های محافظت شده عضویت ویژه"
+
+#: templates/premium/tabs/shortcodes.php:11
+msgid "Prints the protected links set into a post, a page or a product"
+msgstr "چاپ لینک های محافظت شده در یک نوشته، یک برگه یا محصول"
+
+#: templates/premium/tabs/shortcodes.php:13
+msgid ""
+"The ID of the post, the page or the product that contains the protected "
+"links. If not set, it uses global post ID"
+msgstr ""
+"شناسه نوشته، برگه، یا محصول که لینک های محافظت شده را شامل می شود. اگر تنظیم "
+"نشود، از شناسه عمومی نوشته استفاده می کند."
+
+#: templates/premium/tabs/shortcodes.php:14
+msgid "The CSS class of download links"
+msgstr "کلاس CSS لینک های دانلود"
+
+#: templates/premium/tabs/shortcodes.php:25
+msgid "Membership protected content"
+msgstr "محتوای محافظت شده عضویت ویژه"
+
+#: templates/premium/tabs/shortcodes.php:27
+msgid "Show the content in base of membership plan"
+msgstr "نمایش محتوا در طرح عضویت ویژه پایه"
+
+#: templates/premium/tabs/shortcodes.php:29
+msgid ""
+"The ID of the allowed plans, separed with commas. If not set, it shows the "
+"content to members with any plan"
+msgstr ""
+"شناسه طرح های مجاز، که با کاما از هم جدا شده اند. اگر تنظیم نکنید، محتوا را "
+"برای اعضای هر طرح عضویت ویژه ای نمایش می دهد."
+
+#: templates/premium/tabs/shortcodes.php:30
+msgid ""
+"The type of user that can view the content. Possible values: member, non-"
+"member, guest, logged. Default: member"
+msgstr ""
+"نوع کاربری که می تواند محتوا را مشاهده کند. مقادیر ممکن: عضو ف غیر عضو ، "
+"وارد شده ، مهمان. پیش فرض: عضو"
+
+#: templates/premium/tabs/shortcodes.php:33
+msgid "Content visible to all members"
+msgstr ""
+
+#: templates/premium/tabs/shortcodes.php:34
+msgid "Content visible to members of plan with ID 123"
+msgstr ""
+
+#: templates/premium/tabs/shortcodes.php:35
+msgid "Content visible to members of plans with ID 12 or 45"
+msgstr ""
+
+#: templates/premium/tabs/shortcodes.php:36
+msgid "Content visible to all users except for members of plan with ID 12"
+msgstr ""
+
+#: templates/premium/tabs/shortcodes.php:37
+msgid "Content visible to guest users"
+msgstr ""
+
+#: templates/premium/tabs/shortcodes.php:38
+msgid "Content visible to logged-in users"
+msgstr ""
+
+#: templates/premium/tabs/shortcodes.php:42
+msgid "Protected Media"
+msgstr "فایل رسانه ای محافظت شده"
+
+#: templates/premium/tabs/shortcodes.php:46
+msgid "ID of the protected media"
+msgstr "شناسه فایل رسانه ای محافظت شده"
+
+#: templates/premium/tabs/shortcodes.php:51
+msgid "Membership Level Items"
+msgstr "آیتم های سطح عضویت ویژه"
+
+#: templates/premium/tabs/shortcodes.php:55
+msgid "ID of the membership plan"
+msgstr "شناسه طرح عضویت ویژه"
+
+#: templates/premium/tabs/shortcodes.php:56
+msgid "Sort retrieved items by parameter. Possible values: %s"
+msgstr "مرتب سازی آیتم ها به وسیله پارامتر. مقادیر ممکن: %s"
+
+#: templates/premium/tabs/shortcodes.php:57
+msgid "Set ASC for ascending order or DESC for descending one (default: ASC)"
+msgstr "برای حال صعودی ASC و برای حالت نزولی DESC را تنظیم کنید (پیشفرض: ASC)"
+
+#: templates/premium/tabs/shortcodes.php:58
+msgid ""
+"If style is set to \"default\", shortcode style is the same as in membership "
+"plan list; else, if it is not set, shortcode style can be set within "
+"membership plan"
+msgstr ""
+
+#: templates/premium/tabs/shortcodes.php:67
+msgid "Product download links"
+msgstr "لینک های دانلود محصول"
+
+#: templates/premium/tabs/shortcodes.php:69
+msgid "Print product download links"
+msgstr "چاپ لینک های دانلود محصول"
+
+#: templates/premium/tabs/shortcodes.php:71
+msgid "Product ID. If not specified, it prints current product download links"
+msgstr "شناسه محصول. اگر مشخص نشود ،  لینک های دانلود محصول فعلی را چاپ می کند"
+
+#: templates/premium/tabs/shortcodes.php:72
+msgid "The css class of download links"
+msgstr "کلاس css لینک های دانلود"
+
+#: templates/premium/tabs/shortcodes.php:73
+msgid ""
+"Button text. If it is not set, the button text will be the name of the file "
+"set in the product"
+msgstr ""
+
+#: templates/premium/tabs/shortcodes.php:74
+msgid "If set as \"box\", it prints the download links in a box"
+msgstr ""
+
+#: templates/premium/tabs/shortcodes.php:79
+msgid "Membership history"
+msgstr "تاریخچه عضویت ویژه"
+
+#: templates/premium/tabs/shortcodes.php:81
+msgid "Print the list of every membership plan ever joined by current user"
+msgstr ""
+
+#: templates/premium/tabs/shortcodes.php:83
+msgid ""
+"Membership ID. If specified, it prints details of the membership associated "
+"to this ID. Else, it prints the list of every membership plan ever joined by "
+"current user"
+msgstr ""
+
+#: templates/premium/tabs/shortcodes.php:84
+msgid "You can set a title for this section"
+msgstr "شما می توانید یک عنوان برای این بخش اختصاص دهید"
+
+#: templates/premium/tabs/shortcodes.php:85
+msgid ""
+"You can use this attribute when premium YITH WooCommerce Subscription plugin "
+"is enabled. Set it to \"membership\" to show only memberships not associated "
+"to any subscription plan; set it to \"subscription\" to show memberships "
+"associated to a subscription plan; don't use it if you want to show all "
+"memberships."
+msgstr ""
+
+#: templates/premium/tabs/shortcodes.php:96
+msgid "Membership downloaded product links"
+msgstr "لینک های محصولات دانلود شده عضویت ویژه"
+
+#: templates/premium/tabs/shortcodes.php:98
+msgid "Prints a table with links to downloaded products"
+msgstr "یک جدول همراه لینک های محصولات دانلود شده چاپ می کند"
+
+#: templates/premium/tabs/shortcodes.php:101
+msgid "Login Form"
+msgstr "فرم ورود"
+
+#: templates/premium/tabs/shortcodes.php:103
+msgid "Print WooCommerce Login Form"
+msgstr "چاپ  فرم ورود ووکامرس"
+
+#: templates/premium/tabs/shortcodes.php:115
+msgid "Description"
+msgstr "شرح"
+
+#: templates/premium/tabs/shortcodes.php:120
+msgid "Shortcode attributes"
+msgstr "ویژگی های کدکوتاه"
+
+#: templates/premium/tabs/shortcodes.php:131
+msgid "Examples"
+msgstr "نمونه ها"
+
+#: views/media/restrict_access.php:12
+msgid "Include this item in a membership"
+msgstr "این آیتم را در یک عضویت ویژه شامل کن"
+
+#: views/metaboxes/fields/parts/protected-link.php:20
+msgid "Enter file name"
+msgstr ""
+
+#: views/metaboxes/fields/parts/protected-link.php:31
+msgid "Enter file URL or %s"
+msgstr ""
+
+#: views/metaboxes/fields/parts/protected-link.php:32
+msgid "Upload it"
+msgstr ""
+
+#: views/metaboxes/fields/parts/protected-link.php:43
+msgid "Available to members of plans"
+msgstr ""
+
+#: views/metaboxes/fields/parts/single-plan-delay.php:24
+msgid "For the \"%s\" plan, make it available"
+msgstr ""
+
+#: views/metaboxes/fields/parts/single-plan-delay.php:33
+msgid "Immediately"
+msgstr ""
+
+#: views/metaboxes/fields/parts/single-plan-delay.php:34
+msgid "After %s days from signup"
+msgstr ""
+
+#: views/metaboxes/fields/protected-links.php:36
+msgid "Add file"
+msgstr ""
+
+#: views/metaboxes/membership-advanced-administration.php:11
+msgid "Enable Editing"
+msgstr ""
+
+#: views/metaboxes/membership-advanced-administration.php:28
+msgid ""
+"Please pay attention when editing these fields, as any modification will not "
+"be reversible!"
+msgstr ""
+
+#: views/metaboxes/membership-options.php:24
+msgid "Include this content in the following plans"
+msgstr ""
+
+#: views/metaboxes/membership-options.php:30
+msgid "Choose plans to include this content in."
+msgstr ""
+
+#: views/metaboxes/membership-options.php:42
+#: views/metaboxes/membership_info_content.php:69
+msgid "Credits"
+msgstr "اعتبار"
+
+#: views/metaboxes/membership-options.php:46
+msgid ""
+"Set the number of credits the user needs to spend to download the product."
+msgstr ""
+
+#: views/metaboxes/membership-options.php:56
+msgid "Redirect non-members to"
+msgstr ""
+
+#: views/metaboxes/membership-options.php:57
+msgid "Enter the URL where to redirect non-member users."
+msgstr ""
+
+#: views/metaboxes/membership-options.php:65
+msgid "Alternative content for non-members"
+msgstr ""
+
+#: views/metaboxes/membership-options.php:68
+msgid ""
+"You can enter a custom one in the editor of this page or choose a previously "
+"created alternative content block to load."
+msgstr ""
+
+#: views/metaboxes/membership-options.php:77
+msgid "Enter alternative content text"
+msgstr ""
+
+#: views/metaboxes/membership-options.php:85
+msgid "Alternative Content"
+msgstr "محتوای جایگزین"
+
+#: views/metaboxes/membership-options.php:86
+msgid "Enter the alternative content to be shown to non-members."
+msgstr ""
+
+#: views/metaboxes/membership-options.php:97
+msgid "Alternative Content Block"
+msgstr ""
+
+#: views/metaboxes/membership-options.php:114
+msgid "Add protected files"
+msgstr ""
+
+#: views/metaboxes/membership-options.php:116
+msgid "Enable to add files that only members can download."
+msgstr ""
+
+#: views/metaboxes/membership-options.php:117
+msgid "Use the following shortcode to show protected links: %s"
+msgstr ""
+
+#: views/metaboxes/membership-options.php:125
+msgid "Protected files"
+msgstr ""
+
+#: views/metaboxes/membership_actions.php:3
+msgid "Actions"
+msgstr "اقدامات"
+
+#: views/metaboxes/membership_actions.php:5
+msgid "Pause Membership"
+msgstr "توقف عضویت ویژه"
+
+#: views/metaboxes/membership_actions.php:8
+msgid "Resume Membership"
+msgstr "از سرگیری عضویت ویژه"
+
+#: views/metaboxes/membership_actions.php:11
+msgid "Cancel Membership"
+msgstr "لغو عضویت ویژه"
+
+#: views/metaboxes/membership_actions.php:17
+msgid "Save Membership"
+msgstr "ذخیره عضویت ویژه"
+
+#: views/metaboxes/membership_info_content.php:9
+msgid "Membership #%d details"
+msgstr "مشخصات عضویت ویژه #%d"
+
+#: views/metaboxes/membership_info_content.php:19
+msgid "Membership Plan: %s"
+msgstr "طرح عضویت ویژه : %s"
+
+#: views/metaboxes/membership_info_content.php:24
+msgid "General Details"
+msgstr "جزئیات کلی"
+
+#: views/metaboxes/membership_info_content.php:41
+#: views/reports/download-reports-downloads-details-by-user.php:84
+msgid "Created by Admin"
+msgstr "ایجاد شده توسط ادمین"
+
+#: views/metaboxes/membership_info_content.php:48
+msgid "User Details"
+msgstr "اطلاعات کاربر"
+
+#: views/metaboxes/membership_info_content.php:61
+#: views/reports/download-reports-downloads-by-user.php:27
+msgid "Search user..."
+msgstr ""
+
+#: views/metaboxes/membership_info_content.php:75
+msgid "Last update"
+msgstr "آخرین به روز رسانی"
+
+#: views/metaboxes/membership_info_content.php:80
+msgid "Next update"
+msgstr "بروزرسانی بعدی"
+
+#: views/metaboxes/membership_info_content.php:89
+msgid "Discounts"
+msgstr ""
+
+#: views/metaboxes/message.php:20
+msgid "sent on %1$s at %2$s"
+msgstr "در تاریخ %1$s  در زمان%2$s ارسال شد"
+
+#: views/metaboxes/plan-options.php:16
+msgctxt "Plan option section title"
+msgid "Options"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:21
+msgid "Allow access to this plan after purchasing a specific product"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:22
+msgid ""
+"Enable if the user has to buy a specific product to get access to this "
+"membership plan."
+msgstr ""
+
+#: views/metaboxes/plan-options.php:27
+msgid "Choose the products to link to this plan"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:28
+msgid ""
+"Choose which product(s) a user can buy, in order to get access to this plan."
+msgstr ""
+
+#: views/metaboxes/plan-options.php:43
+msgid "Set an end time for this membership"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:44
+msgid ""
+"Enable to set an expiration for this plan. If disabled, the plan will be "
+"unlimited or lifetime."
+msgstr ""
+
+#: views/metaboxes/plan-options.php:48
+msgid "Membership ends after"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:49
+msgid "Set after how many days this membership will end."
+msgstr ""
+
+#. translators: %s is the numeric input field of the duration
+#: views/metaboxes/plan-options.php:53
+msgctxt "Text with inline field"
+msgid "%s days"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:75
+msgid "Show contents in membership details"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:76
+msgid ""
+"Enable to show what content is included in this plan, in the membership "
+"details."
+msgstr ""
+
+#: views/metaboxes/plan-options.php:81
+msgid "Include contents of other plans"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:82
+msgid "Enable to include contents of other plans in this plan."
+msgstr ""
+
+#: views/metaboxes/plan-options.php:92
+msgid "Include contents of these plans"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:93
+msgid ""
+"Select which plans to add. Add other plans to this one, so that their "
+"content is also visible under this membership plan."
+msgstr ""
+
+#: views/metaboxes/plan-options.php:102
+msgid "Users can download"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:103
+msgid ""
+"Choose if users of this plan can download products without any limit or if "
+"you want to setup download permissions based on credits."
+msgstr ""
+
+#: views/metaboxes/plan-options.php:105
+msgid "All downloadable products without any limit"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:106
+msgid "Using credits associated to products to download"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:112
+msgid "Credits availability"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:113
+msgid ""
+"Set how many credits to assign to all members of this plans, for how much "
+"time these credits will be available and how to manage unused credits."
+msgstr ""
+
+#. translators: 1. is the numeric input field of the number of credits; 2. is the numeric input field of the duration; 3. is the select field of the duration unit; 4. is the select field of the option; Example: Users of this plan will get "50" credits. Each "10" "days" credits will be restored and unused credits "will be accumulated"
+#: views/metaboxes/plan-options.php:117
+msgctxt "Text with inline fields"
+msgid ""
+"Users of this plan will get %1$s credits. Every %2$s %3$s credits will be "
+"restored and unused credits %4$s"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:149
+msgid "days"
+msgstr "روز"
+
+#: views/metaboxes/plan-options.php:150
+msgid "weeks"
+msgstr "هفته"
+
+#: views/metaboxes/plan-options.php:151
+msgid "months"
+msgstr "ماه"
+
+#: views/metaboxes/plan-options.php:152
+msgid "years"
+msgstr "سال‌"
+
+#: views/metaboxes/plan-options.php:166
+msgid "will be accumulated"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:167
+msgid "will be lost"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:184
+msgid "Set a different credits availability for first time"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:185
+msgid ""
+"Enable to assign a different number of credits for the first time, when the "
+"user becomes a member."
+msgstr ""
+
+#: views/metaboxes/plan-options.php:196
+msgid "Credits availability for the first time"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:197
+msgid "Set how many credits to assign to new members for the first time."
+msgstr ""
+
+#: views/metaboxes/plan-options.php:208
+msgid "Enable to give a discount on all products for members."
+msgstr ""
+
+#: views/metaboxes/plan-options.php:215
+msgid "Set the percentage discount for all products."
+msgstr ""
+
+#: views/metaboxes/plan-options.php:224
+msgctxt "Plan option section title"
+msgid "Permissions"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:225
+msgid ""
+"Set which content will be restricted and accessible only to members of this "
+"plan."
+msgstr ""
+
+#: views/metaboxes/plan-options.php:230
+msgctxt "Plan option section title"
+msgid "Pages"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:237
+msgid "Search Pages"
+msgstr "جستجوی برگه ها"
+
+#: views/metaboxes/plan-options.php:240
+msgid "Pages accessible with this plan"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:241
+msgid "Choose which pages will be accessible to members of this plan."
+msgstr ""
+
+#: views/metaboxes/plan-options.php:245
+msgid "Page sorting"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:246
+msgid "Choose how to sort visible pages to members."
+msgstr ""
+
+#: views/metaboxes/plan-options.php:250 views/metaboxes/plan-options.php:320
+#: views/metaboxes/plan-options.php:390
+msgid "Alphabetically ascending"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:251 views/metaboxes/plan-options.php:321
+#: views/metaboxes/plan-options.php:391
+msgid "Alphabetically descending"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:252 views/metaboxes/plan-options.php:322
+#: views/metaboxes/plan-options.php:392
+msgid "Date ascending"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:253 views/metaboxes/plan-options.php:323
+#: views/metaboxes/plan-options.php:393
+msgid "Date descending"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:259
+msgctxt "Plan option section title"
+msgid "Posts"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:264
+msgid "Select posts to include"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:266
+msgid "All posts"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:267
+msgid "Specific posts / post categories / post tags"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:274
+msgid "Posts accessible with this plan"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:275
+msgid "Choose which posts will be accessible to members of this plan."
+msgstr ""
+
+#: views/metaboxes/plan-options.php:286
+msgid "Search Post Categories"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:290
+msgid "Post categories accessible with this plan"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:291
+msgid ""
+"Choose which post categories will be accessible to members of this plan."
+msgstr ""
+
+#: views/metaboxes/plan-options.php:302
+msgid "Search Post Tags"
+msgstr "جستجوی برچسب های نوشته"
+
+#: views/metaboxes/plan-options.php:306
+msgid "Post tags accessible with this plan"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:307
+msgid "Choose which post tags will be accessible to members of this plan."
+msgstr ""
+
+#: views/metaboxes/plan-options.php:315
+msgid "Post sorting"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:316
+msgid "Choose how to sort visible posts to members."
+msgstr ""
+
+#: views/metaboxes/plan-options.php:329
+msgctxt "Plan option section title"
+msgid "Products"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:334
+msgid "Select products to include"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:336
+msgid "All products"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:337
+msgid "Specific products / product categories / product tags"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:344
+msgid "Products accessible with this plan"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:345
+msgid "Choose which products will be accessible to members of this plan."
+msgstr ""
+
+#: views/metaboxes/plan-options.php:356
+msgid "Search Product Categories"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:360
+msgid "Product categories accessible with this plan"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:361
+msgid ""
+"Choose which product categories will be accessible to members of this plan."
+msgstr ""
+
+#: views/metaboxes/plan-options.php:372
+msgid "Search Product Tags"
+msgstr "جستجوی برچسبهای محصولات"
+
+#: views/metaboxes/plan-options.php:376
+msgid "Product tags accessible with this plan"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:377
+msgid "Choose which product tags will be accessible to members of this plan."
+msgstr ""
+
+#: views/metaboxes/plan-options.php:385
+msgid "Product sorting"
+msgstr ""
+
+#: views/metaboxes/plan-options.php:386
+msgid "Choose how to sort visible products to members."
+msgstr ""
+
+#: views/metaboxes/plan-options.php:476 views/metaboxes/plan-options.php:477
+msgid "Save plan"
+msgstr ""
+
+#: views/metaboxes/send_message.php:10
+msgid "Send"
+msgstr "ارسال"
+
+#: views/reports/download-reports-downloads-by-product.php:9
+msgid "Filter by user"
+msgstr ""
+
+#: views/reports/download-reports-downloads-by-product.php:11
+msgid "Filter"
+msgstr "فیلتر کردن"
+
+#: views/reports/download-reports-downloads-by-product.php:12
+msgid "Reset Filters"
+msgstr "بازیابی فیلترها"
+
+#: views/reports/download-reports-downloads-by-user.php:18
+#: views/reports/download-reports-downloads-details-by-user.php:106
+msgid "Items per page"
+msgstr "مورد در صفحه"
+
+#: views/reports/download-reports-downloads-by-user.php:20
+#: views/reports/download-reports-downloads-details-by-user.php:108
+msgctxt "Download reports: apply button"
+msgid "Apply"
+msgstr "اعمال کردن"
+
+#: views/reports/download-reports-downloads-by-user.php:31
+msgid "Show Details"
+msgstr "نمایش جزئیات"
+
+#: views/reports/download-reports-downloads-details-by-user.php:30
+msgctxt "Download reports table: user id"
+msgid "User #%s"
+msgstr "کاربر #%s"
+
+#: views/reports/download-reports-downloads-details-by-user.php:37
+msgctxt "full name between parentheses"
+msgid "(%1$s %2$s)"
+msgstr "(%1$s %2$s)"
+
+#: views/reports/download-reports-downloads-details-by-user.php:63
+msgid "User Membership Plans"
+msgstr "طرح های عضویت ویژه"
+
+#: views/reports/download-reports-downloads-details-by-user.php:80
+msgid "Order #%s"
+msgstr "سفارش شماره ی %s"
+
+#: views/reports/download-reports-graphics.php:183
+msgid "10 days"
+msgstr "10 روزه"
+
+#: views/reports/download-reports-graphics.php:184
+msgid "12 months"
+msgstr "12 ماهه"
+
+#: views/reports/download-reports-graphics.php:188
+#: views/reports/download-reports-graphics.php:199
+msgid "Max downloads: %s"
+msgstr "حداکثر دانلود: %s"
+
+#: views/reports/download-reports-table.php:71
+msgid "View"
+msgstr ""
+
+#: views/reports/download-reports-table.php:73
+msgid "Edit"
+msgstr ""
+
+#: views/reports/download-reports-table.php:87
+msgid "No downloads for user %s"
+msgstr "بدون دانلود برای کاربر %s"
+
+#: views/reports/download-reports-table.php:90
+msgid "No downloads"
+msgstr "بدون دانلود"
+
+#: views/reports/download-reports.php:23
+msgid "Downloads by product"
+msgstr "دانلود های محصول"
+
+#: views/reports/download-reports.php:26
+msgid "Downloads by user"
+msgstr "دانلودهای کاربر"
+
+#: views/reports/download-reports.php:45
+msgid "No downloads yet"
+msgstr ""
+
+#: views/reports/membership-reports.php:7
+msgid "Active memberships"
+msgstr "عضویت های ویژه فعال"
+
+#: views/reports/membership-reports.php:35
+msgid "Last actived memberships"
+msgstr "آخرین عضویت های ویژه فعال شده"
+
+#: views/reports/membership-reports.php:40
+msgid "Today"
+msgstr "امروز"
+
+#: views/reports/membership-reports.php:44
+msgid "Yesterday"
+msgstr "دیروز"
+
+#: views/reports/membership-reports.php:48
+msgid "7 days"
+msgstr ""
+
+#: views/reports/membership-reports.php:52
+msgid "This month"
+msgstr "این ماه"
+
+#: views/reports/membership-reports.php:56
+msgid "Last month"
+msgstr "ماه گذشته"
+
+#: views/reports/membership-reports.php:60
+msgid "This year"
+msgstr "امسال"
+
+#: views/reports/membership-reports.php:67
+msgid "Total membership (ever)"
+msgstr "همه عضویت های ویژه (تا همیشه)"
+
+#: views/reports/membership-with-subscription-reports.php:12
+msgid "Membership with Subscription"
+msgstr "عضویت ویژه با اشتراک"
+
+#: views/reports/membership-with-subscription-reports.php:20
+msgid "active + resumed"
+msgstr "فعال + از سرگرفته شده"

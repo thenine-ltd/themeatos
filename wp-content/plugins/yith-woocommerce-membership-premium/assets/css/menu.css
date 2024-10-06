@@ -1,0 +1,36 @@
+/**
+ * Menu
+ *
+ * @author YITH <plugins@yithemes.com>
+ * @version 1.0.0
+ */
+ul.yith-wcmbs-menu, ul.yith-wcmbs-reports-downloads-menu {
+  border-bottom: 1px solid #f1f1f1;
+  margin: 0 0 25px;
+  display: flex;
+  width: fit-content;
+}
+
+ul.yith-wcmbs-menu li, ul.yith-wcmbs-reports-downloads-menu li {
+  margin: 0 10px 0 0;
+  display: flex;
+  text-transform: capitalize;
+  color: #666;
+  font-size: 14px;
+  padding: 7px 5px;
+  line-height: 1em;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+ul.yith-wcmbs-menu li a, ul.yith-wcmbs-reports-downloads-menu li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul.yith-wcmbs-menu li.yith-wcmbs-menu-active, ul.yith-wcmbs-menu li.yith-wcmbs-reports-downloads-menu-active, ul.yith-wcmbs-reports-downloads-menu li.yith-wcmbs-menu-active, ul.yith-wcmbs-reports-downloads-menu li.yith-wcmbs-reports-downloads-menu-active {
+  border-bottom: 2px solid #00799f;
+  color: #00799f;
+}
+
+/*# sourceMappingURL=menu.css.map */

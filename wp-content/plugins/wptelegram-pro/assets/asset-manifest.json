@@ -1,0 +1,63 @@
+{
+  "files": {
+    "wptelegram-pro--im.php": "/static/js/wptelegram-pro--im.f9122da4.asset.php",
+    "wptelegram-pro--im.css": "/static/css/wptelegram-pro--im.c09654e5.css",
+    "wptelegram-pro--im.js": "/static/js/wptelegram-pro--im.392fa65b.js",
+    "wptelegram-pro--main.php": "/static/js/wptelegram-pro--main.b513e9fb.asset.php",
+    "wptelegram-pro--main.css": "/static/css/wptelegram-pro--main.980f5fbc.css",
+    "wptelegram-pro--main.js": "/static/js/wptelegram-pro--main.29846861.js",
+    "wptelegram-pro--p2tg-classic.php": "/static/js/wptelegram-pro--p2tg-classic.9c4af397.asset.php",
+    "wptelegram-pro--p2tg-classic.js": "/static/js/wptelegram-pro--p2tg-classic.ca8f2ac0.js",
+    "wptelegram-pro--p2tg-gb.php": "/static/js/wptelegram-pro--p2tg-gb.755ac8cf.asset.php",
+    "wptelegram-pro--p2tg-gb.css": "/static/css/wptelegram-pro--p2tg-gb.2d4686e2.css",
+    "wptelegram-pro--p2tg-gb.js": "/static/js/wptelegram-pro--p2tg-gb.34e60e30.js",
+    "wptelegram-pro--p2tg-instant-post.php": "/static/js/wptelegram-pro--p2tg-instant-post.cf05f565.asset.php",
+    "wptelegram-pro--p2tg-instant-post.css": "/static/css/wptelegram-pro--p2tg-instant-post.8d0fdc4e.css",
+    "wptelegram-pro--p2tg-instant-post.js": "/static/js/wptelegram-pro--p2tg-instant-post.408ce108.js",
+    "wptelegram-pro--p2tg-metabox.php": "/static/js/wptelegram-pro--p2tg-metabox.6ffda0cf.asset.php",
+    "wptelegram-pro--p2tg-metabox.css": "/static/css/wptelegram-pro--p2tg-metabox.e7e2b46d.css",
+    "wptelegram-pro--p2tg-metabox.js": "/static/js/wptelegram-pro--p2tg-metabox.f7bc3ddb.js",
+    "wptelegram-pro--im.c09654e5.css.map": "/static/css/wptelegram-pro--im.c09654e5.css.map",
+    "wptelegram-pro--im.392fa65b.js.map": "/static/js/wptelegram-pro--im.392fa65b.js.map",
+    "wptelegram-pro--main.980f5fbc.css.map": "/static/css/wptelegram-pro--main.980f5fbc.css.map",
+    "wptelegram-pro--main.29846861.js.map": "/static/js/wptelegram-pro--main.29846861.js.map",
+    "wptelegram-pro--p2tg-classic.ca8f2ac0.js.map": "/static/js/wptelegram-pro--p2tg-classic.ca8f2ac0.js.map",
+    "wptelegram-pro--p2tg-gb.2d4686e2.css.map": "/static/css/wptelegram-pro--p2tg-gb.2d4686e2.css.map",
+    "wptelegram-pro--p2tg-gb.34e60e30.js.map": "/static/js/wptelegram-pro--p2tg-gb.34e60e30.js.map",
+    "wptelegram-pro--p2tg-instant-post.8d0fdc4e.css.map": "/static/css/wptelegram-pro--p2tg-instant-post.8d0fdc4e.css.map",
+    "wptelegram-pro--p2tg-instant-post.408ce108.js.map": "/static/js/wptelegram-pro--p2tg-instant-post.408ce108.js.map",
+    "wptelegram-pro--p2tg-metabox.e7e2b46d.css.map": "/static/css/wptelegram-pro--p2tg-metabox.e7e2b46d.css.map",
+    "wptelegram-pro--p2tg-metabox.f7bc3ddb.js.map": "/static/js/wptelegram-pro--p2tg-metabox.f7bc3ddb.js.map"
+  },
+  "entrypoints": {
+    "wptelegram-pro--im": [
+      "static/js/wptelegram-pro--im.f9122da4.asset.php",
+      "static/css/wptelegram-pro--im.c09654e5.css",
+      "static/js/wptelegram-pro--im.392fa65b.js"
+    ],
+    "wptelegram-pro--main": [
+      "static/js/wptelegram-pro--main.b513e9fb.asset.php",
+      "static/css/wptelegram-pro--main.980f5fbc.css",
+      "static/js/wptelegram-pro--main.29846861.js"
+    ],
+    "wptelegram-pro--p2tg-classic": [
+      "static/js/wptelegram-pro--p2tg-classic.9c4af397.asset.php",
+      "static/js/wptelegram-pro--p2tg-classic.ca8f2ac0.js"
+    ],
+    "wptelegram-pro--p2tg-gb": [
+      "static/js/wptelegram-pro--p2tg-gb.755ac8cf.asset.php",
+      "static/css/wptelegram-pro--p2tg-gb.2d4686e2.css",
+      "static/js/wptelegram-pro--p2tg-gb.34e60e30.js"
+    ],
+    "wptelegram-pro--p2tg-instant-post": [
+      "static/js/wptelegram-pro--p2tg-instant-post.cf05f565.asset.php",
+      "static/css/wptelegram-pro--p2tg-instant-post.8d0fdc4e.css",
+      "static/js/wptelegram-pro--p2tg-instant-post.408ce108.js"
+    ],
+    "wptelegram-pro--p2tg-metabox": [
+      "static/js/wptelegram-pro--p2tg-metabox.6ffda0cf.asset.php",
+      "static/css/wptelegram-pro--p2tg-metabox.e7e2b46d.css",
+      "static/js/wptelegram-pro--p2tg-metabox.f7bc3ddb.js"
+    ]
+  }
+}

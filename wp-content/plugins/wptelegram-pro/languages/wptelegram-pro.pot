@@ -1,0 +1,1900 @@
+# Copyright (C) 2023 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://github.com/wpsocio/wptelegram-pro\n"
+"POT-Creation-Date: 2023-05-22 07:24:44+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-05-22 7:240\n"
+"Last-Translator: WP Telegram Pro\n"
+"Language-Team: WP Telegram Pro\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: node-wp-i18n\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+
+#: admin/Admin.php:126 languages/wptelegram-pro-js-translations.php:469
+#: modules/p2tg/Admin.php:942
+msgid "Settings"
+msgstr ""
+
+#: includes/AssetManager.php:158
+msgid ""
+"With this plugin, you can send posts to Telegram and receive notifications "
+"and do lot more :)"
+msgstr ""
+
+#: includes/EDD_SL_Plugin_Updater.php:256
+#. translators: the plugin name.
+msgid "There is a new version of %1$s available."
+msgstr ""
+
+#: includes/EDD_SL_Plugin_Updater.php:262
+msgid "Contact your network administrator to install the update."
+msgstr ""
+
+#: includes/EDD_SL_Plugin_Updater.php:267
+#. translators: 1. opening anchor tag, do not translate 2. the new plugin
+#. version 3. closing anchor tag, do not translate.
+msgid "%1$sView version %2$s details%3$s."
+msgstr ""
+
+#: includes/EDD_SL_Plugin_Updater.php:275
+msgid "%1$sView version %2$s details%3$s or %4$supdate now%5$s."
+msgstr ""
+
+#: includes/EDD_SL_Plugin_Updater.php:286
+msgid "Update now."
+msgstr ""
+
+#: includes/EDD_SL_Plugin_Updater.php:518
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: includes/EDD_SL_Plugin_Updater.php:518
+msgid "Error"
+msgstr ""
+
+#: includes/Main.php:366 modules/p2tg/Admin.php:527 modules/p2tg/Admin.php:583
+#: modules/p2tg/Admin.php:1166
+msgid "WP Telegram Pro"
+msgstr ""
+
+#: includes/Requirements.php:121
+msgid "This plugin is not compatible with your website configuration."
+msgstr ""
+
+#: includes/Requirements.php:123
+msgid "Missing requirements"
+msgstr ""
+
+#: includes/Requirements.php:136
+#. translators: %s: Version number
+msgid "Current version: %s"
+msgstr ""
+
+#: includes/Requirements.php:144
+#. translators: %s: Version number
+msgid "Minimum required version: %s"
+msgstr ""
+
+#: includes/Requirements.php:162
+#. translators: %s: comma separated list of missing extensions
+msgid "Missing PHP extensions: %s"
+msgstr ""
+
+#: includes/Requirements.php:173
+msgid ""
+"Please contact your hosting provider to ensure the above requirements are "
+"met."
+msgstr ""
+
+#: includes/Updater.php:161
+#. translators: 1 - plugin name
+msgid "To continue receiving automatic updates for %s, please activate the licence."
+msgstr ""
+
+#: includes/Updater.php:167 languages/wptelegram-pro-js-translations.php:231
+msgid "Click here"
+msgstr ""
+
+#: includes/restApi/LicenceController.php:112
+#: includes/restApi/LicenceController.php:149
+#: languages/wptelegram-pro-js-translations.php:138
+msgid "Invalid license key."
+msgstr ""
+
+#: includes/restApi/SettingsController.php:155
+msgid "Visit Site"
+msgstr ""
+
+#: includes/restApi/SettingsController.php:160
+msgid "View Post"
+msgstr ""
+
+#: includes/restApi/SettingsController.php:165
+msgid "Share"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:5
+msgid "Bot to use"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:9
+msgid "Text"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:12
+msgid "Type"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:15
+msgid "File URL"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:19
+msgid "Formatting"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:23
+msgid "Success"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:26
+msgid "Enter Chat ID or channel username"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:32
+msgid "Add"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:35
+msgid "If more than one, separate them by comma"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:40
+msgid "OR"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:43
+msgid "Send to:"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:46
+msgid "Select file"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:49
+msgid "Select"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:53
+msgid "Document"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:57
+msgid "Photo"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:61
+msgid "Video"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:65
+msgid "Audio"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:70
+msgid "Loading..."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:75
+msgid "No options available"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:78
+msgid "Select from Post to Telegram..."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:81
+msgid "Select user..."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:85
+msgid "Send"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:88
+msgid "Send message?"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:91
+msgid "Are you sure you want to send the message?"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:95 modules/p2tg/Admin.php:858
+msgid "Channel(s)"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:99
+msgid "Chat ID"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:102
+msgid "If Email goes to"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:105
+msgid "Licence key"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:108
+msgid "Send attachments"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:113
+msgid "Send it to"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:116
+msgid "Update method"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:120
+msgid "At least one %s is required."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:123
+msgid "bot"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:126
+msgid "Settings imported successfully"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:129
+msgid "Error importing settings"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:132
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:135
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:141
+msgid "Your license is not active for this website."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:144
+msgid "This appears to be an invalid license key for this product."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:147
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:150
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:154
+msgid ""
+"WP Telegram Pro means Absolute WordPress Telegram integration with premium "
+"features."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:158
+msgid "Get LIVE support on Telegram"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:161
+#: modules/bots/CommandOptions.php:37 modules/bots/CommandOptions.php:57
+msgid "Bots"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:168 modules/p2tg/Admin.php:527
+#: modules/p2tg/Admin.php:583 modules/p2tg/Admin.php:1166
+msgid "Post to Telegram"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:172
+msgid "Private Notifications"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:176
+msgid "Proxy"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:179
+msgid "Advanced settings"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:182
+msgid "(Outgoing Requests)"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:185
+msgid "Bot API"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:188
+msgid "(Incoming Requests)"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:191
+msgid "License key has been activated successfully."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:194
+msgid "Don't forget to save the changes."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:197
+msgid "Lets activate the licence."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:200
+msgid "There seems to be some issue with your licence."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:203
+msgid "Manage your licence."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:206
+msgid "Edit licence"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:209
+msgid "Licence key helps you receive the plugin updates automatically."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:216
+msgid "Please wait…"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:219
+msgid "Activate"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:222
+msgid "Please goto %s page to find the licence key."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:225
+msgid "My Account"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:228
+msgid "Or"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:235
+msgid "Could not connect"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:238
+msgid "Add Bot"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:244
+#: modules/bots/CommandOptions.php:51
+msgid "Note:"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:248
+#. translators: Update method - long polling
+msgid ""
+"If you choose %s option, then it is recommended to set up a cron on your "
+"hosting server that runs every minute or so, pointing to the below URL."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:252
+msgid "Long Polling"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:255
+msgid "Cron URL:"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:259
+#. translators: 1 command name, 2 bot name
+msgid "Create a Bot by sending %1$s command to %2$s."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:262
+msgid "After completing the steps %s will provide you the Bot Token."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:265
+msgid "Copy the token and paste into the Bot Token field below."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:269
+#. translators: %s application name
+msgid "For ease, use %s"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:272
+msgid "Telegram Desktop"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:275
+msgid ""
+"Test your bot token below and fill in the bot username if not filled "
+"automatically."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:278
+msgid ""
+"If you want to process incoming updates like Post Telegram reaction "
+"buttons, select an appropriate update method."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:282
+msgid "Webhook"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:285
+msgid "New Updates will be PUSHED to your website in realtime on a secure URL."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:288
+msgid "New Updates will be PULLED from Telegram on a regular interval."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:291
+msgid "Get Info"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:294
+msgid "Action"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:297
+msgid "Please make sure Webhook is set."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:300
+msgid "Delete Webhook"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:303
+msgid "Set Webhook"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:306
+msgid "Webhook is set."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:309
+msgid "Webhook is not set."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:312
+msgid "Webhook Info"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:316
+msgid "Please read the instructions above."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:319
+msgid "Use %s to set automatically."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:323
+msgid "Test Token"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:326
+msgid "Recommended"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:329
+msgid "Requires SSL"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:335
+msgid "None"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:338
+msgid "Do you want to import settings from WP Telegram (free version)?"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:341
+msgid "Import settings"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:344
+msgid ""
+"You seem to be on an older version of WP Telegram (free version). Please "
+"update it to the latest version, then import the settings."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:347
+msgid "Make sure that it is active when updating."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:350
+msgid "You can deactivate the free version after importing settings."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:353
+msgid "Entries"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:356
+msgid ""
+"The module will watch the Email Notifications sent from this site and "
+"deliver them to you on Telegram."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:361
+#. translators: %s is module name
+msgid "Default bot for %s module."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:364
+msgid "Email to Telegram"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:367
+msgid ""
+"Any email notification that goes to the below entered email addresses will "
+"be sent to the corresponding chat on Telegram."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:370
+msgid "Forward email attachments along with text."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:373
+msgid "Telegram User or Group Chat ID."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:377 modules/p2tg/Admin.php:639
+msgid "Instances"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:380
+msgid "Please save changes and reload the page."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:383
+msgid "Click here to create, view or edit the instances."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:387
+msgid "Remove button"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:390
+msgid "Inline Keyboard Buttons"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:393
+msgid "Here you can add your own custom buttons."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:396
+msgid "Reaction Buttons"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:399
+msgid ""
+"Button name should be unique and contain only a maximum of 8 English "
+"letters or underscore."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:403
+msgid "Label"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:408
+msgid "Done"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:411
+msgid "URL Buttons"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:414
+msgid ""
+"In URL field, you can set an absolute URL or a dynamic one using the custom "
+"field tags as in Message Template."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:417
+msgid "If you add the tags as URL query parameters, make sure you wrap them in %s."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:421
+msgid "For example %s"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:424
+msgid "With this module, you can configure how the posts are sent to Telegram."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:427
+msgid "You must choose a bot for the module."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:431
+msgid "Introduction"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:434
+msgid "Override settings"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:439
+msgid "Save Changes"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:443 modules/p2tg/Admin.php:997
+#: modules/p2tg/Admin.php:1117
+msgid "Send to Telegram"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:446 modules/p2tg/Admin.php:1008
+msgid "Force send"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:451
+#. translators: %s Rule name
+msgid "Ignore %s rules."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:456 modules/p2tg/Admin.php:1012
+msgid "Use when"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:460
+msgid "Result:"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:463
+msgid "There was some error."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:466
+msgid "Cancel"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:472
+msgid "Ignore all rules."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:475
+msgid "Send instantly without delay."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:478
+msgid "Please select a post to send."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:481
+msgid "%s must be a number."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:484
+msgid "Media type"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:487
+msgid "WooCommerce product gallery"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:490
+msgid "Images from post content"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:493
+msgid "Caption"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:496
+msgid "Source"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:499
+msgid "channel"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:502
+msgid "Please add a title."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:505
+msgid "Destination"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:508
+msgid "Channel Username or Chat ID."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:511
+msgid "optional"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:514
+msgid "Instance specific bot."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:517
+msgid "Message Settings"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:520
+msgid "Miscellaneous"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:523
+msgid ""
+"When using delay, it is recommended to keep a difference of at least one "
+"minute between different instances."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:526
+msgid "Trash"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:529
+msgid "Add Media Group"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:532
+msgid "Add Item"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:535
+msgid "Add Media"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:538
+msgid "Additional Media"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:541
+msgid "In this section, you can attach additional media to your Telegram messages."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:547
+msgid "Learn more"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:550
+msgid "Source can be an absolute URL or a custom field that contains the URL."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:553
+msgid "In caption field, you can use anything from message template."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:556
+msgid "Whether to send WooCommerce product gallery images."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:559
+msgid "Whether to send images from post content."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:562
+msgid "Media group"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:566
+msgid "Remove"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:569
+msgid "Animation"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:572
+msgid "Add Row"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:575
+msgid "Add Button"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:578
+msgid "Message Keyboard"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:581
+msgid "Warning!"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:584
+msgid "Update method of the selected %1$s bot is set to %2$s."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:587
+msgid "Keyboard buttons will not work."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:590
+msgid "Add button"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:593
+msgid "Remove Row"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:597
+msgid "Rule type"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:600
+msgid "Custom rule type"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:604
+msgid "Rule operator"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:607
+msgid "Comparison value"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:610
+msgid "A new post is published"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:613
+msgid "An existing post is updated"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:616
+msgid "Rules"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:619
+msgid "When the post should be sent to Telegram."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:622
+msgid "Which post types should be sent."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:625
+msgid "is not equal"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:628
+msgid "is empty"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:631
+msgid "is not empty"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:634
+msgid "is greater than"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:637
+msgid "is greater than or equal to"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:640
+msgid "is less than"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:643
+msgid "is less than or equal to"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:646
+msgid "contains"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:649
+msgid "does not contain"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:653
+msgid "is in"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:657
+msgid "is not in"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:660
+msgid "is between"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:663
+msgid "is not between"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:666
+msgid "starts with"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:669
+msgid "does not start with"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:672
+msgid "is equal to"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:675
+msgid "ends with"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:678
+msgid "does not end with"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:681
+msgid "View log"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:684
+msgid ""
+"Settings in this section should not be changed unless recommended by WP "
+"Telegram Support."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:687
+msgid "Turn off to upload the files/images instead of passing the url."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:690
+msgid "The delay starts after the post gets published."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:693
+msgid "Minute(s)"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:696
+msgid "WordPress cron should not be disabled!"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:699
+msgid "Send the messages silently."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:702
+msgid "Users will receive a notification with no sound."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:705
+msgid "Post Content"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:708
+msgid "Before \"Read More\""
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:711
+msgid "Post Excerpt"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:714
+msgid "Number of words for the excerpt."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:717
+msgid "Preserve newlines in Post Excerpt."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:720
+msgid "Before the Text"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:724
+msgid "After the Text"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:728 modules/p2tg/Admin.php:703
+msgid "Send Featured Image (if exists)."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:731
+msgid "Edit button"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:734
+msgid "Copy button"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:737
+msgid "Delete button"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:740
+msgid "Structure of the message to be sent."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:743
+msgid "Send categories as hashtags."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:746
+msgid "Disables previews for links in the messages."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:749
+msgid "To receive notifications privately:"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:753
+#. translators: 1 bot username
+msgid "Get your Chat ID from %s and enter it below."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:757
+#. translators: 1 bot username
+msgid "Send your own bot %s a message to start the conversation."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:760
+msgid "To receive notifications into a group:"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:764
+#. translators: 1 bot username
+msgid "Add %s to the group to get its Chat ID."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:767
+msgid "Enter the Chat ID in %s field below."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:771
+#. translators: 1 bot username
+msgid "Add your own bot %s to the group."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:775
+msgid "You can use any text, emojis or these macros in any order."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:779
+#. translators: %s pipe character
+msgid "Note can be added after %s."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:782
+msgid "Create a Telegram channel or group."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:785
+msgid "Add your bot %s as Administrator to your Channel/Group."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:788
+msgid "Enter the Channel Username in the field below."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:791
+msgid "Username must start with %s"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:794
+msgid "You can also use the Chat ID of a group or private chat."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:797
+msgid "Get it from %s."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:800
+msgid ""
+"If you want to send posts to a specific topic in a group with topics "
+"enabled, you can add a colon (%s) to the chat ID followed by topic ID."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:804
+#. translators: %s button name
+msgid "Hit %s below."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:807
+msgid "Tip!"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:810
+msgid ""
+"You can add an internal note to the chat ID to make it easier for you to "
+"indentify it."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:813
+msgid "Show an ON/OFF switch on the post edit screen."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:816
+msgid "You can use this switch to override the settings for a particular post."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:819
+msgid "Enable this option if you use a plugin to generate posts."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:822
+msgid "HTML style"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:825
+msgid "Protects the contents of sent messages from forwarding and saving."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:828
+msgid "Send both text and image in single message."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:832
+#. translators: 1 - field name, 2 - value
+msgid "When %1$s is set to %2$s:"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:836
+#. translators: 1 - field name, 2 - value
+msgid "%1$s should not be %2$s."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:840
+#. translators: 1 - field name
+msgid "%s should not be enabled."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:843
+msgid "You can also use conditional logic in the template."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:846
+msgid "Allow users receive their email notifications on Telegram."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:850
+#. translators: 1 Plugin name
+msgid "Use %s to let them connect their Telegram account."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:854
+#. translators: 1 profile page
+msgid "They can also enter their Telegram Chat ID manually on %s page."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:857
+msgid "profile"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:861
+msgid "The requests to Telegram will be sent via this URL."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:864
+msgid "HTTP"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:867
+msgid "SOCKS4"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:870
+msgid "SOCKS4A"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:873
+msgid "SOCKS5"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:876
+msgid "SOCKS5_HOSTNAME"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:880
+#. translators: IP address
+msgid "Host IP or domain name like %s."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:884
+#. translators: proxy port
+msgid "Target Port like %s."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:887
+msgid "Leave empty if not required."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:890
+msgid "Cloudflare worker"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:893
+msgid "Google Script"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:896
+msgid "PHP Proxy"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:899
+msgid "The module will help you bypass the ban on Telegram by making use of proxy."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:903
+msgid "Proxy Method"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:906
+msgid "Cloudflare worker is preferred."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:909
+msgid "Use the proxy at your own risk!"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:912
+msgid "DISCLAIMER!"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:915
+msgid "Proxy settings"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:918
+msgid "AND"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:921
+msgid "You can also define custom rules to send the posts."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:924
+msgid "Select..."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:927
+msgid "Rule values"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:930
+msgid "Bot"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:933
+msgid "Bot Token"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:936
+msgid "Bot Username"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:939
+msgid "Categories as hashtags"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:942
+msgid "Cloudflare worker URL"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:945
+msgid "Remove settings on uninstall"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:948
+msgid "Debug Info"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:952 modules/p2tg/Admin.php:688
+msgid "Delay in Posting"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:956 modules/p2tg/Admin.php:667
+msgid "Disable Notifications"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:959
+msgid "Disable Web Page Preview"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:962
+msgid "Enable logs for"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:965
+msgid "Excerpt Length"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:968
+msgid "Excerpt Newlines"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:971
+msgid "Excerpt Source"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:974
+msgid "Google Script URL"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:977
+msgid "Image Position"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:981 modules/p2tg/Admin.php:860
+msgid "Message Template"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:984
+msgid "Plugin generated posts"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:987
+msgid "Post edit switch"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:990
+msgid "Post type"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:993
+msgid "Protect content"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:996
+msgid "Proxy Host"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:999
+msgid "Password"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1002
+msgid "Proxy Port"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1005
+msgid "Proxy Type"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1008
+msgid "Username"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1012 modules/p2tg/Admin.php:702
+msgid "Featured Image"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1015
+msgid "Send files by URL"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1018
+msgid "Single message"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1021
+msgid "Notifications to Users"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1024 modules/p2tg/Admin.php:857
+msgid "Active"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1027
+msgid "Send to"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1030
+msgid "Add or Upload Files"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1033
+msgid "Files to be sent after the message."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1036
+msgid "Files"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1039
+msgid "Use this instance"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1042 modules/p2tg/Admin.php:879
+msgid "No"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1045 modules/p2tg/Admin.php:594
+#: modules/p2tg/Admin.php:879
+msgid "Yes"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1048
+msgid "INSTRUCTIONS!"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1051
+msgid "Click here for instructions."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1054
+msgid "Do you like %s?"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1057
+msgid "Write a review"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1060
+msgid "Need help?"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1063
+msgid "Members Count:"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1066
+msgid "Test Result:"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1069
+msgid "Follow %s"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1072
+msgid "Join %s"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1076
+#. translators: 1, 2 Menu names
+msgid "Goto %1$s and click/drag %2$s and place it where you want it to be."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1079
+msgid "Appearance"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1082
+msgid "Widgets"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1085
+msgid ""
+"Alternately, you can use the below shortcode or the block available in "
+"block editor."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1088
+msgid "Inside page or post content:"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1091
+msgid "Inside the theme templates"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1094
+msgid "or"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1097
+msgid "Widget Info"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1100
+msgid "Send Test"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1103
+msgid "Something went wrong"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1106
+msgid "Error:"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1109
+msgid ""
+"A message will be sent to the Channel/Group/Chat. You can modify the text "
+"below"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1112
+msgid "This is a test message"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1115
+msgid "Lets fix these errors first."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1118
+msgid "Changes saved successfully."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1121
+msgid "Invalid %s"
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1124
+msgid "%s required."
+msgstr ""
+
+#: languages/wptelegram-pro-js-translations.php:1127
+msgid "Changes could not be saved."
+msgstr ""
+
+#: modules/bots/CommandOptions.php:50
+msgid "Select the bot(s) which can respond to this command"
+msgstr ""
+
+#: modules/bots/CommandOptions.php:51
+#. translators: bot username
+msgid ""
+"If no bot is selected, the command will be associated with the primary bot "
+"(%s)"
+msgstr ""
+
+#: modules/bots/CommandOptions.php:73
+msgid "Command Options"
+msgstr ""
+
+#: modules/bots/CommandOptions.php:83
+msgid "Name"
+msgstr ""
+
+#: modules/bots/CommandOptions.php:84
+msgid "Command name in English letters without spaces."
+msgstr ""
+
+#: modules/bots/CommandOptions.php:96 modules/bots/CommandOptions.php:103
+msgid "Aliases"
+msgstr ""
+
+#: modules/bots/CommandOptions.php:96
+msgid "(Optional)"
+msgstr ""
+
+#: modules/bots/CommandOptions.php:97
+msgid "Aliases are the command equivalents"
+msgstr ""
+
+#: modules/bots/CommandOptions.php:107
+msgid "Add Alias"
+msgstr ""
+
+#: modules/bots/CommandOptions.php:108
+msgid "Remove Alias"
+msgstr ""
+
+#: modules/bots/CommandOptions.php:113
+msgid "Description"
+msgstr ""
+
+#: modules/bots/CommandOptions.php:114
+msgid "To be shown in the command list"
+msgstr ""
+
+#: modules/bots/CommandOptions.php:122
+msgid "Response"
+msgstr ""
+
+#: modules/bots/CommandOptions.php:124
+msgid "The response to be sent"
+msgstr ""
+
+#: modules/bots/commands/CommandBus.php:98
+msgid "%s class not found! Please make sure the class exists."
+msgstr ""
+
+#: modules/bots/commands/HelpCommandHandler.php:29
+msgid "Get the command list"
+msgstr ""
+
+#: modules/bots/commands/HelpCommandHandler.php:42
+msgid "Command list"
+msgstr ""
+
+#: modules/bots/commands/StartCommandHandler.php:29
+msgid "Welcome"
+msgstr ""
+
+#: modules/bots/commands/StartCommandHandler.php:43
+#. translators: User's first name
+msgid "Welcome %s!"
+msgstr ""
+
+#: modules/bots/commands/StartCommandHandler.php:45
+#: modules/bots/handlers/MessageTextHandler.php:74
+#. translators: Command name
+#. translators: command name
+msgid "You can press %s to get started"
+msgstr ""
+
+#: modules/bots/handlers/BaseHandler.php:318
+msgid "Text is empty, cannot parse for command"
+msgstr ""
+
+#: modules/bots/handlers/BaseHandler.php:396
+msgid "Unknown command"
+msgstr ""
+
+#: modules/im/Admin.php:89 modules/im/Admin.php:105 modules/im/Admin.php:106
+msgid "Instant Messages"
+msgstr ""
+
+#: modules/im/Admin.php:91
+msgid ""
+"Using this module, you can send instant messages to users, channels and "
+"groups."
+msgstr ""
+
+#: modules/p2tg/Admin.php:358
+msgid "Post Data"
+msgstr ""
+
+#: modules/p2tg/Admin.php:377
+msgid "Taxonomy Terms"
+msgstr ""
+
+#: modules/p2tg/Admin.php:381
+msgid "Custom Fields"
+msgstr ""
+
+#: modules/p2tg/Admin.php:388
+msgid "WooCommerce Product Data"
+msgstr ""
+
+#: modules/p2tg/Admin.php:409
+#. translators: 1: taxonomy, 2: {terms:taxonomy}
+msgid ""
+"Replace %1$s in %2$s by the name of the taxonomy to insert its terms "
+"attached to the post."
+msgstr ""
+
+#: modules/p2tg/Admin.php:409
+msgid "For example %1$s and %2$s in WooCommerce"
+msgstr ""
+
+#: modules/p2tg/Admin.php:412
+#. translators: 1: custom field, 2: field name, 3: {cf:custom_field}, 4:
+#. {acf:field_name}
+msgid ""
+"Replace %1$s and %2$s in %3$s and %4$s by the name of the Custom Field and "
+"ACF Field Name respectively."
+msgstr ""
+
+#: modules/p2tg/Admin.php:412
+msgid "For example %1$s, %2$s"
+msgstr ""
+
+#: modules/p2tg/Admin.php:593
+msgid "Override default settings"
+msgstr ""
+
+#: modules/p2tg/Admin.php:655
+msgid "Channels"
+msgstr ""
+
+#: modules/p2tg/Admin.php:677
+msgid "Files to be sent after the message"
+msgstr ""
+
+#: modules/p2tg/Admin.php:686
+msgid "Minutes"
+msgstr ""
+
+#: modules/p2tg/Admin.php:714
+msgid "Structure of the message to be sent"
+msgstr ""
+
+#: modules/p2tg/Admin.php:744 modules/p2tg/Admin.php:806
+#: modules/p2tg/Admin.php:807
+msgid "Post to Telegram Instances"
+msgstr ""
+
+#: modules/p2tg/Admin.php:745 modules/p2tg/Admin.php:768
+#: modules/p2tg/Admin.php:1170
+msgid "Instance"
+msgstr ""
+
+#: modules/p2tg/Admin.php:746
+msgid "Instance Archives"
+msgstr ""
+
+#: modules/p2tg/Admin.php:747
+msgid "Instance Attributes"
+msgstr ""
+
+#: modules/p2tg/Admin.php:748
+msgid "Parent Instance:"
+msgstr ""
+
+#: modules/p2tg/Admin.php:749
+msgid "All Instances"
+msgstr ""
+
+#: modules/p2tg/Admin.php:750
+msgid "Add New Instance"
+msgstr ""
+
+#: modules/p2tg/Admin.php:751
+msgid "Add New"
+msgstr ""
+
+#: modules/p2tg/Admin.php:752
+msgid "New Instance"
+msgstr ""
+
+#: modules/p2tg/Admin.php:753
+msgid "Edit Instance"
+msgstr ""
+
+#: modules/p2tg/Admin.php:754
+msgid "Update Instance"
+msgstr ""
+
+#: modules/p2tg/Admin.php:755
+msgid "View Instance"
+msgstr ""
+
+#: modules/p2tg/Admin.php:756
+msgid "View Instances"
+msgstr ""
+
+#: modules/p2tg/Admin.php:757
+msgid "Search Instance"
+msgstr ""
+
+#: modules/p2tg/Admin.php:758
+msgid "No Instances found"
+msgstr ""
+
+#: modules/p2tg/Admin.php:759
+msgid "No instance found in Trash"
+msgstr ""
+
+#: modules/p2tg/Admin.php:760
+msgid "Instances list"
+msgstr ""
+
+#: modules/p2tg/Admin.php:761
+msgid "Instances list navigation"
+msgstr ""
+
+#: modules/p2tg/Admin.php:762
+msgid "Filter instances list"
+msgstr ""
+
+#: modules/p2tg/Admin.php:769
+msgid "Post to Telegram Instance"
+msgstr ""
+
+#: modules/p2tg/Admin.php:859
+msgid "Post types"
+msgstr ""
+
+#: modules/p2tg/Admin.php:1011
+#. translators: %s Rule name
+msgid "Ignore %s Rules"
+msgstr ""
+
+#: modules/p2tg/Admin.php:1147
+msgid "Instance updated."
+msgstr ""
+
+#: modules/p2tg/Admin.php:1148
+msgid "Instance published."
+msgstr ""
+
+#: modules/p2tg/Admin.php:1166
+msgid "There was some error!"
+msgstr ""
+
+#: modules/p2tg/Admin.php:1170
+msgid "Channel"
+msgstr ""
+
+#: modules/p2tg/Admin.php:1170
+msgid "Error code"
+msgstr ""
+
+#: modules/p2tg/Admin.php:1170
+msgid "Error message"
+msgstr ""
+
+#: modules/p2tg/DuplicateInstance.php:59
+msgid "Duplicate this instance"
+msgstr ""
+
+#: modules/p2tg/DuplicateInstance.php:60 modules/p2tg/DuplicateInstance.php:102
+msgid "Duplicate"
+msgstr ""
+
+#: modules/p2tg/DuplicateInstance.php:71
+msgid "No instance to duplicate has been supplied!"
+msgstr ""
+
+#: modules/p2tg/DuplicateInstance.php:82
+#. translators: %s: instance id
+msgid "Instance creation failed, could not find original instance: %s"
+msgstr ""
+
+#: modules/p2tg/Rules.php:85 modules/p2tg/Rules.php:89
+msgid "Post"
+msgstr ""
+
+#: modules/p2tg/Rules.php:93
+msgid "Post Category"
+msgstr ""
+
+#: modules/p2tg/Rules.php:97
+msgid "Post Tag"
+msgstr ""
+
+#: modules/p2tg/Rules.php:101
+msgid "Post Format"
+msgstr ""
+
+#: modules/p2tg/Rules.php:105
+msgid "Post Author"
+msgstr ""
+
+#: modules/p2tg/Rules.php:110
+msgid "Custom Taxonomy"
+msgstr ""
+
+#: modules/p2tg/Rules.php:114
+msgid "Custom"
+msgstr ""
+
+#: modules/p2tg/Rules.php:118
+msgid "Custom Rule"
+msgstr ""
+
+#: modules/p2tg/restApi/InstanceController.php:45
+#: modules/p2tg/restApi/InstanceController.php:67
+msgid "Sorry, you are not allowed to read posts in this post type."
+msgstr ""
+
+#: shared/Shared.php:50
+msgid "Every Minute"
+msgstr ""
+
+#: shared/Shared.php:54
+msgid "Every 2 Minutes"
+msgstr ""
+
+#: shared/Shared.php:58
+msgid "Every 5 Minutes"
+msgstr ""
+
+#: shared/Shared.php:62
+msgid "Every 10 Minutes"
+msgstr ""
+
+#: modules/p2tg/Admin.php:742
+msgctxt "Post Type General Name"
+msgid "Post to Telegram Instances"
+msgstr ""
+
+#: modules/p2tg/Admin.php:743
+msgctxt "Post Type Singular Name"
+msgid "Post to Telegram Instance"
+msgstr ""

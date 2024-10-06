@@ -1,0 +1,1007 @@
+# Translation of YITH WooCommerce Product Bundles in Greek
+# This file is distributed under the same license as the YITH WooCommerce Product Bundles package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Product Bundles\n"
+"Report-Msgid-Bugs-To: YITH <plugins@yithemes.com>\n"
+"POT-Creation-Date: 2021-03-02 11:19:49+00:00\n"
+"PO-Revision-Date: 2020-12-15 17:39:15+0000\n"
+"Language: el_GR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+
+#: includes/class.yith-wcpb-admin-premium.php:220
+#: includes/class.yith-wcpb-admin.php:453
+msgid "You cannot add a bundle product"
+msgstr "Δεν είναι δυνατή η προσθήκη προϊόντος δέσμης"
+
+#: includes/class.yith-wcpb-admin-premium.php:240
+msgid "General Settings"
+msgstr "Γενικές Ρυθμίσεις"
+
+#: includes/class.yith-wcpb-admin-premium.php:241
+#: plugin-options/customization-options.php:7
+msgid "Customization"
+msgstr "Προσαρμογή"
+
+#. translators: 1: number of items; 2: number of elements included in the
+#. bundle
+#: includes/class.yith-wcpb-admin.php:173
+msgid "%1$s item [%2$s bundled elements]"
+msgid_plural "%1$s items [%2$s bundled elements]"
+msgstr[0] "%1$s αντικείμενο [%2$s στοιχεία δέσμης]"
+msgstr[1] "%1$s αντικείμενα [%2$s στοιχεία δέσμης]"
+
+#: includes/class.yith-wcpb-admin.php:237
+#: includes/class.yith-wcpb-admin.php:452
+msgid ""
+"You can add only simple products with the FREE version of YITH WooCommerce "
+"Product Bundles"
+msgstr ""
+"Μπορείτε να προσθέσετε μόνο απλά προϊόντα με την ΔΩΡΕΑΝ έκδοση του YITH "
+"WooCommerce Product Bundles"
+
+#: includes/class.yith-wcpb-admin.php:257
+#: views/admin/bundle-options-tab-premium.php:125
+#: views/admin/bundle-options-tab.php:112
+msgid "Bundle Options"
+msgstr "Επιλογές Δέσμης"
+
+#: includes/class.yith-wcpb-admin.php:373
+msgid "How to"
+msgstr "Εγχειρίδιο"
+
+#: includes/class.yith-wcpb-admin.php:374
+msgid "Premium Version"
+msgstr "Premium Έκδοση"
+
+#. translators: %s is a comma-separated list of bundle products.
+#: includes/class.yith-wcpb-admin.php:424
+msgid ""
+"You are trying to add the following Bundle products to the order: %s. You "
+"cannot add Bundle products to orders through this box since this type of "
+"products needs to follow the normal WooCommerce \"Add-to-cart > Cart > "
+"Checkout > Order\" process."
+msgstr ""
+"Προσπαθείτε να προσθέσετε τα ακόλουθα προϊόντα Δέσμης στη παραγγελία: %s. "
+"Δεν μπορείτε να προσθέσετε προϊόντα Δέσμης σε παραγγελίες μέσα από αυτό το "
+"κουτί καθώς αυτοί οι τύποι προϊόντος πρέπει να ακολουθούν την κανονική "
+"διαδικασία του WooCommerce “Προσθήκη-στο-καλάθι > Καλάθι > Ταμείο > "
+"Παραγγελία”."
+
+#: includes/class.yith-wcpb-admin.php:464
+#: includes/class.yith-wcpb-admin.php:465
+msgid "1 item added"
+msgid_plural "%s items added"
+msgstr[0] "Προστέθηκε 1 αντικείμενο"
+msgstr[1] "Προστέθηκαν %s αντικείμενα"
+
+#: includes/class.yith-wcpb-bundle-widget.php:28
+msgid "Display a list of your product bundles on your site."
+msgstr "Εμφανίζει λίστα με τις δέσμες προϊόντων σας στον ιστότοπό σας."
+
+#: includes/class.yith-wcpb-bundle-widget.php:30
+msgid "YITH WooCommerce Product Bundle"
+msgstr "YITH WooCommerce Product Bundle"
+
+#: includes/class.yith-wcpb-bundle-widget.php:35
+msgid "Product Bundles"
+msgstr "Product Bundles"
+
+#: includes/class.yith-wcpb-bundle-widget.php:36
+msgid "Title"
+msgstr "Τίτλος"
+
+#: includes/class.yith-wcpb-bundle-widget.php:44
+msgid "Number of products to show"
+msgstr "Αριθμός προϊόντων προς εμφάνιση"
+
+#: includes/class.yith-wcpb-bundle-widget.php:49
+msgid "Show"
+msgstr "Εμφάνιση"
+
+#: includes/class.yith-wcpb-bundle-widget.php:51
+msgid "All Products"
+msgstr "Όλα τα Προϊόντα"
+
+#: includes/class.yith-wcpb-bundle-widget.php:52
+msgid "Featured Products"
+msgstr "Επιλεγμένα Προϊόντα"
+
+#: includes/class.yith-wcpb-bundle-widget.php:53
+msgid "On Sale Products"
+msgstr "Προϊόντα σε Προσφορά"
+
+#: includes/class.yith-wcpb-bundle-widget.php:59
+msgid "Order by"
+msgstr "Ταξινόμηση κατά"
+
+#: includes/class.yith-wcpb-bundle-widget.php:61
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: includes/class.yith-wcpb-bundle-widget.php:62
+#: views/admin/select-product-box-products.php:41
+msgid "Price"
+msgstr "Τιμή"
+
+#: includes/class.yith-wcpb-bundle-widget.php:63
+msgid "Random"
+msgstr "Τυχαίο"
+
+#: includes/class.yith-wcpb-bundle-widget.php:64
+msgid "Sales"
+msgstr "Προσφορές"
+
+#: includes/class.yith-wcpb-bundle-widget.php:72
+msgid "ASC"
+msgstr "ΑΥΞΟΥΣΑ"
+
+#: includes/class.yith-wcpb-bundle-widget.php:73
+msgid "DESC"
+msgstr "ΦΘIΝΟΥΣΑ"
+
+#: includes/class.yith-wcpb-bundle-widget.php:79
+msgid "Hide free bundles"
+msgstr "Απόκρυψη δωρεάν δεσμών"
+
+#: includes/class.yith-wcpb-bundle-widget.php:84
+msgid "Show hidden bundles"
+msgstr "Εμφάνιση δεσμών που βρίσκονται σε απόκρυψη"
+
+#: includes/class.yith-wcpb-bundle-widget.php:89
+msgid "Show products in bundle"
+msgstr "Εμφάνιση προϊόντων σε δέσμη"
+
+#: includes/class.yith-wcpb-bundle-widget.php:94
+msgid "Show thumbnails for products in bundle"
+msgstr "Εμφάνιση μικρογραφιών για προϊόντα σε δέσμη"
+
+#: includes/class.yith-wcpb-bundle-widget.php:99
+msgid "Show only bundles including the currently viewed product"
+msgstr ""
+"Εμφάνιση μόνο των δεσμών που περιέχουν το προιόν που προβάλλεται αυτή τη "
+"στιγμή"
+
+#. translators: 1: the name of the product; 2. the minimum quantity required
+#: includes/class.yith-wcpb-frontend-premium.php:963
+msgid "The minimum number of &quot;%1$s&quot; required is %2$s"
+msgstr "Ο ελάχιστος απαιτούμενος αριθμός του &quot;%1$s&quot; είναι %2$s"
+
+#. translators: 1: the name of the product; 2. the maximum quantity required
+#: includes/class.yith-wcpb-frontend-premium.php:971
+msgid "The maximum number of &quot;%1$s&quot; allowed is %2$s"
+msgstr "Ο μέγιστος επιτρεπόμενος αριθμός του &quot;%1$s&quot; είναι %2$s"
+
+#. translators: 1: the name of the bundle product; 2. the name of the bundled
+#. item
+#: includes/class.yith-wcpb-frontend-premium.php:992
+msgid ""
+"&quot;%1$s&quot; cannot be added to the cart. The selected variation of "
+"&quot;%2$s&quot; cannot be purchased."
+msgstr ""
+"Το &quot;%1$s&quot; δεν μπορεί να προστεθεί στο καλάθι. Δεν είναι δυνατή η "
+"αγορά της επιλεγμένης παραλλαγής για το &quot;%2$s&quot;."
+
+#. translators: 1: the name of the bundle product; 2. the name of the bundled
+#. item
+#: includes/class.yith-wcpb-frontend-premium.php:1001
+#: includes/class.yith-wcpb-frontend-premium.php:1022
+msgid ""
+"&quot;%1$s&quot; cannot be added to the cart because &quot;%2$s&quot; cannot "
+"be purchased at the moment."
+msgstr ""
+"Το &quot;%1$s&quot; δεν μπορεί να προστεθεί στο καλάθι γιατί δεν είναι "
+"δυνατή η αγορά του &quot;%2$s&quot; αυτή τη στιγμή."
+
+#: includes/class.yith-wcpb-frontend-premium.php:1007
+#: includes/class.yith-wcpb-frontend.php:568
+msgid ""
+"You cannot add this quantity of items, because there are not enough in stock."
+msgstr ""
+"Δεν μπορείτε να προσθέσετε αυτή την ποσότητα αντικειμένων, γιατί δεν υπάρχει "
+"αρκετό απόθεμα."
+
+#. translators: 1: the name of the bundle product; 2. the name of the bundled
+#. item
+#: includes/class.yith-wcpb-frontend-premium.php:1013
+msgid ""
+"&quot;%1$s&quot; cannot be added to the cart. Please choose an option for "
+"&quot;%2$s&quot;&hellip;"
+msgstr ""
+"Το &quot;%1$s&quot; δεν μπορεί να προστεθεί στο καλάθι. Παρακαλώ διαλέξτε "
+"μια επιλογή για το &quot;%2$s&quot;&hellip;"
+
+#. translators: %s: product name.
+#: includes/class.yith-wcpb-frontend-premium.php:1029
+msgid ""
+"You cannot add &quot;%s&quot; to the cart because the product is out of "
+"stock."
+msgstr ""
+"Δεν μπορείτε να προσθέσετε &quot;%s&quot; στο καλάθι γιατί το προϊόν είναι "
+"εκτός αποθέματος."
+
+#. translators: 1: product name 2: quantity in stock.
+#: includes/class.yith-wcpb-frontend-premium.php:1038
+msgid ""
+"You cannot add that amount of &quot;%1$s&quot; to the cart because there is "
+"not enough stock (%2$s remaining)."
+msgstr ""
+"Δεν είναι δυνατή η προσθήκη αυτού του ποσού &quot;%1$s&quot; στο καλάθι "
+"γιατί δεν υπάρχει αρκετό απόθεμα (απομένει %2$s)."
+
+#. translators: 1: the name of the product; 2. the minimum quantity required
+#: includes/class.yith-wcpb-frontend-premium.php:1083
+msgid ""
+"The minimum number of items in the bundle &quot;%1$s&quot; required is %2$s"
+msgstr ""
+"Ο ελάχιστος απαιτούμενος αριθμός αντικειμένων στη δέσμη &quot;%1$s&quot; "
+"είναι %2$s"
+
+#. translators: 1: the name of the product; 2. the maximum quantity required
+#: includes/class.yith-wcpb-frontend-premium.php:1092
+msgid ""
+"The maximum number of items in the bundle &quot;%1$s&quot; allowed is %2$s"
+msgstr ""
+"Ο μέγιστος επιτρεπόμενος αριθμός αντικειμένων στη δέσμη &quot;%1$s&quot; "
+"είναι %2$s"
+
+#. translators: 1: the name of the product; 2. the minimum quantity required
+#: includes/class.yith-wcpb-frontend-premium.php:1101
+msgid ""
+"The minimum number of different items in the bundle &quot;%1$s&quot; "
+"required is %2$s"
+msgstr ""
+"Ο ελάχιστος απαιτούμενος αριθμός διαφορετικών αντικειμένων στη δέσμη &quot;"
+"%1$s&quot; είναι %2$s"
+
+#. translators: 1: the name of the product; 2. the maximum quantity required
+#: includes/class.yith-wcpb-frontend-premium.php:1110
+msgid ""
+"The maximum number of different items in the bundle &quot;%1$s&quot; allowed "
+"is %2$s"
+msgstr ""
+"Ο μέγιστος επιτρεπόμενος αριθμός διαφορετικών αντικειμένων στη δέσμη &quot;"
+"%1$s&quot; είναι %2$s"
+
+#: includes/class.yith-wcpb-frontend-premium.php:1326
+msgid ""
+"Please select some product options before adding this product to your cart."
+msgstr ""
+"Παρακαλώ κάντε κλικ σε κάποιες από τις επιλογές προϊόντος πριν προσθέσετε "
+"αυτό το προϊόν στο καλάθι σας."
+
+#: includes/class.yith-wcpb-frontend-premium.php:1327
+msgid ""
+"Sorry, you selected an out-of-stock item. Please choose a different "
+"combination."
+msgstr ""
+"Λυπούμαστε, επιλέξατε ένα αντικείμενο εκτός αποθέματος. Παρακαλώ επιλέξτε "
+"ένα διαφορετικό συνδυασμό."
+
+#: includes/class.yith-wcpb-settings.php:47
+#: includes/class.yith-wcpb-settings.php:60
+#: includes/objects/class.yith-wc-product-bundle.php:167
+msgid "Add to cart"
+msgstr "Προσθήκη στο καλάθι"
+
+#: includes/class.yith-wcpb-settings.php:48
+#: includes/class.yith-wcpb-settings.php:61
+msgid "Add item to bundle"
+msgstr "Προσθήκη αντικειμένου σε δέσμη"
+
+#: includes/class.yith-wcpb-settings.php:49
+#: includes/class.yith-wcpb-settings.php:62
+msgid "Add item to bundle for %s"
+msgstr "Προσθήκη αντικειμένου σε δέσμη για %s"
+
+#: includes/functions.yith-wcpb.php:27
+msgid "Simple"
+msgstr "Απλό"
+
+#: includes/functions.yith-wcpb.php:28
+msgid "Variable"
+msgstr "Μεταβλητό"
+
+#: includes/functions.yith-wcpb.php:54 includes/functions.yith-wcpb.php:71
+msgid "Choose an option"
+msgstr "Διαλέξτε μια επιλογή"
+
+#: includes/objects/class.yith-wc-product-bundle-premium.php:344
+#: includes/objects/class.yith-wc-product-bundle.php:167
+msgid "Read more"
+msgstr "Διαβάστε περισσότερα"
+
+#: includes/objects/class.yith-wc-product-bundle-premium.php:554
+msgid "Save %s"
+msgstr "Αποθήκευση %s"
+
+#: init.php:53
+msgid ""
+"YITH WooCommerce Product Bundles Premium is enabled but not effective. It "
+"requires WooCommerce in order to work."
+msgstr ""
+"Το YITH WooCommerce Product Bundles Premium είναι ενεργοποιημένο αλλά "
+"αναποτελεσματικό. Για σωστή λειτουργία, απαιτείται WooCommerce."
+
+#: plugin-options/customization-options.php:15
+msgid "Bundle price style in Shop"
+msgstr "Στυλ τιμής δέσμης σε Κατάστημα"
+
+#: plugin-options/customization-options.php:20
+msgid "Min - Max"
+msgstr "Ελάχιστη - Μέγιστη"
+
+#: plugin-options/customization-options.php:24
+msgid "Min only"
+msgstr "Ελάχιστη μόνο"
+
+#: plugin-options/customization-options.php:28
+msgid "Min only higher than"
+msgstr "Ελάχιστη μόνο μεγαλύτερη από"
+
+#: plugin-options/customization-options.php:32
+msgid "Regular and discounted"
+msgstr "Κανονική και με έκπτωση"
+
+#: plugin-options/customization-options.php:37
+msgid "Choose the price view for bundle products in shop pages."
+msgstr ""
+"Επιλέξτε την προβολή τιμής για προϊόντα δέσμης σε σελίδες καταστήματος."
+
+#: plugin-options/customization-options.php:38
+#: plugin-options/settings-options.php:47
+#: plugin-options/settings-options.php:63
+msgid ""
+"Please note: this option is available only for bundle products with the "
+"\"Use prices of bundled items\" option enabled."
+msgstr ""
+"Παρακαλώ σημειώστε: αυτή η επιλογή είναι διαθέσιμη μόνο για προϊόντα δέσμης "
+"που έχουν ενεργοποιήσει την επιλογή “Χρησιμοποιήστε τις τιμές των "
+"αντικειμένων δέσμης”."
+
+#: plugin-options/customization-options.php:45
+msgid "Bundles' title"
+msgstr "Τίτλος δεσμών"
+
+#: plugin-options/customization-options.php:48
+msgid ""
+"Enter an optional title to be shown in your bundles, before the list of "
+"bundled items."
+msgstr ""
+"Εισάγετε προαιρετικό τίτλο που να εμφανίζεται στις δέσμες σας, πριν τη λίστα "
+"αντικειμένων δέσμης."
+
+#: plugin-options/customization-options.php:54
+msgid "Add to cart label"
+msgstr "Επιγραφή Προσθήκης στο καλάθι"
+
+#: plugin-options/customization-options.php:57
+msgid "Enter the label for the add to cart button."
+msgstr "Εισάγετε την επιγραφή για το κουμπί προσθήκης στο καλάθι."
+
+#: plugin-options/customization-options.php:64
+msgid "\"Add item to bundle\" label"
+msgstr "Επιγραφή “Προσθήκη αντικειμένου σε δέσμη”"
+
+#: plugin-options/customization-options.php:67
+msgid "Enter the text for the checkbox to add optional items to bundle."
+msgstr ""
+"Εισάγετε το κείμενο πλαισίου ελέγχου για να προσθέσετε προαιρετικά "
+"αντικείμενα στη δέσμη."
+
+#: plugin-options/customization-options.php:74
+msgid "\"Add item to bundle for ...\" label"
+msgstr "Επιγραφή “Προσθήκη αντικειμένου σε δέσμη για …”"
+
+#: plugin-options/customization-options.php:78
+msgid ""
+"Enter the text for the checkbox to add optional items to bundle, with the "
+"item price."
+msgstr ""
+"Εισάγετε το κείμενο πλαισίου ελέγχου για να προσθέσετε προαιρετικά "
+"αντικείμενα στη δέσμη, με την τιμή αντικειμένου."
+
+#. translators: %s is the placeholder for the '%s' string
+#: plugin-options/customization-options.php:80
+msgid "Use the %s placeholder to show the bundled item price."
+msgstr ""
+"Χρησιμοποιήστε το κείμενο υποκατάστασης %s για να εμφανίσετε την τιμή "
+"αντικειμένου δέσμης."
+
+#: plugin-options/settings-options.php:24
+msgid "Show bundled items in WooCommerce Reports"
+msgstr "Εμφάνιση αντικειμένων δέσμης σε WooCommerce Αναφορές"
+
+#: plugin-options/settings-options.php:27
+msgid "Enable to show also the bundled items in WooCommerce Reports."
+msgstr ""
+"Ενεργοποιήστε την εμφάνιση των αντικειμένων δέσμης στις WooCommerce Αναφορές."
+
+#: plugin-options/settings-options.php:33
+msgid "Hide bundled items in cart and checkout"
+msgstr "Απόκρυψη αντικειμένων δέσμης στο καλάθι και ταμείο"
+
+#: plugin-options/settings-options.php:36
+msgid "Enable to hide the bundled items in cart and checkout."
+msgstr "Ενεργοποιήστε την απόκρυψη αντικειμένων δέσμης στο καλάθι και ταμείο."
+
+#: plugin-options/settings-options.php:42
+msgid "Show bundled item prices in cart and checkout"
+msgstr "Εμφάνιση τιμών αντικειμένου δέσμης σε καλάθι και ταμείο"
+
+#: plugin-options/settings-options.php:46
+msgid "Enable to show bundled item prices in cart and checkout."
+msgstr ""
+"Ενεργοποιήστε την εμφάνιση τιμών αντικειμένων δέσμης στο καλάθι και ταμείο."
+
+#: plugin-options/settings-options.php:54
+msgid "In the order, show"
+msgstr "Στην παραγγελία εμφανίστε"
+
+#: plugin-options/settings-options.php:58
+msgid "Price of bundle"
+msgstr "Τιμή δέσμης"
+
+#: plugin-options/settings-options.php:59
+msgid "Price of bundled items"
+msgstr "Τιμή αντικειμένων δέσμης"
+
+#: plugin-options/settings-options.php:62
+msgid "Choose which price to show in order details."
+msgstr "Επιλέξτε ποια τιμή να εμφανίσετε στα στοιχεία παραγγελίας."
+
+#: plugin-options/settings-options.php:70
+msgid "If a bundled product is out of stock"
+msgstr "Αν ένα προϊόν δέσμης είναι εκτός αποθέματος"
+
+#: plugin-options/settings-options.php:74
+msgid "Hide the bundle"
+msgstr "Απόκρυψη δέσμης"
+
+#: plugin-options/settings-options.php:75
+msgid "Set the bundle as Out of Stock"
+msgstr "Ορισμός δέσμης ως Εκτός Αποθέματος"
+
+#: plugin-options/settings-options.php:76
+msgid "Show the bundle, but users will not be able to buy it"
+msgstr "Εμφάνιση δέσμης, αλλά χωρίς δυνατότητα αγοράς από χρήστες"
+
+#: plugin-options/settings-options.php:78
+msgid ""
+"Choose how to manage bundles when an item in the bundle is out of stock."
+msgstr ""
+"Επιλέξτε πώς να διαχειρίζεστε τις δέσμες όταν ένα αντικείμενο της δέσμης "
+"είναι εκτός αποθέματος."
+
+#: plugin-options/settings-options.php:84
+msgid "Activate PhotoSwipe for bundled images"
+msgstr "Ενεργοποίηση PhotoSwipe για εικόνες δέσμης"
+
+#: plugin-options/settings-options.php:87
+msgid ""
+"Enable to use PhotoSwipe to open bundled image gallery. It requires "
+"PhotoSwipe is enabled."
+msgstr ""
+"Ενεργοποίηση χρήσης PhotoSwipe για το άνοιγμα της γκαλερί εικόνων δέσμης. Η "
+"ενεργοποίηση PhotoSwipe απαιτείται."
+
+#. translators: %s is the name of the plugin
+#: plugin-options/settings-options.php:101
+msgid "In order to use this integration you have to install and activate %s."
+msgstr ""
+"Για να χρησιμοποιήσετε αυτή τη διασύνδεση πρέπει να εγκαταστήσετε και "
+"ενεργοποιήσετε το %s."
+
+#: plugin-options/settings-options.php:109
+msgid "Open bundled items in quick view"
+msgstr "Άνοιγμα αντικειμένων δέσμης σε γρήγορη προβολή"
+
+#: plugin-options/settings-options.php:128
+msgid "Sync prices for bundle products"
+msgstr "Συγχρονισμός τιμών για προϊόντα δέσμης"
+
+#: plugin-options/settings-options.php:132
+msgid "Sync prices"
+msgstr "Συγχρονισμός τιμών"
+
+#: plugin-options/settings-options.php:134
+msgid ""
+"Sync the bundle prices when the \"Use prices of bundled items\" is enabled"
+msgstr ""
+"Συγχρονισμός τιμών δέσμης όταν το “Χρησιμοποιήστε τιμές αντικειμένων δέσμης” "
+"είναι ενεργοποιημένο"
+
+#: plugin-options/settings-options.php:135
+msgid ""
+"Use it ONLY if you are encountering issues with sorting prices in the shop."
+msgstr ""
+"Χρησιμοποιήστε το ΜΟΝΟ αν αντιμετωπίζετε προβλήματα με την ταξινόμηση τιμών "
+"στο κατάστημα."
+
+#: templates/premium/compatibility/request-a-quote/raq-table-row-email.php:32
+#: templates/premium/compatibility/request-a-quote/raq-table-row.php:33
+msgid " SKU:"
+msgstr " SKU:"
+
+#: templates/premium/single-product/add-to-cart/yith-bundle-items-list.php:125
+#: templates/single-product/add-to-cart/yith-bundle.php:57
+msgid "Awaiting product image"
+msgstr "Εν αναμονή εικόνας προϊόντος"
+
+#. translators: %s is the price of the product.
+#: templates/premium/single-product/add-to-cart/yith-bundle-items-list.php:251
+msgid "Clear"
+msgstr "Καθαρισμός"
+
+#. translators: 1. the minimum amount; 2. the maximum amount.
+#: templates/premium/single-product/add-to-cart/yith-bundle-items-list.php:279
+msgid ""
+"You can choose a minimum quantity of %1$s and a maximum quantity of %2$s for "
+"this product!"
+msgstr ""
+"Μπορείτε να επιλέξετε ελάχιστη ποσότητα των %1$s και μέγιστη ποσότητα των "
+"%2$s για αυτό το προϊόν!"
+
+#: templates/single-product/add-to-cart/yith-bundle.php:78
+#: views/admin/select-product-box-products.php:63
+msgid "Out of stock"
+msgstr "Εκτός αποθέματος"
+
+#: views/admin/bundle-options-tab-premium.php:50
+#: views/admin/bundle-options-tab.php:37
+msgid "Bundled items"
+msgstr "Αντικείμενα δέσμης"
+
+#: views/admin/bundle-options-tab-premium.php:52
+#: views/admin/bundle-options-tab.php:39
+msgid "Close all"
+msgstr "Κλείσιμο όλων"
+
+#: views/admin/bundle-options-tab-premium.php:53
+#: views/admin/bundle-options-tab.php:40
+msgid "Expand all"
+msgstr "Ανάπτυξη όλων"
+
+#: views/admin/bundle-options-tab-premium.php:102
+#: views/admin/bundle-options-tab.php:89
+msgid "You are creating a bundle product!"
+msgstr "Δημιουργείτε ένα προϊόν δέσμης!"
+
+#: views/admin/bundle-options-tab-premium.php:104
+#: views/admin/bundle-options-tab.php:91
+msgid ""
+"Now, the first step is adding some items to this bundle: after that, you "
+"should simply set the bundle options below."
+msgstr ""
+"Το πρώτο βήμα τώρα είναι να προσθέσετε κάποια αντικείμενα στη δέσμη: μετά "
+"από αυτό, θα πρέπει να ορίσετε τις επιλογές δέσμης παρακάτω."
+
+#: views/admin/bundle-options-tab-premium.php:106
+#: views/admin/bundle-options-tab.php:93
+msgid "Add product to the bundle"
+msgstr "Προσθήκη προϊόντος στη δέσμη"
+
+#: views/admin/bundle-options-tab-premium.php:133
+msgid "Bundle Price"
+msgstr "Τιμή Δέσμης"
+
+#: views/admin/bundle-options-tab-premium.php:143
+msgid "Set a fixed price for this bundle"
+msgstr "Ορίστε σταθερή τιμή για αυτή τη δέσμη"
+
+#: views/admin/bundle-options-tab-premium.php:144
+msgid "Use prices of bundled items"
+msgstr "Χρησιμοποιήστε τιμές αντικειμένων δέσμης"
+
+#: views/admin/bundle-options-tab-premium.php:152
+msgid ""
+"Choose to set a fixed price for this bundle or to use the prices of "
+"individual items."
+msgstr ""
+"Επιλέξτε να ορίσετε σταθερή τιμή για αυτή τη δέσμη ή να χρησιμοποιήσετε τις "
+"τιμές ξεχωριστών αντικειμένων."
+
+#. translators: %s is the currency symbol
+#: views/admin/bundle-options-tab-premium.php:160
+#: views/admin/bundle-options-tab.php:123
+msgid "Bundle Regular Price (%s)"
+msgstr "Κανονική Τιμή Δέσμης (%s)"
+
+#: views/admin/bundle-options-tab-premium.php:178
+#: views/admin/bundle-options-tab.php:141
+msgid "Enter the price of this bundle."
+msgstr "Εισάγετε την τιμή αυτής της δέσμης."
+
+#. translators: %s is the currency symbol
+#: views/admin/bundle-options-tab-premium.php:186
+#: views/admin/bundle-options-tab.php:149
+msgid "Bundle Sale Price (%s)"
+msgstr "Τιμή Προσφοράς Δέσμης (%s)"
+
+#: views/admin/bundle-options-tab-premium.php:204
+#: views/admin/bundle-options-tab.php:167
+msgid "Enter an optional sale price to show a discount for this bundle."
+msgstr ""
+"Εισάγετε προαιρετική τιμή προσφοράς για να εμφανίζετε μια έκπτωση για αυτή "
+"τη δέσμη."
+
+#: views/admin/bundle-options-tab-premium.php:209
+msgid "Show saving amount"
+msgstr "Εμφάνιση ποσού εξοικονόμησης"
+
+#: views/admin/bundle-options-tab-premium.php:224
+msgid ""
+"Enable if you want to show the saving amount after price in product page."
+msgstr ""
+"Ενεργοποιήστε εάν θέλετε να εμφανίζετε το ποσό εξοικονόμησης μετά την τιμή "
+"στη σελίδα προϊόντος."
+
+#: views/admin/bundle-options-tab-premium.php:225
+msgid ""
+"Please note: to see the saving amount you need to set the regular and sale "
+"prices."
+msgstr ""
+"Παρακαλώ σημειώστε: για να δείτε το ποσό εξοικονόμησης θα πρέπει να ορίσετε "
+"τις κανονικές τιμές και τις τιμές προσφοράς."
+
+#: views/admin/bundle-options-tab-premium.php:230
+msgid "Bundle Shipping"
+msgstr "Αποστολή Δέσμης"
+
+#: views/admin/bundle-options-tab-premium.php:240
+msgid "Items will be shipped individually"
+msgstr "Τα αντικείμενα θα αποσταλούν ξεχωριστά"
+
+#: views/admin/bundle-options-tab-premium.php:241
+msgid "Items will be bundled in a unique shipment"
+msgstr "Τα αντικείμενα θα δεθούν σε δέσμη σε μια μοναδική αποστολή"
+
+#: views/admin/bundle-options-tab-premium.php:249
+msgid "Choose how to manage shipping for the bundled items."
+msgstr "Επιλέξτε τον τρόπο διαχείρισης αποστολής για τα αντικείμενα δέσμης."
+
+#: views/admin/bundle-options-tab-premium.php:255
+msgid "Limit product selection for this bundle"
+msgstr "Περιορίστε την επιλογή προϊόντος για αυτή τη δέσμη"
+
+#: views/admin/bundle-options-tab-premium.php:269
+msgid ""
+"Enable if you want to set a min/max amount of bundled products that the user "
+"can select."
+msgstr ""
+"Ενεργοποιήστε εάν θέλετε να ορίσετε ένα ελάχιστο/μέγιστο ποσό προϊόντων "
+"δέσμης που μπορεί να επιλέξει ο χρήστης."
+
+#: views/admin/bundle-options-tab-premium.php:274
+msgid "Total items in bundle"
+msgstr "Συνολικά αντικείμενα σε δέσμη"
+
+#. translators: %1$s is the numeric input field of the minimum amount; %2$s is
+#. the numeric input field of the maximum amount
+#: views/admin/bundle-options-tab-premium.php:305
+msgid ""
+"Require a minimum amount of %1$s and a maximum amount of %2$s bundled items."
+msgstr ""
+"Να απαιτείται ελάχιστο ποσό των %1$s και μέγιστο ποσό των %2$s αντικειμένων "
+"δέσμης."
+
+#: views/admin/bundle-options-tab-premium.php:309
+msgid "Define the min and max number of bundled items that a user can select."
+msgstr ""
+"Ορίστε το ελάχιστο ή μέγιστο αριθμό αντικειμένων δέσμης που μπορεί να "
+"επιλέξει ένας χρήστης."
+
+#: views/admin/bundle-options-tab-premium.php:311
+msgid ""
+"Leave empty if the user does not need to select a min or max number of "
+"items, to add the bundle to the cart."
+msgstr ""
+"Διατηρήστε κενό αν ο χρήστης δεν χρειάζεται να επιλέξει ελάχιστο ή μέγιστο "
+"αριθμό αντικειμένων, για να προσθέσει την δέσμη στο καλάθι."
+
+#: views/admin/bundle-options-tab-premium.php:316
+msgid "Different types of items in bundle"
+msgstr "Διαφορετικοί τύποι αντικειμένων σε δέσμη"
+
+#. translators: %1$s is the numeric input field of the minimum amount; %2$s is
+#. the numeric input field of the maximum amount
+#: views/admin/bundle-options-tab-premium.php:347
+msgid "Require at least %1$s and max %2$s different types of bundled items."
+msgstr ""
+"Να απαιτείται τουλάχιστον %1$s και μέγιστο %2$s διαφορετικών τύπων "
+"αντικειμένων δέσμης."
+
+#: views/admin/bundle-options-tab-premium.php:351
+msgid ""
+"Define the min and max number of different items that a user can select."
+msgstr ""
+"Ορίστε το ελάχιστο ή μέγιστο αριθμό διαφορετικών αντικειμένων που μπορεί να "
+"επιλέξει ένας χρήστης."
+
+#: views/admin/bundle-options-tab-premium.php:353
+msgid ""
+"Leave empty if the user does not need to select a min or max of different "
+"items, to add the bundle to the cart."
+msgstr ""
+"Διατηρήστε κενό αν ο χρήστης δεν χρειάζεται να επιλέξει ελάχιστο ή μέγιστο "
+"διαφορετικών προϊόντων, για να προσθέσει την δέσμη στο καλάθι."
+
+#: views/admin/bundled-item-options-premium.php:28
+msgid "Choose variations&hellip;"
+msgstr "Επιλογή παραλλαγών&hellip;"
+
+#: views/admin/bundled-item-options-premium.php:48
+msgid "Any"
+msgstr "Οποιοδήποτε"
+
+#: views/admin/bundled-item-options-premium.php:82
+msgid "Select the variations allowed for this item."
+msgstr "Εισάγετε τις επιτρεπόμενες παραλλαγές για αυτό το αντικείμενο."
+
+#: views/admin/bundled-item-options-premium.php:84
+msgid "Leave empty to allow all variations."
+msgstr "Διατηρήστε κενό για να επιτρέψετε όλες τις παραλλαγές."
+
+#. translators: %s is the name of an attribute; example: "No default Size"
+#: views/admin/bundled-item-options-premium.php:100
+msgid "No default %s..."
+msgstr "Μη προεπιλεγμένο %s…"
+
+#: views/admin/bundled-item-options-premium.php:136
+msgid "Set the attributes to show as defaults in bundle section."
+msgstr ""
+"Ορίστε τις ιδιότητες προς εμφάνιση ως προεπιλεγμένες στην ενότητα δέσμης."
+
+#: views/admin/bundled-item-options-premium.php:151
+msgid "Use the default product name"
+msgstr "Χρησιμοποιήστε το προεπιλεγμένο όνομα προϊόντος"
+
+#: views/admin/bundled-item-options-premium.php:152
+msgid "Enter a custom product name"
+msgstr "Εισάγετε προσαρμοσμένο όνομα προϊόντος"
+
+#: views/admin/bundled-item-options-premium.php:153
+msgid "Leave empty - hide product name"
+msgstr "Διατηρήστε κενό - απόκρυψη ονόματος προϊόντος"
+
+#: views/admin/bundled-item-options-premium.php:163
+msgid "Choose the product name to be shown."
+msgstr "Επιλέξτε το όνομα προϊόντος που θέλετε να εμφανίζεται."
+
+#: views/admin/bundled-item-options-premium.php:184
+msgid "Enter a name to identify this product."
+msgstr "Ορίστε ένα όνομα για να αναγνωρίζετε αυτό το προϊόν."
+
+#: views/admin/bundled-item-options-premium.php:198
+msgid "Use the default product description"
+msgstr "Χρησιμοποιήστε την προεπιλεγμένη περιγραφή προϊόντος"
+
+#: views/admin/bundled-item-options-premium.php:199
+msgid "Enter a custom product description"
+msgstr "Εισάγετε προσαρμοσμένη περιγραφή προϊόντος"
+
+#: views/admin/bundled-item-options-premium.php:200
+msgid "Leave empty - hide product description"
+msgstr "Διατηρήστε κενό - απόκρυψη περιγραφή προϊόντος"
+
+#: views/admin/bundled-item-options-premium.php:210
+msgid "Choose the product description to be shown."
+msgstr "Επιλέξτε την περιγραφή προϊόντος που θέλετε να εμφανίζεται."
+
+#: views/admin/bundled-item-options-premium.php:230
+msgid "Enter a description for this product."
+msgstr "Εισάγετε περιγραφή για αυτό το προϊόν."
+
+#: views/admin/bundled-item-options-premium.php:251
+msgid "Enable if you want to hide the product image."
+msgstr "Ενεργοποιήστε αν θέλετε να γίνει απόκρυψη της εικόνας προϊόντος."
+
+#: views/admin/bundled-item-options-premium.php:273
+msgid "Enable if you want to apply a discount to this product."
+msgstr "Ενεργοποιήστε αν θέλετε να εφαρμόζεται έκπτωση σε αυτό το προϊόν."
+
+#: views/admin/bundled-item-options-premium.php:300
+msgid "Set the discount percentage for this product."
+msgstr "Ορίστε το ποσοστό έκπτωσης για αυτό το προϊόν."
+
+#. translators: %1$s is the numeric input field of the minimum amount; %2$s is
+#. the numeric input field of the maximum amount
+#: views/admin/bundled-item-options-premium.php:337
+msgid "a minimum quantity of %1$s and a maximum quantity of %2$s"
+msgstr "ελάχιστη ποσότητα των %1$s και μέγιστη ποσότητα των %2$s"
+
+#: views/admin/bundled-item-options-premium.php:342
+msgid "Set the minimum and the maximum quantity that the user can purchase."
+msgstr ""
+"Ορίστε την ελάχιστη και μέγιστη ποσότητα που μπορεί να αγοράσει ο χρήστης."
+
+#: views/admin/bundled-item-options-premium.php:344
+msgid "Put the same value in each field to hide the quantity field."
+msgstr ""
+"Εισάγετε την ίδια αξία σε κάθε πεδίο για να αποκρύψετε το πεδίο ποσότητας."
+
+#: views/admin/bundled-item-options-premium.php:366
+msgid ""
+"If enabled, the user can choose to add this product to the bundle or not."
+msgstr ""
+"Αν ενεργοποιηθεί, ο χρήστης θα μπορεί να επιλέξει να προσθέσει ή όχι αυτό το "
+"προϊόν στη δέσμη."
+
+#: views/admin/bundled-item-options-premium.php:388
+msgid "Enable if you want to hide this product in the bundle."
+msgstr "Ενεργοποιήστε αν θέλετε να γίνει απόκρυψη του προϊόντος στη δέσμη."
+
+#: views/admin/bundled-item.php:38
+msgid "Click to toggle"
+msgstr "Κάντε κλικ για εναλλαγή"
+
+#: views/admin/bundled-item.php:39
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+#: views/admin/bundled-item.php:40
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: views/admin/bundled-item.php:44
+msgid "Not Purchasable"
+msgstr "Δεν Πωλείται"
+
+#: views/admin/select-product-box-products.php:39
+msgid "Image"
+msgstr "Εικόνα"
+
+#: views/admin/select-product-box-products.php:40
+msgid "Name"
+msgstr "Όνομα"
+
+#: views/admin/select-product-box-products.php:42
+msgid "Type"
+msgstr "Τύπος"
+
+#: views/admin/select-product-box-products.php:70
+msgid "Add"
+msgstr "Προσθήκη"
+
+#: views/admin/select-product-box-products.php:78
+msgid "Product added to the bundle"
+msgstr "Το προϊόν προστέθηκε στη δέσμη"
+
+#: views/admin/select-product-box-products.php:95
+msgid "prev"
+msgstr "προηγ"
+
+#: views/admin/select-product-box-products.php:97
+msgid "next"
+msgstr "επόμενο"
+
+#: views/admin/select-product-box.php:7
+msgid "Add products to the bundle"
+msgstr "Προσθήκη προϊόντων στη δέσμη"
+
+#: views/admin/select-product-box.php:10
+msgid "Search for a product (min %s characters)"
+msgstr "Αναζήτηση προϊόντος (ελάχιστοι χαρακτήρες %s)"
+
+#. Description of the plugin/theme
+msgid ""
+"<code><strong>YITH WooCommerce Product Bundles</strong></code> allows you to "
+"bundle WooCommerce products and sell them at a unique price. You can "
+"configure bundled items as optional, set a discount, the minimum and maximum "
+"quantity, and so on! <a href=\"https://yithemes.com/\" target=\"_blank\">Get "
+"more plugins for your e-commerce shop on <strong>YITH</strong></a>"
+msgstr ""
+"Το <code><strong>YITH WooCommerce Product Bundles</strong></code> σας "
+"επιτρέπει να δέσετε WooCommerce προϊόντα πωλώντας τα σε μοναδικές τιμές. "
+"Μπορείτε να ρυθμίσετε αντικείμενα δέσμης ως προαιρετικά, να ορίσετε μια "
+"έκπτωση, την ελάχιστη και μέγιστη ποσότητα, και ούτω καθεξής! <a href="
+"\"https://yithemes.com/\" target=\"_blank\">Βρείτε περισσότερα πρόσθετα για "
+"το ηλεκτρονικό σας κατάστημα στο <strong>YITH</strong></a>"
+
+#: includes/class.yith-wcpb-admin.php:187
+msgctxt "Admin: type of product"
+msgid "Product Bundle"
+msgstr "Δέσμη Προϊόντος"
+
+#: includes/class.yith-wcpb-bundle-widget.php:70
+msgctxt "Sorting order"
+msgid "Order"
+msgstr "Παραγγελία"
+
+#: includes/objects/class.yith-wc-product-bundle-premium.php:546
+msgctxt "From price"
+msgid "From %s"
+msgstr "Από %s"
+
+#: plugin-options/settings-options.php:16
+msgctxt "Panel Section Title"
+msgid "General Settings"
+msgstr "Γενικές Ρυθμίσεις"
+
+#. translators: %s is the name of the plugin
+#: plugin-options/settings-options.php:97
+msgctxt "Panel Section Title"
+msgid "%s integration"
+msgstr "%s διασύνδεση"
+
+#: plugin-options/settings-options.php:121
+msgctxt "Panel Section Title"
+msgid "Tools"
+msgstr "Εργαλεία"
+
+#: plugin-options/settings-options.php:102
+msgctxt "Learn more link for plugin integrations"
+msgid "Learn more"
+msgstr "Μάθετε περισσότερα"
+
+#: views/admin/bundled-item-options-premium.php:22
+msgctxt "Admin bundled item form field"
+msgid "Filter product variations"
+msgstr "Ταξινόμηση παραλλαγών προϊόντος"
+
+#: views/admin/bundled-item-options-premium.php:88
+msgctxt "Admin bundled item form field"
+msgid "Default attributes"
+msgstr "Προεπιλεγμένες ιδιότητες"
+
+#: views/admin/bundled-item-options-premium.php:141
+msgctxt "Admin bundled item form field"
+msgid "Product name"
+msgstr "Όνομα προϊόντος"
+
+#: views/admin/bundled-item-options-premium.php:167
+msgctxt "Admin bundled item form field"
+msgid "Enter name"
+msgstr "Εισαγωγή ονόματος"
+
+#: views/admin/bundled-item-options-premium.php:188
+msgctxt "Admin bundled item form field"
+msgid "Product description"
+msgstr "Περιγραφή προϊόντος"
+
+#: views/admin/bundled-item-options-premium.php:214
+msgctxt "Admin bundled item form field"
+msgid "Enter description"
+msgstr "Εισαγωγή περιγραφής"
+
+#: views/admin/bundled-item-options-premium.php:234
+msgctxt "Admin bundled item form field"
+msgid "Hide product image"
+msgstr "Απόκρυψη εικόνας προϊόντος"
+
+#: views/admin/bundled-item-options-premium.php:256
+msgctxt "Admin bundled item form field"
+msgid "Apply a discount"
+msgstr "Εφαρμογή έκπτωσης"
+
+#: views/admin/bundled-item-options-premium.php:278
+msgctxt "Admin bundled item form field"
+msgid "Apply a discount of"
+msgstr "Εφαρμογή έκπτωσης των"
+
+#: views/admin/bundled-item-options-premium.php:305
+msgctxt "Admin bundled item form field"
+msgid "User can buy"
+msgstr "Ο χρήστης μπορεί να αγοράσει"
+
+#: views/admin/bundled-item-options-premium.php:349
+msgctxt "Admin bundled item form field"
+msgid "Set product as optional"
+msgstr "Ορισμός προϊόντος ως προαιρετικού"
+
+#: views/admin/bundled-item-options-premium.php:371
+msgctxt "Admin bundled item form field"
+msgid "Hide product"
+msgstr "Απόκρυψη προϊόντος"
+
+#: views/admin/bundled-item-options.php:15
+msgctxt "Admin: quantity of the bundled product."
+msgid "Quantity"
+msgstr "Ποσότητα"
+
+#~ msgid "In stock"
+#~ msgstr "Σε απόθεμα"

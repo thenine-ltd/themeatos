@@ -1,0 +1,451 @@
+@keyframes yith-wcmbs-skeleton-pulse {
+	0%, 100% {
+		opacity : 1;
+	}
+	50% {
+		opacity : 0.4;
+	}
+}
+
+@keyframes yith-wcmbs-skeleton-wave {
+	0% {
+		transform : translateX(-100%);
+	}
+	100% {
+		transform : translateX(100%);
+	}
+}
+
+.wp-block[data-type="yith/wcmbs-membership-protected-content"] {
+	&.yith-wcmbs-is-block-selected {
+		padding : 20px;
+	}
+
+	.yith-wcmbs-block-settings-section .yith-wcmbs-block-settings__options {
+		display : flex;
+		gap     : 20px;
+
+		.components-combobox-control {
+			width : 300px;
+		}
+
+	}
+
+}
+
+.wp-block .yith-wcmbs-block__container,
+.wp-block.yith-wcmbs-block__container {
+
+	.components-placeholder__fieldset {
+		display : block;
+	}
+
+	.yith-wcmbs-block__desc {
+		display       : flex;
+		margin-bottom : 15px;
+		font-size     : .9em;
+	}
+
+	.yith-wcmbs-block__heading .yith-wcmbs-block__icon,
+	.yith-wcmbs-block__heading .yith-wcmbs-block__icon svg {
+		height : 22px;
+		width  : 20px;
+	}
+
+	.yith-wcmbs-membershp-history-empty-message-field {
+		.components-base-control__field {
+			display        : flex;
+			flex-direction : column;
+
+			input {
+				width : 300px;
+			}
+		}
+	}
+
+	&--empty-state {
+		background  : #f0f0f0;
+		display     : flex;
+		align-items : center;
+
+		.yith-wcmbs-block__desc {
+			margin    : 0;
+			color     : #888;
+			font-size : 1em;
+		}
+
+		.components-placeholder__label {
+			display         : flex;
+			flex-direction  : column;
+			align-items     : center;
+			justify-content : center;
+
+			svg {
+				transform     : scale(1.5) translateY(2px);
+				margin        : 0;
+				margin-bottom : 15px;
+			}
+		}
+
+		.components-placeholder__fieldset {
+			display         : flex;
+			align-items     : center;
+			justify-content : center;
+		}
+	}
+}
+
+
+.wp-block .yith-wcmbs-block__container .yith-wcmbs-block-settings-section,
+.wp-block.yith-wcmbs-block__container .yith-wcmbs-block-settings-section {
+	padding        : 20px;
+	display        : flex;
+	gap            : 20px;
+	flex-direction : column;
+	border-top     : 1px solid #dcdcdc;
+	margin-top     : 20px;
+
+	.yith-wcmbs-block-settings__field-label {
+		margin-left : 5px;
+	}
+
+	.yith-wcmbs-block-settings__field,
+	.yith-wcmbs-block-settings__fields {
+		display   : flex;
+		gap       : 10px;
+		flex-wrap : wrap;
+	}
+
+	input, select {
+		max-width : 300px;
+		height    : fit-content;
+	}
+
+	.yith-wcmbs-block-settings__field {
+		flex-direction : column;
+	}
+
+	.yith-wcmbs-media-library-button {
+		width      : fit-content;
+		min-height : auto;
+	}
+
+	.yith-wcmbs-protected-open-media-library-handle {
+		margin-bottom : 10px;
+		margin-left   : 5px;
+		display       : block
+	}
+
+	.components-base-control label {
+		margin-left : 5px;
+	}
+}
+
+.yith-wcmbs-protected-media-settings {
+	display : flex;
+	gap     : 25px;
+
+	.yith-wcmbs-protected-media-settings__preview {
+		border : 1px solid #979797;
+
+		&-cover {
+			width           : 150px;
+			height          : 150px;
+			display         : flex;
+			align-items     : center;
+			justify-content : center;
+
+			&.yith-wcmbs-protected-media-settings__preview-cover--icon {
+				img {
+					max-width  : none;
+					max-height : none;
+					width      : auto;
+					height     : auto;
+				}
+			}
+
+			img {
+				width      : 100%;
+				height     : 100%;
+				object-fit : cover;
+			}
+		}
+
+		&-info {
+			font-size     : .9em;
+			max-width     : 150px;
+			white-space   : nowrap;
+			overflow      : hidden;
+			text-overflow : ellipsis;
+			text-align    : center;
+			padding       : 5px;
+			box-sizing    : border-box;
+			background    : #eee;
+		}
+	}
+
+	&--skeleton {
+		.yith-wcmbs-protected-media-settings__preview {
+			display        : flex;
+			flex-direction : column;
+			gap            : 5px;
+		}
+
+		.yith-wcmbs-protected-media-settings__options {
+			display        : flex;
+			flex-direction : column;
+			gap            : 10px;
+		}
+	}
+}
+
+/* SELECT STYLE */
+
+.yith-wcmbs-select {
+	width     : 300px;
+	position  : relative;
+	max-width : 100%;
+
+	&.yith-wcmbs-select--multiple {
+		.yith-wcmbs-search-bar {
+			flex-wrap : wrap;
+			padding   : 10px;
+
+			&:before {
+				content : none;
+			}
+
+			.yith-wcmbs-select__value {
+				background-color : rgba(0, 0, 0, .08);
+				padding          : 1px 30px 1px 12px;
+				border-radius    : 50px;
+				font-size        : 13px;
+				line-height      : 19px;
+				position         : relative;
+				display          : flex;
+				align-items      : center;
+			}
+		}
+	}
+
+	&:not(.yith-wcmbs-select--multiple) {
+		.yith-wcmbs-search-bar {
+			height : 40px;
+		}
+
+		.yith-wcmbs-select__value {
+			width : 100%;
+		}
+	}
+
+	input.yith-wcmbs-select-search {
+		width     : auto;
+		min-width : 150px;
+		margin    : 0;
+		border    : none;
+		outline   : none;
+		flex      : 1 0 auto;
+	}
+
+	.yith-wcmbs-search-bar {
+		width         : 100%;
+		display       : flex;
+		align-items   : center;
+		gap           : 5px;
+		padding       : 7px 10px;
+		box-sizing    : border-box;
+		border        : var(--yith-field-border, 1px solid #cbd5e1);
+		border-radius : 5px;
+
+		&:has( > .yith-wcmbs-select__value ) {
+			&:before {
+				display : none;
+			}
+		}
+
+		&:before {
+			content         : "";
+			background      : url(../../../plugin-fw/assets/images/select-indicator.svg) no-repeat right center;
+			background-size : 35px 20px;
+			width           : 38px;
+			height          : 38px;
+			display         : block;
+			position        : absolute;
+			top             : 50%;
+			right           : 0;
+			transform       : translateY(-50%);
+		}
+
+		.yith-wcmbs-select__value {
+			position      : relative;
+			white-space   : nowrap;
+			overflow      : hidden;
+			text-overflow : ellipsis;
+			display       : flex;
+			align-items   : center;
+
+			&__remove {
+				position        : absolute;
+				right           : 3px;
+				top             : 50%;
+				transform       : translateY(-50%);
+				background      : rgba(0, 0, 0, .1);
+				width           : 15px;
+				height          : 15px;
+				display         : flex;
+				align-items     : center;
+				justify-content : center;
+				border-radius   : 10px;
+				cursor          : pointer;
+
+				&:before {
+					content     : "\f117";
+					font-family : "yith-icon" !important;
+					font-size   : 8px;
+				}
+			}
+		}
+
+		&__placeholder {
+			white-space   : nowrap;
+			text-overflow : ellipsis;
+			overflow      : hidden;
+			padding-right : 20px;
+			color         : #888;
+		}
+	}
+
+	&.yith-wcmbs-select--selected {
+		.yith-wcmbs-search-bar {
+			box-shadow   : var(--yith-field-shadow), 0 0 0 1px var(--yith-primary);
+			border-color : var(--yith-primary);
+		}
+
+		.yith-wcmbs-select-dropdown {
+			display : block;
+		}
+	}
+
+	.yith-wcmbs-select-dropdown {
+		display       : none;
+		position      : absolute;
+		bottom        : -10px;
+		transform     : translateY(100%);
+		background    : white;
+		box-shadow    : 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+		width         : 100%;
+		box-sizing    : border-box;
+		border-radius : 7px;
+		overflow      : hidden;
+		z-index       : 9999;
+
+		.yith-wcmbs-select-dropdown-options {
+			overflow   : hidden auto;
+			max-height : 140px;
+			display    : block;
+		}
+
+		input.yith-wcmbs-select-search {
+			width         : calc(100% - 16px);
+			box-sizing    : border-box;
+			margin        : 8px;
+			padding       : 8px;
+			border        : 1px solid #dcdcdc;
+			border-radius : 5px;
+		}
+
+		&__option {
+			padding       : 8px;
+			white-space   : nowrap;
+			overflow      : hidden;
+			text-overflow : ellipsis;
+			cursor        : pointer;
+
+			&--selected {
+				background : #ddd;
+			}
+
+			&--highlighted {
+				background-color : #e8eff1;
+				color            : #4e8ba2;
+			}
+		}
+
+		&__message {
+			padding : 8px;
+			color   : #acacac;
+		}
+	}
+}
+
+.yith-wcmbs-skeleton {
+	max-width  : 100%;
+	background : rgba(0, 0, 0, 0.13);
+
+	&--rounded {
+		border-radius : 4px;
+	}
+
+	&--circular {
+		border-radius : 99999px;
+	}
+
+	&--text {
+		border-radius : 4px / 7px;
+
+		&:before {
+			content : "\00a0";
+		}
+	}
+
+	&--animation-wave {
+		position  : relative;
+		overflow  : hidden;
+
+		&::before {
+			content    : "";
+			position   : absolute;
+			left       : 0;
+			top        : 0;
+			height     : 100%;
+			width      : 100%;
+			background : linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+			transform  : translateX(-100%);
+			animation  : 1.6s linear 0.5s infinite normal none running yith-wcmbs-skeleton-wave;
+		}
+
+		animation : none;
+	}
+
+	&--animation-none {
+		animation : none;
+	}
+
+	animation  : 1.5s ease-in-out 0.5s infinite normal none running yith-wcmbs-skeleton-pulse;
+}
+
+.yith-wcmbs-radio-control-container {
+	.components-radio-control__option {
+		display       : flex;
+		align-items   : start;
+		margin-bottom : 7px;
+		gap           : 7px;
+
+		.components-radio-control__input {
+			height     : 20px;
+			width      : 20px;
+			min-width  : 20px;
+			min-height : 20px;
+			margin     : 0;
+		}
+	}
+}
+
+.yith-wcmbs-blocks__edit-preview-iframe {
+	width : 100%;
+}
+
+.yith-wcmbs-membership-block--empty-message {
+	font-style : italic;
+	color      : #888;
+}

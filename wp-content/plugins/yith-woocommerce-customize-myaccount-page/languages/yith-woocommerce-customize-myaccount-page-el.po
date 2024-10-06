@@ -1,0 +1,1458 @@
+# Translation of YITH WooCommerce Customize My Account Page in Greek
+# This file is distributed under the same license as the YITH WooCommerce Customize My Account Page package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Customize My Account Page\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/yith-woocommerce-"
+"customize-my-account-page\n"
+"POT-Creation-Date: 2024-02-19 10:10:09+00:00\n"
+"PO-Revision-Date: 2020-12-16 13:25:27+0000\n"
+"Language: el_GR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+
+#: includes/admin/class-yith-wcmap-admin-extended.php:60
+#: includes/admin/class-yith-wcmap-admin-extended.php:61
+#: includes/admin/class-yith-wcmap-admin.php:189
+msgid ""
+"Choose between <b>3 different menu styles</b>: no borders, modern or simple"
+msgstr ""
+
+#: includes/admin/class-yith-wcmap-admin-extended.php:64
+#: includes/admin/class-yith-wcmap-admin-extended.php:65
+#: includes/admin/class-yith-wcmap-admin.php:190
+msgid "Customize the account color scheme"
+msgstr ""
+
+#: includes/admin/class-yith-wcmap-admin-extended.php:68
+#: includes/admin/class-yith-wcmap-admin-extended.php:69
+#: includes/admin/class-yith-wcmap-admin.php:191
+msgid "Create groups of <b>nested endpoints</b>"
+msgstr ""
+
+#: includes/admin/class-yith-wcmap-admin-extended.php:72
+#: includes/admin/class-yith-wcmap-admin-extended.php:73
+#: includes/admin/class-yith-wcmap-admin.php:192
+msgid "Add custom URL links"
+msgstr ""
+
+#: includes/admin/class-yith-wcmap-admin-extended.php:76
+#: includes/admin/class-yith-wcmap-admin-extended.php:77
+#: includes/admin/class-yith-wcmap-admin.php:193
+msgid "Upload custom icons to visually enhance the endpoints"
+msgstr ""
+
+#: includes/admin/class-yith-wcmap-admin-extended.php:80
+#: includes/admin/class-yith-wcmap-admin-extended.php:81
+#: includes/admin/class-yith-wcmap-admin.php:194
+msgid "Show endpoints only to specific user roles"
+msgstr ""
+
+#: includes/admin/class-yith-wcmap-admin-extended.php:84
+#: includes/admin/class-yith-wcmap-admin-extended.php:85
+#: includes/admin/class-yith-wcmap-admin.php:195
+msgid "Create <b>custom banners</b> to show as endpoint content"
+msgstr ""
+
+#: includes/admin/class-yith-wcmap-admin-extended.php:88
+#: includes/admin/class-yith-wcmap-admin-extended.php:89
+#: includes/admin/class-yith-wcmap-admin.php:196
+msgid "Add Google reCAPTCHA (v2) to the register form on My Account"
+msgstr ""
+
+#: includes/admin/class-yith-wcmap-admin-extended.php:92
+#: includes/admin/class-yith-wcmap-admin-extended.php:93
+#: includes/admin/class-yith-wcmap-admin.php:197
+msgid ""
+"Block specific email domains so users cannot create an account with those "
+"domains"
+msgstr ""
+
+#: includes/admin/class-yith-wcmap-admin-extended.php:96
+#: includes/admin/class-yith-wcmap-admin-extended.php:97
+#: includes/admin/class-yith-wcmap-admin.php:198
+msgid "<b>Allow users to upload their own custom profile pictures</b>"
+msgstr ""
+
+#: includes/admin/class-yith-wcmap-admin-extended.php:100
+#: includes/admin/class-yith-wcmap-admin-extended.php:101
+#: includes/admin/class-yith-wcmap-admin.php:199
+msgid "<b>Regular updates, translations and premium support</b>"
+msgstr ""
+
+#: includes/admin/class-yith-wcmap-admin-premium.php:292
+msgid "Add link"
+msgstr "Προσθήκη συνδέσμου"
+
+#: includes/admin/class-yith-wcmap-admin-premium.php:293
+msgid "Close new link"
+msgstr "Κλείσιμο νέου συνδέσμου"
+
+#: includes/admin/class-yith-wcmap-admin-premium.php:296
+msgid "Add group"
+msgstr "Προσθήκη ομάδας"
+
+#: includes/admin/class-yith-wcmap-admin-premium.php:297
+msgid "Close new group"
+msgstr "Κλείσιμο νέας ομάδας"
+
+#: includes/admin/class-yith-wcmap-admin.php:129
+msgid "Are you sure that you want to delete this endpoint?"
+msgstr "Είστε σίγουρος/η ότι θέλετε να διαγράψετε αυτό το τελικό σημείο;"
+
+#: includes/admin/class-yith-wcmap-admin.php:276
+msgid "Add endpoint"
+msgstr "Προσθήκη τελικού σημείου"
+
+#: includes/admin/class-yith-wcmap-admin.php:277
+msgid "Close new endpoint"
+msgstr "Κλείσιμο νέου τελικού σημείου"
+
+#: includes/admin/views/items-list.php:56
+msgid "Save changes"
+msgstr "Αποθήκευση αλλαγών"
+
+#: includes/admin/views/items-list.php:62
+msgid "Reset Defaults"
+msgstr "Επαναφορά Προεπιλεγμένων"
+
+#: includes/admin/views/single-item.php:47
+msgid "sub item"
+msgstr "υπο αντικείμενο"
+
+#: includes/admin/views/single-item.php:70
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/views/single-item.php:81
+msgid "Default item, it can't be deleted"
+msgstr ""
+
+#: includes/admin/views/single-item.php:96
+msgid "Rearrange"
+msgstr ""
+
+#: includes/class-yith-wcmap-avatar.php:417
+msgid "Custom Avatar"
+msgstr "Προσαρμοσμένο Άβαταρ"
+
+#: includes/class-yith-wcmap-avatar.php:456
+msgid "Removed customer avatar"
+msgstr "Αφαιρέθηκε άβαταρ πελάτη"
+
+#: includes/class-yith-wcmap-frontend.php:641
+msgid "There are no available downloads yet."
+msgstr "Δεν υπάρχουν διαθέσιμα κατεβάσματα ακόμη."
+
+#: includes/class-yith-wcmap-frontend.php:707
+msgid "Invalid order."
+msgstr "Μη έγκυρη παραγγελία."
+
+#: includes/class-yith-wcmap-frontend.php:707
+msgid "My Account"
+msgstr "Ο Λογαριασμός Μου"
+
+#: includes/class-yith-wcmap-items.php:379
+msgid "Dashboard"
+msgstr "Πίνακας Ελέγχου"
+
+#: includes/class-yith-wcmap-items.php:380
+msgid "My Orders"
+msgstr "Οι Παραγγελίες Μου"
+
+#: includes/class-yith-wcmap-items.php:381
+msgid "My Downloads"
+msgstr "Τα Κατεβάσματα Μου"
+
+#: includes/class-yith-wcmap-items.php:382
+msgid "Edit Address"
+msgstr "Επεξεργασία Διεύθυνσης"
+
+#: includes/class-yith-wcmap-items.php:383
+msgid "Payment Methods"
+msgstr "Μέθοδοι Πληρωμής"
+
+#: includes/class-yith-wcmap-items.php:384
+msgid "Edit Account"
+msgstr "Επεξεργασία Λογαριασμού"
+
+#: includes/class-yith-wcmap-items.php:385
+#: templates/ywcmap-myaccount-menu.php:48
+msgid "Logout"
+msgstr "Αποσύνδεση"
+
+#: includes/class-yith-wcmap-security-premium.php:170
+msgid "ReCaptcha validation error. Please try again."
+msgstr "Σφάλμα επιβεβαίωσης reCaptcha. Παρακαλώ προσπαθήστε ξανά."
+
+#: includes/class-yith-wcmap-security-premium.php:196
+msgid "Email domain is not valid! Please use a different one and try again."
+msgstr ""
+"Το email domain δεν είναι έγκυρο! Παρακαλώ χρησιμοποιήστε ένα διαφορετικό "
+"και προσπαθήστε ξανά."
+
+#: includes/class-yith-wcmap-security.php:283
+msgid "Click here to resend email."
+msgstr "Κάντε κλικ εδώ για επανάληψη αποστολής email."
+
+#. translators: %s stand for the link to resend confirmation email.
+#: includes/class-yith-wcmap-security.php:304
+msgid ""
+"You have to confirm your account. Please, click on the link in the "
+"verification email. %s"
+msgstr ""
+"Πρέπει να επιβεβαιώσετε τον λογαριασμό σας. Παρακαλώ, κάντε κλικ στον "
+"σύνδεσμο του email επιβεβαίωσης. %s"
+
+#. translators: %s is a message that ask customer to confirm the account
+#. clicking on the link in the verification email.
+#: includes/class-yith-wcmap-security.php:310
+msgid "An account is already registered with this email. %s"
+msgstr "Ένας λογαριασμός είναι ήδη εγγεγραμμένος με αυτό το email. %s"
+
+#. translators: %s is a message that ask customer to confirm the account
+#. clicking on the link in the verification email.
+#: includes/class-yith-wcmap-security.php:314
+msgid "Login is not permitted! %s"
+msgstr "Δεν επιτρέπεται να συνδεθείτε! %s"
+
+#. translators: %s is a message that ask customer to confirm the account
+#. clicking on the link in the verification email.
+#: includes/class-yith-wcmap-security.php:318
+msgid "Checkout is not permitted! %s"
+msgstr "Δεν επιτρέπεται να μεταβείτε στο ταμείο! %s"
+
+#: includes/class-yith-wcmap-security.php:321
+msgid "Thanks your account is now confirmed!"
+msgstr "Ευχαριστούμε, ο λογαριασμός σας έχει πλέον επιβεβαιωθεί!"
+
+#: includes/class-yith-wcmap-security.php:324
+msgid ""
+"A confirmation email has been sent to your email address. Please click on "
+"the confirmation link in the email to complete your account activation."
+msgstr ""
+"Έχει σταλεί email επιβεβαίωσης στην διεύθυνση email σας. Παρακαλώ κάντε κλικ "
+"στον σύνδεσμο επιβεβαίωσης στο email για να ολοκληρώσετε την ενεργοποίηση "
+"του λογαριασμού σας."
+
+#: includes/class-yith-wcmap.php:72 includes/class-yith-wcmap.php:81
+msgid "Cheatin&#8217; huh?"
+msgstr "Κλέβεις&#8217; ε;"
+
+#: includes/compatibilities/class-yith-wcmap-advanced-reviews-compatibility.php:29
+msgid "Reviews"
+msgstr ""
+
+#: includes/compatibilities/class-yith-wcmap-auctions-compatibility.php:29
+msgid "Auctions"
+msgstr "Δημοπρασίες"
+
+#: includes/compatibilities/class-yith-wcmap-bookings-compatibility.php:29
+msgid "Bookings"
+msgstr "Κρατήσεις"
+
+#: includes/compatibilities/class-yith-wcmap-funds-compatibility.php:30
+msgid "Make a Deposit"
+msgstr "Δημιουργία Kατάθεσης"
+
+#: includes/compatibilities/class-yith-wcmap-funds-compatibility.php:36
+msgid "Income/Expenditure History"
+msgstr "Ιστορικό Εισόδων/Εξόδων"
+
+#: includes/compatibilities/class-yith-wcmap-gift-cards-compatibility.php:29
+msgid "Gift Cards"
+msgstr "Gift Cards"
+
+#: includes/compatibilities/class-yith-wcmap-membership-compatibility.php:27
+#: includes/compatibilities/class-yith-wcmap-membership-compatibility.php:33
+msgid "Membership Plans"
+msgstr "Προγράμματα Συνδρομής Μέλους"
+
+#: includes/compatibilities/class-yith-wcmap-membership-compatibility.php:102
+msgid "Only users of a specific membership plan"
+msgstr "Μόνο χρήστες με συγκεκριμένο πρόγραμμα συν. μέλους"
+
+#: includes/compatibilities/class-yith-wcmap-membership-compatibility.php:107
+msgid "Membership plans"
+msgstr "Προγράμματα συνδρομής μέλους"
+
+#: includes/compatibilities/class-yith-wcmap-membership-compatibility.php:108
+msgid ""
+"Restrict endpoint visibility to users who are purchased following membership "
+"plan(s)"
+msgstr ""
+"Περιορισμός ορατότητας τελικού σημείου σε χρήστες που έχουν αγοράσει το "
+"ακόλουθο πρόγραμμα(τα) συνδ. μέλους"
+
+#: includes/compatibilities/class-yith-wcmap-one-click-compatibility.php:29
+msgid "One click checkout"
+msgstr "One click checkout"
+
+#: includes/compatibilities/class-yith-wcmap-payouts-compatibility.php:29
+msgid "Payouts"
+msgstr "Payouts"
+
+#: includes/compatibilities/class-yith-wcmap-pre-order-compatibility.php:29
+#, fuzzy
+msgid "My pre-orders"
+msgstr "Οι Παραγγελίες Μου"
+
+#: includes/compatibilities/class-yith-wcmap-refund-requests-compatibility.php:29
+msgid "Refund Requests"
+msgstr "Αιτήματα Επιστροφών"
+
+#: includes/compatibilities/class-yith-wcmap-request-quote-compatibility.php:31
+msgid "My Quotes"
+msgstr "Οι Παραθέσεις Μου"
+
+#. translators: %s stand for the ID of the quote.
+#: includes/compatibilities/class-yith-wcmap-request-quote-compatibility.php:146
+msgid "Quote #%s"
+msgstr "Παράθεση #%s"
+
+#: includes/compatibilities/class-yith-wcmap-stripe-connect-compatibility.php:29
+msgid "Stripe Connect"
+msgstr "Stripe Connect"
+
+#: includes/compatibilities/class-yith-wcmap-subscriptions-compatibility.php:31
+msgid "My Subscriptions"
+msgstr "Οι Συνδρομές Μου"
+
+#: includes/compatibilities/class-yith-wcmap-tinv-wishlist-compatibility.php:29
+#: includes/compatibilities/class-yith-wcmap-wishlist-compatibility.php:29
+msgid "My Wishlist"
+msgstr "Η Λίστα Επιθυμιών Μου"
+
+#: includes/compatibilities/class-yith-wcmap-waiting-list-compatibility.php:29
+msgid "My Waiting List"
+msgstr "Η Λίστα Αναμονής Μου"
+
+#: includes/compatibilities/class-yith-wcmap-wc-api-manager-compatibility.php:30
+msgid "API Keys"
+msgstr "Κλειδιά API"
+
+#: includes/compatibilities/class-yith-wcmap-wc-api-manager-compatibility.php:34
+msgid "API Downloads"
+msgstr "Κατεβάσματα API"
+
+#: includes/compatibilities/class-yith-wcmap-wc-membership-compatibility.php:65
+msgid "My Membership"
+msgstr "Η Συνδρομή Μέλους Μου"
+
+#: includes/compatibilities/class-yith-wcmap-wc-subscriptions-compatibility.php:29
+msgid "My Subscription"
+msgstr "Η Συνδρομή Μου"
+
+#: includes/compatibilities/class-yith-wcmap-wt-smart-coupon-compatibility.php:29
+msgid "My Coupons"
+msgstr "Τα Κουπόνια Μου"
+
+#: includes/email/class-yith-wcmap-verify-account.php:49
+msgid "YITH Customize My Account Verify Account"
+msgstr "YITH Customize My Account Επιβεβαίωση Λογαριασμού"
+
+#: includes/email/class-yith-wcmap-verify-account.php:53
+msgid "{blogname} - Verify your account"
+msgstr ""
+
+#: includes/email/class-yith-wcmap-verify-account.php:54
+msgid "You need to verify your account email."
+msgstr "Χρειάζεται να επιβεβαιώσετε το email λογαριασμού σας."
+
+#: init.php:47
+msgid ""
+"<b>YITH WooCommerce Customize My Account Page</b> is enabled but not "
+"effective. It requires WooCommerce in order to work."
+msgstr ""
+
+#: plugin-options/banners-options.php:18
+msgid "Banners"
+msgstr "Μπάνερ"
+
+#: plugin-options/banners-options.php:21
+msgid "Add banner"
+msgstr "Προσθήκη μπάνερ"
+
+#: plugin-options/banners-options.php:22
+msgid "Close new element"
+msgstr "Κλείσιμο νέου στοιχείου"
+
+#: plugin-options/banners-options.php:39
+#: plugin-options/items-options-fields.php:45
+#: plugin-options/items-options-fields.php:133
+#: plugin-options/items-options-fields.php:203
+msgid "Don't show an icon"
+msgstr "Να μην εμφανίζεται εικονίδιο"
+
+#: plugin-options/banners-options.php:40
+#: plugin-options/items-options-fields.php:46
+#: plugin-options/items-options-fields.php:134
+#: plugin-options/items-options-fields.php:204
+msgid "Show a default icon"
+msgstr "Εμφάνιση προεπιλεγμένου εικονιδίου"
+
+#: plugin-options/banners-options.php:41
+#: plugin-options/items-options-fields.php:47
+#: plugin-options/items-options-fields.php:135
+#: plugin-options/items-options-fields.php:205
+msgid "Upload a custom icon"
+msgstr "Ανέβασμα προσαρμοσμένου εικονιδίου"
+
+#: plugin-options/banners-options.php:196
+msgid "Don't add a link"
+msgstr "Να μην προστεθεί σύνδεσμος"
+
+#: plugin-options/banners-options.php:197
+msgid "To a specific endpoint"
+msgstr "Σε συγκεκριμένο τελικό σημείο"
+
+#: plugin-options/banners-options.php:198
+msgid "To an external url"
+msgstr "Σε εξωτερικό URL"
+
+#: plugin-options/banners-options.php:204
+#: plugin-options/banners-options.php:216
+msgid "Banner links to"
+msgstr "Σύνδεσμοι μπάνερ για"
+
+#: plugin-options/banners-options.php:229
+msgid "Show banner to"
+msgstr ""
+
+#: plugin-options/banners-options.php:230
+msgid ""
+"Choose whether to show this banner to all users or only to specific users"
+msgstr ""
+
+#: plugin-options/banners-options.php:232
+#: plugin-options/items-options-fields.php:76
+#: plugin-options/items-options-fields.php:164
+#: plugin-options/items-options-fields.php:234
+msgid "All users"
+msgstr "Όλοι οι χρήστες"
+
+#: plugin-options/banners-options.php:233
+#: plugin-options/items-options-fields.php:77
+#: plugin-options/items-options-fields.php:165
+#: plugin-options/items-options-fields.php:235
+msgid "Only users with a specific role"
+msgstr "Μόνο χρήστες με συγκεκριμένο ρόλο"
+
+#: plugin-options/banners-options.php:241
+#: plugin-options/items-options-fields.php:83
+#: plugin-options/items-options-fields.php:171
+#: plugin-options/items-options-fields.php:241
+msgid "User roles"
+msgstr "Ρόλοι χρήστη"
+
+#: plugin-options/banners-options.php:242
+#: plugin-options/items-options-fields.php:84
+#: plugin-options/items-options-fields.php:172
+#: plugin-options/items-options-fields.php:242
+msgid "Restrict visibility to the following user role(s)."
+msgstr "Περιορισμός ορατότητας στον ακόλουθο ρόλο(ους) χρήστη."
+
+#: plugin-options/items-options-fields.php:27
+msgid "Endpoint label"
+msgstr "Επιγραφή τελικού σημείου"
+
+#: plugin-options/items-options-fields.php:28
+msgid "Enter a name to identify this endpoint"
+msgstr "Εισάγετε ένα όνομα για να αναγνωρίζετε αυτό το τελικό σημείο"
+
+#: plugin-options/items-options-fields.php:33
+msgid "Endpoint slug"
+msgstr "Slug τελικού σημείου"
+
+#: plugin-options/items-options-fields.php:34
+msgid "Enter a slug for this endpoint"
+msgstr "Εισάγετε slug για αυτό το τελικό σημείο"
+
+#: plugin-options/items-options-fields.php:42
+msgid "Endpoint icon"
+msgstr "Εικονίδιο τελικού σημείου"
+
+#: plugin-options/items-options-fields.php:43
+msgid "Choose if show or not an icon to identify this endpoint"
+msgstr ""
+"Επιλέξτε αν θέλετε να εμφανίζετε ή όχι ένα εικονίδιο για να αναγνωρίζετε "
+"αυτό το τελικό σημείο"
+
+#: plugin-options/items-options-fields.php:53
+#: plugin-options/items-options-fields.php:141
+#: plugin-options/items-options-fields.php:211
+msgid "Choose icon"
+msgstr "Επιλέξτε εικονίδιο"
+
+#: plugin-options/items-options-fields.php:54
+msgid "Choose an icon to identify this endpoint"
+msgstr "Επιλέξτε ένα εικονίδιο για να αναγνωρίζετε αυτό το τελικό σημείο"
+
+#: plugin-options/items-options-fields.php:64
+#: plugin-options/items-options-fields.php:152
+#: plugin-options/items-options-fields.php:222
+msgid "Upload icon"
+msgstr "Ανέβασμα εικονιδίου"
+
+#: plugin-options/items-options-fields.php:65
+msgid "Upload you custom icon to identify this endpoint"
+msgstr ""
+"Ανεβάστε προσαρμοσμένο εικονίδιο για να αναγνωρίζετε αυτό το τελικό σημείο"
+
+#: plugin-options/items-options-fields.php:73
+msgid "Show endpoint to"
+msgstr "Εμφάνιση τελικού σημείου σε"
+
+#: plugin-options/items-options-fields.php:74
+msgid ""
+"Choose whether to show this endpoint to all users or only to specific users"
+msgstr ""
+"Επιλέξτε αν θέλετε να εμφανίζετε αυτό το τελικό σημείο σε όλους τους χρήστες "
+"ή μόνο σε συγκεκριμένους χρήστες"
+
+#: plugin-options/items-options-fields.php:94
+msgid "Content"
+msgstr "Περιεχόμενο"
+
+#: plugin-options/items-options-fields.php:95
+msgid ""
+"Set the endpoint content. Use <code>%%customer_name%%</code> as placeholder "
+"for print the current customer name."
+msgstr ""
+"Χρησιμοποιήστε το περιεχόμενο τελικού σημείου. Χρησιμοποιήστε <code>%"
+"%customer_name%%</code> ως κείμενο υποκατάστασης για να εκτυπώσετε το όνομα "
+"τρέχοντα πελάτη."
+
+#: plugin-options/items-options-fields.php:101
+msgid "Place content"
+msgstr "Τοποθέτηση περιεχομένου"
+
+#: plugin-options/items-options-fields.php:102
+msgid ""
+"Choose to overwrite the default content or add before/after the default "
+"content"
+msgstr ""
+"Επιλέξτε να γίνεται αντικατάσταση προεπιλεγμένου περιεχομένου ή προσθέστε το "
+"πριν/μετά το προεπιλεγμένο περιεχόμενο"
+
+#: plugin-options/items-options-fields.php:104
+msgid "Before the default content"
+msgstr "Πριν το προεπιλεγμένο περιεχόμενο"
+
+#: plugin-options/items-options-fields.php:105
+msgid "After the default content"
+msgstr "Μετά το προεπιλεγμένο περιεχόμενο"
+
+#: plugin-options/items-options-fields.php:106
+msgid "Overriding the default content"
+msgstr "Παράκαμψη προεπιλεγμένου περιεχομένου"
+
+#: plugin-options/items-options-fields.php:112
+#: plugin-options/items-options-fields.php:182
+#: plugin-options/items-options-fields.php:252
+msgid "CSS class"
+msgstr "Κλάση CSS"
+
+#: plugin-options/items-options-fields.php:113
+#: plugin-options/items-options-fields.php:183
+msgid "Add additional CSS classes to this endpoint container"
+msgstr "Προσθήκη επιπλέον κλάσεων CSS σε αυτό τον περιέκτη τελικού σημείου"
+
+#: plugin-options/items-options-fields.php:119
+msgid "Group label"
+msgstr "Επιγραφή ομάδας"
+
+#: plugin-options/items-options-fields.php:120
+msgid "Enter a name to identify this endpoints group"
+msgstr "Εισάγετε όνομα για να αναγνωρίζετε αυτή την ομάδα τελικών σημείων"
+
+#: plugin-options/items-options-fields.php:125
+msgid "Show open"
+msgstr "Εμφάνιση ως ανοιχτή"
+
+#: plugin-options/items-options-fields.php:126
+msgid ""
+"Show the group open by default. (Please note: this option is valid only for "
+"\"Sidebar\" style)"
+msgstr ""
+"Να εμφανίζετε την ομάδα ως ανοιχτή προεπιλεγμένα. (Παρακαλώ σημειώστε: αυτή "
+"η επιλογή είναι έγκυρη μόνο για το στυλ σε “Πλευρική στήλη”)"
+
+#: plugin-options/items-options-fields.php:130
+msgid "Group icon"
+msgstr "Εικονίδιο ομάδας"
+
+#: plugin-options/items-options-fields.php:131
+msgid "Choose if show or not an icon to identify this endpoints group"
+msgstr ""
+"Επιλέξτε αν θέλετε να εμφανίζετε ή όχι ένα εικονίδιο για να αναγνωρίζετε "
+"αυτή την ομάδα τελικών σημείων"
+
+#: plugin-options/items-options-fields.php:142
+msgid "Choose an icon to identify this endpoints group"
+msgstr ""
+"Επιλέξτε ένα εικονίδιο για να αναγνωρίζετε αυτή την ομάδα τελικών σημείων"
+
+#: plugin-options/items-options-fields.php:153
+msgid "Upload you custom icon to identify this endpoints group"
+msgstr ""
+"Ανεβάστε προσαρμοσμένο εικονίδιο για να αναγνωρίζετε αυτή την ομάδα τελικών "
+"σημείων"
+
+#: plugin-options/items-options-fields.php:161
+msgid "Show group to"
+msgstr "Εμφάνιση ομάδας σε"
+
+#: plugin-options/items-options-fields.php:162
+msgid ""
+"Choose whether to show this group to all users or only to specific users"
+msgstr ""
+"Επιλέξτε αν θέλετε να εμφανίζετε αυτή την ομάδα σε όλους τους χρήστες ή μόνο "
+"σε συγκεκριμένους χρήστες"
+
+#: plugin-options/items-options-fields.php:189
+msgid "Link URL"
+msgstr ""
+
+#: plugin-options/items-options-fields.php:190
+msgid "The URL of the menu item"
+msgstr ""
+
+#: plugin-options/items-options-fields.php:194
+msgid "Link label"
+msgstr "Επιγραφή συνδέσμου"
+
+#: plugin-options/items-options-fields.php:195
+msgid "Enter a name to identify this link"
+msgstr "Εισάγετε ένα όνομα για να αναγνωρίζετε αυτό τον σύνδεσμο"
+
+#: plugin-options/items-options-fields.php:200
+msgid "Link icon"
+msgstr "Εικονίδιο συνδέσμου"
+
+#: plugin-options/items-options-fields.php:201
+msgid "Choose if show or not an icon to identify this link"
+msgstr ""
+"Επιλέξτε αν θέλετε να εμφανίζετε ή όχι ένα εικονίδιο για να αναγνωρίζετε "
+"αυτό τον σύνδεσμο"
+
+#: plugin-options/items-options-fields.php:212
+msgid "Choose an icon to identify this link"
+msgstr "Επιλέξτε ένα εικονίδιο για να αναγνωρίζετε αυτό τον σύνδεσμο"
+
+#: plugin-options/items-options-fields.php:223
+msgid "Upload you custom icon to identify this link"
+msgstr "Ανεβάστε προσαρμοσμένο εικονίδιο για να αναγνωρίζετε αυτό τον σύνδεσμο"
+
+#: plugin-options/items-options-fields.php:231
+msgid "Show link to"
+msgstr "Εμφάνιση συνδέσμου σε"
+
+#: plugin-options/items-options-fields.php:232
+msgid "Choose whether to show this link to all users or only to specific users"
+msgstr ""
+"Επιλέξτε αν θέλετε να εμφανίζετε αυτόν τον σύνδεσμο σε όλους τους χρήστες ή "
+"μόνο σε συγκεκριμένους χρήστες"
+
+#: plugin-options/items-options-fields.php:253
+msgid "Add additional CSS classes to this link container"
+msgstr "Προσθήκη επιπλέον κλάσεων CSS σε αυτό τον περιέκτη συνδέσμου"
+
+#: plugin-options/items-options-fields.php:257
+msgid "Open link in a new tab?"
+msgstr "Άνοιγμα συνδέσμου σε νέα καρτέλα;"
+
+#: plugin-options/settings/general-options.php:15
+msgid "General Options"
+msgstr "Γενικές Επιλογές"
+
+#: plugin-options/settings/general-options.php:21
+msgid "Enable AJAX navigation"
+msgstr ""
+
+#: plugin-options/settings/general-options.php:22
+msgid "Enable AJAX navigation between the endpoints."
+msgstr ""
+
+#: plugin-options/settings/general-options.php:29
+msgid "Default endpoint"
+msgstr "Προεπιλεγμένο τελικό σημείο"
+
+#: plugin-options/settings/general-options.php:30
+msgid "Choose the default endpoint for \"My account\" page"
+msgstr ""
+"Επιλέξτε το προεπιλεγμένο τελικό σημείο για την σελίδα “Ο λογαριασμός μου”"
+
+#: plugin-options/settings/general-options.php:42
+msgid "User Avatar"
+msgstr ""
+
+#: plugin-options/settings/general-options.php:48
+#: plugin-options/settings/general-options.php:53
+msgid "Default user avatar"
+msgstr "Προεπιλεγμένο άβαταρ χρήστη"
+
+#: plugin-options/settings/general-options.php:49
+msgid ""
+"Choose whether to use a default avatar icon or upload a custom one for your "
+"users."
+msgstr ""
+"Επιλέξτε αν θα χρησιμοποιήσετε ένα προεπιλεγμένο εικονίδιο άβαταρ ή αν θα "
+"ανεβάσετε ένα προσαρμοσμένο για τους χρήστες σας."
+
+#: plugin-options/settings/general-options.php:54
+msgid "Upload a custom user avatar"
+msgstr "Ανέβασμα άβαταρ προσαρμοσμένου χρήστη"
+
+#: plugin-options/settings/general-options.php:60
+msgid "Upload default avatar"
+msgstr "Ανέβασμα προεπιλεγμένου άβαταρ"
+
+#: plugin-options/settings/general-options.php:61
+msgid ""
+"Upload a custom avatar for you users. A square image with a width of 200px "
+"works best."
+msgstr ""
+"Ανεβάστε προσαρμοσμένο άβαταρ για τους χρήστες σας. Προτείνεται τετράγωνη "
+"εικόνα με πλάτος 200px."
+
+#: plugin-options/settings/general-options.php:74
+msgid "Avatar size"
+msgstr "Μέγεθος άβαταρ"
+
+#: plugin-options/settings/general-options.php:75
+msgid "Set the avatar size in px."
+msgstr "Εισάγετε το μέγεθος άβαταρ σε px."
+
+#: plugin-options/settings/general-options.php:84
+msgid "Avatar border radius"
+msgstr "Ακτίνα πλαισίου άβαταρ"
+
+#: plugin-options/settings/general-options.php:85
+msgid ""
+"Set the avatar border radius. A border radius of 0 means a square avatar, a "
+"border radius of 10 is a circle avatar."
+msgstr ""
+"Εισάγετε την ακτίνα πλαισίου άβαταρ. Μια ακτίνα πλαισίου 0 σημαίνει "
+"τετράγωνο άβαταρ, ενώ ακτίνα πλαισίου 10 ορίζει κυκλικό άβαταρ."
+
+#: plugin-options/settings/general-options.php:98
+msgid "Allow users to upload avatar"
+msgstr "Επιτρέψτε στους χρήστες το ανέβασμα άβαταρ"
+
+#: plugin-options/settings/general-options.php:99
+msgid ""
+"If enabled users can upload a custom image to replace the default avatar."
+msgstr ""
+"Αν ενεργοποιηθεί οι χρήστες θα μπορούν να ανεβάσουν μια προσαρμοσμένη εικόνα "
+"για να αντικαταστήσουν το προεπιλεγμένο άβαταρ."
+
+#: plugin-options/settings/security-options.php:15
+msgid "Security Options"
+msgstr "Επιλογές Ασφαλείας"
+
+#: plugin-options/settings/security-options.php:21
+msgid "Show reCaptcha in registration form"
+msgstr "Εμφάνιση reCaptcha σε φόρμα εγγραφής"
+
+#. translators: placeholders are used for link to reCaptcha documentation.
+#: plugin-options/settings/security-options.php:23
+msgid "Enable reCaptcha in registration form. %1$sRead more here >%2$s"
+msgstr ""
+
+#: plugin-options/settings/security-options.php:30
+msgid "reCaptcha public key"
+msgstr "Δημόσιο κλειδί reCaptcha"
+
+#: plugin-options/settings/security-options.php:42
+msgid "reCaptcha private key"
+msgstr "Μυστικό κλειδί reCaptcha"
+
+#: plugin-options/settings/security-options.php:54
+msgid "Send a verification email to new users"
+msgstr "Αποστολή email επιβεβαίωσης σε νέους χρήστες"
+
+#: plugin-options/settings/security-options.php:55
+msgid "Enable to send an email to verify account to new users."
+msgstr ""
+"Ενεργοποίηση αποστολής email για την επιβεβαίωση λογαριασμού σε νέους "
+"χρήστες."
+
+#: plugin-options/settings/security-options.php:62
+msgid "Without a verified account"
+msgstr "Χωρίς επιβεβαιωμένο λογαριασμό"
+
+#: plugin-options/settings/security-options.php:63
+msgid "Set permissions of user without a verified account."
+msgstr "Ορισμός αδειών χρήστη χωρίς επιβεβαιωμένο λογαριασμό."
+
+#: plugin-options/settings/security-options.php:79
+msgid "Block email addresses from these domains"
+msgstr "Μπλοκάρετε διευθύνσεις email από αυτά τα domains"
+
+#: plugin-options/settings/security-options.php:80
+msgid ""
+"Add a list of email domains (comma separated) you want to block.<br>Example: "
+"<code>yopmail.com, email.org</code>"
+msgstr ""
+"Προσθήκη λίστας των email domain (διαχωρίζοντας με κόμμα) που θέλετε να "
+"μπλοκάρετε.<br>Παράδειγμα: <code>yopmail.com, email.org</code>"
+
+#: plugin-options/settings/style-options.php:34
+msgid "Menu Options"
+msgstr ""
+
+#: plugin-options/settings/style-options.php:222
+msgid "Padding of menu items"
+msgstr "Γέμισμα αντικειμένων μενού"
+
+#: plugin-options/settings/style-options.php:242
+msgid "Logout Options"
+msgstr ""
+
+#: plugin-options/settings/style-options.php:280
+msgid "Ajax Loader"
+msgstr ""
+
+#. translators: %s Customer first name
+#: templates/email/customer-verify-account.php:21
+#: templates/email/plain/customer-verify-account.php:19
+msgid "Hi %s,"
+msgstr "Γεια σας %s,"
+
+#. translators: %1$s: Site title
+#: templates/email/customer-verify-account.php:23
+msgid "Thanks for creating an account on %1$s."
+msgstr "Ευχαριστούμε που δημιουργήσατε λογαριασμό στο %1$s."
+
+#. translators: %1$s: My Account link
+#: templates/email/customer-verify-account.php:25
+msgid ""
+"To complete registration process you need to verify your account email by "
+"clicking this link:"
+msgstr ""
+
+#: templates/email/customer-verify-account.php:26
+msgid "Verify your account >"
+msgstr ""
+
+#: templates/email/customer-verify-account.php:27
+#: templates/email/plain/customer-verify-account.php:23
+msgid "We look forward to seeing you soon."
+msgstr "Ανυπομονούμε να σας ξαναδούμε."
+
+#. translators: %1$s: Site title
+#: templates/email/customer-verify-account.php:29
+msgid "Regards, <br>%1$s staff"
+msgstr "Φιλικά, <br>%1$s το προσωπικό"
+
+#. translators: %1$s: Site title, %2$s: Username, %3$s: My account link
+#: templates/email/plain/customer-verify-account.php:21
+msgid ""
+"Thanks for creating an account on %1$s. To complete registration process you "
+"need to verify your account email by clicking this link: %2$s"
+msgstr ""
+"Ευχαριστούμε που δημιουργήσατε λογαριασμό στο %1$s. Για να ολοκληρώσετε την "
+"διαδικασία εγγραφής χρειάζεται να επιβεβαιώσετε το email λογαριασμού σας "
+"κάνοντας κλικ σε αυτό τον σύνδεσμο: %2$s"
+
+#. Description of the plugin/theme
+msgid ""
+"The <code><strong>YITH WooCommerce Customize My Account Page</strong></code> "
+"lets you customize the layout of the \"My Account\" page, adds new endpoints "
+"and manage its content easily. <a href=\"https://yithemes.com/\" "
+"target=\"_blank\">Get more plugins for your e-commerce shop on <strong>YITH</"
+"strong></a>."
+msgstr ""
+"Το <code><strong>YITH WooCommerce Customize My Account Page</strong></code> "
+"σας επιτρέπει να προσαρμόσετε την διάταξη της σελίδα “Ο Λογαριασμός Μου”, να "
+"προσθέσετε νέα τελικά σημεία και να διαχειριστείτε το περιεχόμενό του "
+"εύκολα. <a href=\"https://yithemes.com/\" target=\"_blank\">Βρείτε "
+"περισσότερα πρόσθετα για το ηλεκτρονικό σας κατάστημα στο <strong>YITH</"
+"strong></a>."
+
+#: includes/admin/class-yith-wcmap-admin-premium.php:68
+#: includes/admin/class-yith-wcmap-admin.php:156
+msgctxt "Endpoints tab name"
+msgid "Endpoints"
+msgstr ""
+
+#: includes/admin/class-yith-wcmap-admin-premium.php:74
+#: includes/admin/class-yith-wcmap-admin.php:162
+msgctxt "Admin endpoints tab description "
+msgid ""
+"An “Endpoint” is the content shown as a subtab on your customers' My Account "
+"page. With this plugin, you can disable WooCommerce default endpoints "
+"(Dashboard, Orders, etc.), edit their content, and change the order in which "
+"they’re displayed. You can add new endpoints using the dedicated button."
+msgstr ""
+
+#: includes/admin/class-yith-wcmap-admin-premium.php:77
+msgctxt "Banners tab name"
+msgid "Banners"
+msgstr ""
+
+#: includes/admin/class-yith-wcmap-admin-premium.php:83
+msgctxt "Admin banners tab description "
+msgid "Create custom banners to show advanced content in the endpoints."
+msgstr ""
+
+#: includes/admin/class-yith-wcmap-admin-premium.php:86
+#: includes/admin/class-yith-wcmap-admin.php:165
+msgctxt "Settings tab name"
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-yith-wcmap-admin-premium.php:104
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Gift Cards"
+msgid ""
+"Sell gift cards in your shop to increase your earnings and attract new "
+"customers."
+msgstr ""
+
+#: includes/admin/class-yith-wcmap-admin-premium.php:116
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Ajax Product "
+"Filter"
+msgid ""
+"Help your customers to easily find the products they are looking for and "
+"improve the user experience of your shop."
+msgstr ""
+
+#: includes/admin/class-yith-wcmap-admin-premium.php:128
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Wishlist"
+msgid ""
+"Allow your customers to create lists of products they want and share them "
+"with family and friends."
+msgstr ""
+
+#: includes/admin/class-yith-wcmap-admin-premium.php:136
+msgctxt "[YOUR STORE TOOLS TAB] Description for plugin YITH Bookings"
+msgid ""
+"Enable a booking/appointment system to manage renting or booking of "
+"services, rooms, houses, cars, accommodation facilities and so on."
+msgstr ""
+
+#: includes/admin/class-yith-wcmap-admin-premium.php:149
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Request a "
+"Quote"
+msgid ""
+"Hide prices and/or the \"Add to cart\" button and let your customers request "
+"a custom quote for every product."
+msgstr ""
+
+#: includes/admin/class-yith-wcmap-admin-premium.php:161
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Product Add-"
+"Ons"
+msgid ""
+"Add paid or free advanced options to your product pages using fields like "
+"radio buttons, checkboxes, drop-downs, custom text inputs, and more."
+msgstr ""
+
+#: includes/admin/class-yith-wcmap-admin-premium.php:173
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Dynamic "
+"Pricing and Discounts"
+msgid ""
+"Increase conversions through dynamic discounts and price rules, and build "
+"powerful and targeted offers."
+msgstr ""
+
+#: includes/admin/class-yith-wcmap-admin-premium.php:185
+msgctxt "[YOUR STORE TOOLS TAB] Description for plugin Recover Abandoned Cart"
+msgid ""
+"Contact users who have added products to the cart without completing the "
+"order and try to recover lost sales."
+msgstr ""
+
+#: includes/admin/class-yith-wcmap-admin-premium.php:250
+msgctxt "[HELP TAB] Video title"
+msgid ""
+"Check this video to learn how to configure the plugin YITH WooCommerce "
+"Customize My Account Page and why you should install it in your shop:"
+msgstr ""
+
+#: includes/admin/views/banners-modal.php:13
+msgctxt "Admin banners modal title"
+msgid "Add banners"
+msgstr "Προσθήκη μπάνερ"
+
+#: includes/admin/views/banners-modal.php:14
+msgctxt "Admin banners modal content"
+msgid "Choose one or more banner to add to endpoint content"
+msgstr ""
+"Επιλέξτε ένα ή περισσότερα μπάνερ για να προσθέσετε στο περιεχόμενο τελικού "
+"σημείου"
+
+#: includes/admin/views/items-list.php:29
+msgctxt "Admin button label"
+msgid "Add item"
+msgstr "Προσθήκη αντικειμένου"
+
+#: includes/admin/views/single-item.php:125
+msgctxt "Admin button label"
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: includes/admin/views/single-item.php:128
+msgctxt "Admin button label"
+msgid "Reset"
+msgstr ""
+
+#: includes/class-yith-wcmap-banners.php:73
+msgctxt "Default banner title"
+msgid "Downloads"
+msgstr "Κατεβάσματα"
+
+#: includes/class-yith-wcmap-banners.php:83
+msgctxt "Default banner title"
+msgid "Orders"
+msgstr "Παραγγελίες"
+
+#: includes/class-yith-wcmap-banners.php:93
+msgctxt "Default banner title"
+msgid "Account info"
+msgstr "Στοιχεία λογαριασμού"
+
+#: includes/class-yith-wcmap-banners.php:101
+msgctxt "Default banner title"
+msgid "Your address"
+msgstr "Η διεύθυνσή σας"
+
+#: includes/class-yith-wcmap-banners.php:109
+msgctxt "Default banner title"
+msgid "Payment methods"
+msgstr "Μέθοδοι πληρωμής"
+
+#: includes/class-yith-wcmap-banners.php:74
+msgctxt "Default banner \"downloads\" text"
+msgid "Check your available downloads"
+msgstr "Ελέγξτε τα διαθέσιμα κατεβάσματά σας"
+
+#: includes/class-yith-wcmap-banners.php:84
+msgctxt "Default banner \"orders\" text"
+msgid "Check the history of all your orders and download the invoices"
+msgstr ""
+"Ελέγξτε το ιστορικό όλων των παραγγελιών σας και κατεβάστε τις αποδείξεις"
+
+#: includes/class-yith-wcmap-banners.php:94
+msgctxt "Default banner \"account info\" text"
+msgid "Edit your personal info like name, e-mail address and password."
+msgstr ""
+"Επεξεργασία προσωπικών στοιχείων όπως όνομα, διεύθυνση e-mail και κωδικός."
+
+#: includes/class-yith-wcmap-banners.php:102
+msgctxt "Default banner \"your address\" text"
+msgid "Edit and update your address info before to purchase!"
+msgstr "Επεξεργασία και ανανέωση των στοιχείων διεύθυνσης πριν την αγορά!"
+
+#: includes/class-yith-wcmap-banners.php:110
+msgctxt "Default banner \"your address\" text"
+msgid "Manage your payment methods and your credit cards."
+msgstr "Διαχείριση μεθόδων πληρωμής και πιστωτικών καρτών."
+
+#: includes/class-yith-wcmap-banners.php:406
+msgctxt "Admin editor button label"
+msgid "Add banner"
+msgstr "Προσθήκη μπάνερ"
+
+#: includes/compatibilities/class-yith-wcmap-gift-cards-compatibility.php:52
+msgctxt "Banner counter option"
+msgid "Gift cards"
+msgstr "Δωροκάρτες"
+
+#: includes/compatibilities/class-yith-wcmap-points-compatibility.php:62
+msgctxt "Banner counter option"
+msgid "Customer points"
+msgstr "Πόντοι πελάτη"
+
+#: includes/compatibilities/class-yith-wcmap-request-quote-compatibility.php:160
+msgctxt "Banner counter option"
+msgid "Quotes"
+msgstr ""
+
+#: includes/compatibilities/class-yith-wcmap-waiting-list-compatibility.php:66
+msgctxt "Banner counter option"
+msgid "Products in waiting list"
+msgstr ""
+
+#: includes/compatibilities/class-yith-wcmap-wishlist-compatibility.php:160
+msgctxt "Banner counter option"
+msgid "Products in wishlist"
+msgstr "Προϊόντα στη λίστα επιθυμιών"
+
+#: plugin-options/banners-options.php:159
+msgctxt "Banner counter option"
+msgid "Downloads"
+msgstr "Κατεβάσματα"
+
+#: plugin-options/banners-options.php:160
+msgctxt "Banner counter option"
+msgid "Orders"
+msgstr "Παραγγελίες"
+
+#: plugin-options/banners-options.php:28
+msgctxt "[admin]Plugin option label"
+msgid "Banner name"
+msgstr "Όνομα μπάνερ"
+
+#: plugin-options/banners-options.php:35
+msgctxt "[admin]Plugin option label"
+msgid "Banner icon"
+msgstr "Εικονίδιο μπάνερ"
+
+#: plugin-options/banners-options.php:49
+msgctxt "[admin]Plugin option label"
+msgid "Choose icon"
+msgstr "Επιλέξτε εικονίδιο"
+
+#: plugin-options/banners-options.php:61
+msgctxt "[admin]Plugin option label"
+msgid "Upload icon"
+msgstr "Ανέβασμα εικονιδίου"
+
+#: plugin-options/banners-options.php:69
+msgctxt "[admin]Plugin option label"
+msgid "Icon width (px)"
+msgstr ""
+
+#: plugin-options/banners-options.php:83
+msgctxt "[admin]Plugin option label"
+msgid "Widget width (px)"
+msgstr "Πλάτος μικροεφαρμογής (px)"
+
+#: plugin-options/banners-options.php:92
+msgctxt "[admin]Plugin option label"
+msgid "Widget text"
+msgstr "Κείμενο μικροεφαρμογής"
+
+#: plugin-options/banners-options.php:99
+msgctxt "[admin]Plugin option label"
+msgid "Banner colors"
+msgstr "Χρώματα μπάνερ"
+
+#: plugin-options/banners-options.php:137
+msgctxt "[admin]Plugin option label"
+msgid "Show badge with dynamic count of items"
+msgstr "Εμφάνιση εμβλήματος με δυναμική αρίθμηση αντικειμένων"
+
+#: plugin-options/banners-options.php:144
+msgctxt "[admin]Plugin option label"
+msgid "Show count of"
+msgstr ""
+
+#: plugin-options/banners-options.php:170
+msgctxt "[admin]Plugin option label"
+msgid "Badge colors"
+msgstr "Χρώματα εμβλήματος"
+
+#: plugin-options/banners-options.php:192
+msgctxt "[admin]Plugin option label"
+msgid "Banner links"
+msgstr "Σύνδεσμοι μπάνερ"
+
+#: plugin-options/settings/style-options.php:87
+msgctxt "[admin]Plugin option label"
+msgid "Menu background"
+msgstr "Φόντο μενού"
+
+#: plugin-options/settings/style-options.php:98
+#: plugin-options/settings/style-options.php:109
+msgctxt "[admin]Plugin option label"
+msgid "Border color"
+msgstr "Χρώμα πλαισίου"
+
+#: plugin-options/settings/style-options.php:115
+msgctxt "[admin]Plugin option label"
+msgid "Default border color"
+msgstr "Προεπιλεγμένο χρώμα πλαισίου"
+
+#: plugin-options/settings/style-options.php:120
+msgctxt "[admin]Plugin option label"
+msgid "Hover border color"
+msgstr "Χρώμα αιώρησης πλαισίου"
+
+#: plugin-options/settings/style-options.php:125
+msgctxt "[admin]Plugin option label"
+msgid "Active border color"
+msgstr "Χρώμα ενεργού πλαισίου"
+
+#: plugin-options/settings/style-options.php:136
+msgctxt "[admin]Plugin option label"
+msgid "Shadow color"
+msgstr "Χρώμα σκιάς"
+
+#: plugin-options/settings/style-options.php:142
+msgctxt "[admin]Plugin option label"
+msgid "Default shadow color"
+msgstr "Προεπιλεγμένο χρώμα σκιάς"
+
+#: plugin-options/settings/style-options.php:147
+msgctxt "[admin]Plugin option label"
+msgid "Hover shadow color"
+msgstr "Χρώμα σκιάς αιώρησης"
+
+#: plugin-options/settings/style-options.php:152
+msgctxt "[admin]Plugin option label"
+msgid "Active shadow color"
+msgstr "Χρώμα ενεργής σκιάς"
+
+#: plugin-options/settings/style-options.php:163
+msgctxt "[admin]Plugin option label"
+msgid "Items background color"
+msgstr "Χρώμα φόντου αντικειμένων"
+
+#: plugin-options/settings/style-options.php:169
+msgctxt "[admin]Plugin option label"
+msgid "Default background color"
+msgstr "Προεπιλεγμένο χρώμα φόντου"
+
+#: plugin-options/settings/style-options.php:174
+#: plugin-options/settings/style-options.php:269
+msgctxt "[admin]Plugin option label"
+msgid "Hover background color"
+msgstr "Χρώμα φόντου αιώρησης"
+
+#: plugin-options/settings/style-options.php:179
+msgctxt "[admin]Plugin option label"
+msgid "Active background color"
+msgstr "Χρώμα ενεργού φόντου"
+
+#: plugin-options/settings/style-options.php:190
+msgctxt "[admin]Plugin option label"
+msgid "Items text color"
+msgstr "Χρώμα κειμένου αντικειμένων"
+
+#: plugin-options/settings/style-options.php:196
+msgctxt "[admin]Plugin option label"
+msgid "Default text color"
+msgstr "Προεπιλεγμένο χρώμα κειμένου"
+
+#: plugin-options/settings/style-options.php:201
+#: plugin-options/settings/style-options.php:259
+msgctxt "[admin]Plugin option label"
+msgid "Hover text color"
+msgstr "Χρώμα κειμένου αιώρησης"
+
+#: plugin-options/settings/style-options.php:206
+msgctxt "[admin]Plugin option label"
+msgid "Active text color"
+msgstr "Χρώμα ενεργού κειμένου"
+
+#: plugin-options/settings/style-options.php:213
+msgctxt "[admin]Plugin option label"
+msgid "Text size (px)"
+msgstr "Μέγεθος κειμένου (px)"
+
+#: plugin-options/settings/style-options.php:248
+msgctxt "[admin]Plugin option label"
+msgid "Logout button colors"
+msgstr "Χρώματα κουμπιού αποσύνδεσης"
+
+#: plugin-options/settings/style-options.php:254
+msgctxt "[admin]Plugin option label"
+msgid "Text color"
+msgstr "Χρώμα κειμένου"
+
+#: plugin-options/settings/style-options.php:264
+msgctxt "[admin]Plugin option label"
+msgid "Background color"
+msgstr "Χρώμα φόντου"
+
+#: plugin-options/settings/style-options.php:286
+msgctxt "[admin]Plugin option label"
+msgid "AJAX loader"
+msgstr ""
+
+#: plugin-options/settings/style-options.php:293
+msgctxt "[admin]Plugin option label"
+msgid "Use default loader"
+msgstr ""
+
+#: plugin-options/settings/style-options.php:294
+msgctxt "[admin]Plugin option label"
+msgid "Upload custom loader"
+msgstr ""
+
+#: plugin-options/settings/style-options.php:298
+msgctxt "[admin]Plugin option label"
+msgid "Custom AJAX loader"
+msgstr ""
+
+#: plugin-options/banners-options.php:104
+#: plugin-options/banners-options.php:180
+msgctxt "[admin]Plugin option color label"
+msgid "Text"
+msgstr "Κείμενο"
+
+#: plugin-options/banners-options.php:109
+msgctxt "[admin]Plugin option color label"
+msgid "Text hover"
+msgstr "Αιώρηση κειμένου"
+
+#: plugin-options/banners-options.php:114
+#: plugin-options/banners-options.php:175
+msgctxt "[admin]Plugin option color label"
+msgid "Background"
+msgstr "Φόντο"
+
+#: plugin-options/banners-options.php:119
+msgctxt "[admin]Plugin option color label"
+msgid "Background hover"
+msgstr "Αιώρηση φόντου"
+
+#: plugin-options/banners-options.php:124
+msgctxt "[admin]Plugin option color label"
+msgid "Borders"
+msgstr "Πλαίσια"
+
+#: plugin-options/banners-options.php:129
+msgctxt "[admin]Plugin option color label"
+msgid "Borders hover"
+msgstr "Αιώρηση πλαισίων"
+
+#: plugin-options/banners-options.php:254
+msgctxt "Save single banner button label"
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: plugin-options/banners-options.php:258
+msgctxt "Delete single banner button label"
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: plugin-options/settings/security-options.php:67
+msgctxt "\"Without account verified\" option label"
+msgid "the user can't login in the site"
+msgstr "ο χρήστης δεν μπορεί να συνδεθεί στον ιστότοπο"
+
+#: plugin-options/settings/security-options.php:68
+msgctxt "\"Without account verified\" option label"
+msgid "the user can login but not purchase"
+msgstr "ο χρήστης μπορεί να συνδεθεί αλλά όχι να αγοράσει"
+
+#: plugin-options/settings/style-options.php:43
+msgctxt "Option: title"
+msgid "Menu position"
+msgstr "Θέση μενού"
+
+#: plugin-options/settings/style-options.php:65
+msgctxt "Option: title"
+msgid "Menu layout"
+msgstr "Διάταξη μενού"
+
+#: plugin-options/settings/style-options.php:44
+msgctxt "Option: description"
+msgid ""
+"Choose the position of the links to be displayed in a horizontal or vertical "
+"sidebar."
+msgstr ""
+"Επιλέξτε την θέση των συνδέσμων που θα εμφανίζονται στην οριζόντια ή κάθετη "
+"πλευρική στήλη."
+
+#: plugin-options/settings/style-options.php:66
+msgctxt "Option: description"
+msgid "Choose the menu layout style."
+msgstr "Επιλέξτε το στυλ διάταξης μενού."
+
+#: plugin-options/settings/style-options.php:48
+msgctxt "Option: Menu position"
+msgid "Vertical Left"
+msgstr "Κάθετα Αριστερά"
+
+#: plugin-options/settings/style-options.php:52
+msgctxt "Option: Menu position"
+msgid "Vertical Right"
+msgstr "Κάθετα Δεξιά"
+
+#: plugin-options/settings/style-options.php:56
+msgctxt "Option: Menu position"
+msgid "Horizontal"
+msgstr "Οριζόντια"
+
+#: plugin-options/settings/style-options.php:70
+msgctxt "Option: Menu position"
+msgid "No borders"
+msgstr "Χωρίς πλαίσια"
+
+#: plugin-options/settings/style-options.php:75
+msgctxt "Option: Menu position"
+msgid "Modern banners"
+msgstr "Μοντέρνα μπάνερ"
+
+#: plugin-options/settings/style-options.php:80
+msgctxt "Option: Menu position"
+msgid "Simple tabs"
+msgstr "Απλές καρτέλες"
+
+#: plugin-options/settings/style-options.php:287
+msgctxt "[admin]Plugin option description"
+msgid "Choose the style for the AJAX loader icon"
+msgstr ""
+
+#: plugin-options/settings/style-options.php:299
+msgctxt "[admin]Plugin option description"
+msgid "Upload an icon you'd like to use as AJAX Loader (suggested 50px x 50px)"
+msgstr ""
+
+#: plugin-options/settings-options.php:12
+msgctxt "Tab title in plugin settings panel"
+msgid "General"
+msgstr ""
+
+#: plugin-options/settings-options.php:16
+msgctxt "Tab title in plugin settings panel"
+msgid "Style"
+msgstr ""
+
+#: plugin-options/settings-options.php:20
+msgctxt "Tab title in plugin settings panel"
+msgid "Security"
+msgstr ""
+
+#: plugin-options/settings-options.php:13
+msgctxt "Tab description in plugin settings panel"
+msgid "Configure the plugin general settings."
+msgstr ""
+
+#: plugin-options/settings-options.php:17
+msgctxt "Tab description in plugin settings panel"
+msgid "Configure the plugin style settings."
+msgstr ""
+
+#: plugin-options/settings-options.php:21
+msgctxt "Tab description in plugin settings panel"
+msgid "Configure the plugin security settings."
+msgstr ""
+
+#: templates/ywcmap-myaccount-avatar-modal.php:25
+msgctxt "Avatar modal title"
+msgid "Your avatar"
+msgstr "Άβαταρ"
+
+#: templates/ywcmap-myaccount-avatar-modal.php:44
+msgctxt "Avatar form label"
+msgid "Upload avatar"
+msgstr "Ανέβασμα άβαταρ"
+
+#: templates/ywcmap-myaccount-avatar-modal.php:55
+msgctxt "Reset avatar to the default one"
+msgid "Reset default"
+msgstr "Επαναφορά σε προεπιλεγμένο"
+
+#: templates/ywcmap-myaccount-avatar-modal.php:59
+msgctxt "Cancel custom avatar upload"
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: templates/ywcmap-myaccount-avatar-modal.php:64
+msgctxt "Confirm custom avatar upload"
+msgid "Use it!"
+msgstr "Χρησιμοποιήστε το!"

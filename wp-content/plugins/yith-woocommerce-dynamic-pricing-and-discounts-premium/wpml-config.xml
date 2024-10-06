@@ -1,0 +1,15 @@
+<wpml-config>
+
+  <admin-texts>
+    <key name="ywdpd_show_quantity_table_label"/>
+    <key name="ywdpd_coupon_label"/>
+    <key name="ywdpd_cart_notice_message"/>
+    <key name="ywdpd_quantity_table_labels">
+      <key name="*"/>
+    </key>
+  </admin-texts>
+  <custom-types>
+    <custom-type translate="0">ywdpd_discount</custom-type>
+  </custom-types>
+
+</wpml-config>
